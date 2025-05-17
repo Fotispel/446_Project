@@ -1,0 +1,25 @@
+[2025-05-17T20:58:12.584+0300][23888][6520][info][gc,init] Initializing The Z Garbage Collector
+[2025-05-17T20:58:12.584+0300][23888][6520][info][gc,init] Version: 21.0.6+8-LTS-188 (release)
+[2025-05-17T20:58:12.584+0300][23888][6520][info][gc,init] Using legacy single-generation mode
+[2025-05-17T20:58:12.584+0300][23888][6520][info][gc,init] NUMA Support: Disabled
+[2025-05-17T20:58:12.584+0300][23888][6520][info][gc,init] CPUs: 8 total, 8 available
+[2025-05-17T20:58:12.584+0300][23888][6520][info][gc,init] Memory: 16183M
+[2025-05-17T20:58:12.584+0300][23888][6520][info][gc,init] Large Page Support: Disabled
+[2025-05-17T20:58:12.587+0300][23888][6520][info][gc,init] GC Workers: 2 (dynamic)
+[2025-05-17T20:58:12.587+0300][23888][6520][info][gc,init] Address Space Type: Contiguous/Unrestricted/Complete
+[2025-05-17T20:58:12.587+0300][23888][6520][info][gc,init] Address Space Size: 196608M x 3 = 589824M
+[2025-05-17T20:58:12.588+0300][23888][6520][info][gc,init] Min Capacity: 12288M
+[2025-05-17T20:58:12.588+0300][23888][6520][info][gc,init] Initial Capacity: 12288M
+[2025-05-17T20:58:12.588+0300][23888][6520][info][gc,init] Max Capacity: 12288M
+[2025-05-17T20:58:12.588+0300][23888][6520][info][gc,init] Medium Page Size: 32M
+[2025-05-17T20:58:12.588+0300][23888][6520][info][gc,init] Pre-touch: Disabled
+[2025-05-17T20:58:12.588+0300][23888][6520][info][gc,init] Uncommit: Implicitly Disabled (-Xms equals -Xmx)
+[2025-05-17T20:58:12.878+0300][23888][6520][info][gc,init] Runtime Workers: 5
+[2025-05-17T20:58:12.881+0300][23888][6520][info][gc     ] Using The Z Garbage Collector
+[2025-05-17T20:58:12.887+0300][23888][6520][info][gc,metaspace] CDS archive(s) mapped at: [0x000002601e000000-0x000002601ec90000-0x000002601ec90000), size 13172736, SharedBaseAddress: 0x000002601e000000, ArchiveRelocationMode: 1.
+[2025-05-17T20:58:12.887+0300][23888][6520][info][gc,metaspace] Compressed class space mapped at: 0x000002601f000000-0x000002605f000000, reserved size: 1073741824
+[2025-05-17T20:58:12.887+0300][23888][6520][info][gc,metaspace] Narrow klass base: 0x000002601e000000, Narrow klass shift: 0, Narrow klass range: 0x100000000
+[2025-05-17T20:58:13.032+0300][23888][6520][info][gc,heap,exit] Heap
+[2025-05-17T20:58:13.032+0300][23888][6520][info][gc,heap,exit]  ZHeap           used 12M, capacity 12288M, max capacity 12288M
+[2025-05-17T20:58:13.032+0300][23888][6520][info][gc,heap,exit]  Metaspace       used 2347K, committed 2560K, reserved 1114112K
+[2025-05-17T20:58:13.032+0300][23888][6520][info][gc,heap,exit]   class space    used 231K, committed 320K, reserved 1048576K

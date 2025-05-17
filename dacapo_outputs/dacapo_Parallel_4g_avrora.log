@@ -1,0 +1,3 @@
+FATAL ERROR: Failed to find data at C:\Users\pelan\Desktop\446_project\dacapo-23.11-MR2-chopin
+
+Please run DaCapo with --data-set-location <parent-dir-name> to reset the location of the parent directory.
