@@ -1,3 +1,7 @@
-FATAL ERROR: Failed to find data at C:\Users\pelan\Desktop\446_project\dacapo-23.11-MR2-chopin
-
-Please run DaCapo with --data-set-location <parent-dir-name> to reset the location of the parent directory.
+Version: avrora cvs-20131011 (use -p to print nominal benchmark stats)
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 1 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 1 in 8810 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 2 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 2 in 10271 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting =====
+===== DaCapo 23.11-MR2-chopin avrora PASSED in 7701 msec =====

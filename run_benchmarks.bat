@@ -52,7 +52,7 @@ FOR %%G IN (%GCS_TO_TEST%) DO (
 
             REM --- Debug: Echo the command (Χρησιμοποιούμε !variable! για delayed expansion) ---
             ECHO Command being executed:
-            ECHO !JAVA_CMD! !GC_OPTS! !HEAP_OPTS! !GC_LOG_JVM_OPTS! -jar !DACAPO_JAR! %%B -n 3
+            !JAVA_CMD! !GC_OPTS! !HEAP_OPTS! !GC_LOG_JVM_OPTS! --data-set-location . -jar !DACAPO_JAR! %%B -n 3 > "!LOG_FILE_DACAPO_PATH!" 2>&1
             REM --- End Debug ---
 
             REM Εκτελέστε την εντολή Java. Ανακατεύθυνση εξόδου DaCapo στο δικό της αρχείο.

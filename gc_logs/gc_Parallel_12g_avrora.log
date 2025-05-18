@@ -1,26 +1,26 @@
-[2025-05-17T20:58:09.459+0300][14316][24212][info][gc,init] CardTable entry size: 512
-[2025-05-17T20:58:09.459+0300][14316][24212][info][gc     ] Using Parallel
-[2025-05-17T20:58:09.487+0300][14316][24212][info][gc,init] Version: 21.0.6+8-LTS-188 (release)
-[2025-05-17T20:58:09.487+0300][14316][24212][info][gc,init] CPUs: 8 total, 8 available
-[2025-05-17T20:58:09.487+0300][14316][24212][info][gc,init] Memory: 16183M
-[2025-05-17T20:58:09.487+0300][14316][24212][info][gc,init] Large Page Support: Disabled
-[2025-05-17T20:58:09.487+0300][14316][24212][info][gc,init] NUMA Support: Disabled
-[2025-05-17T20:58:09.487+0300][14316][24212][info][gc,init] Compressed Oops: Enabled (Zero based)
-[2025-05-17T20:58:09.488+0300][14316][24212][info][gc,init] Alignments: Space 512K, Generation 512K, Heap 2M
-[2025-05-17T20:58:09.488+0300][14316][24212][info][gc,init] Heap Min Capacity: 12G
-[2025-05-17T20:58:09.488+0300][14316][24212][info][gc,init] Heap Initial Capacity: 12G
-[2025-05-17T20:58:09.488+0300][14316][24212][info][gc,init] Heap Max Capacity: 12G
-[2025-05-17T20:58:09.488+0300][14316][24212][info][gc,init] Pre-touch: Disabled
-[2025-05-17T20:58:09.488+0300][14316][24212][info][gc,init] Parallel Workers: 8
-[2025-05-17T20:58:09.495+0300][14316][24212][info][gc,metaspace] CDS archive(s) mapped at: [0x000002505f000000-0x000002505fc90000-0x000002505fc90000), size 13172736, SharedBaseAddress: 0x000002505f000000, ArchiveRelocationMode: 1.
-[2025-05-17T20:58:09.495+0300][14316][24212][info][gc,metaspace] Compressed class space mapped at: 0x0000025060000000-0x00000250a0000000, reserved size: 1073741824
-[2025-05-17T20:58:09.495+0300][14316][24212][info][gc,metaspace] Narrow klass base: 0x000002505f000000, Narrow klass shift: 0, Narrow klass range: 0x100000000
-[2025-05-17T20:58:09.620+0300][14316][24212][info][gc,heap,exit] Heap
-[2025-05-17T20:58:09.620+0300][14316][24212][info][gc,heap,exit]  PSYoungGen      total 3670016K, used 314573K [0x0000000700000000, 0x0000000800000000, 0x0000000800000000)
-[2025-05-17T20:58:09.620+0300][14316][24212][info][gc,heap,exit]   eden space 3145728K, 10% used [0x0000000700000000,0x0000000713333508,0x00000007c0000000)
-[2025-05-17T20:58:09.620+0300][14316][24212][info][gc,heap,exit]   from space 524288K, 0% used [0x00000007e0000000,0x00000007e0000000,0x0000000800000000)
-[2025-05-17T20:58:09.620+0300][14316][24212][info][gc,heap,exit]   to   space 524288K, 0% used [0x00000007c0000000,0x00000007c0000000,0x00000007e0000000)
-[2025-05-17T20:58:09.620+0300][14316][24212][info][gc,heap,exit]  ParOldGen       total 8388608K, used 0K [0x0000000500000000, 0x0000000700000000, 0x0000000700000000)
-[2025-05-17T20:58:09.620+0300][14316][24212][info][gc,heap,exit]   object space 8388608K, 0% used [0x0000000500000000,0x0000000500000000,0x0000000700000000)
-[2025-05-17T20:58:09.620+0300][14316][24212][info][gc,heap,exit]  Metaspace       used 1949K, committed 2112K, reserved 1114112K
-[2025-05-17T20:58:09.620+0300][14316][24212][info][gc,heap,exit]   class space    used 193K, committed 320K, reserved 1048576K
+[2025-05-18T19:35:43.451+0300][11796][10484][info][gc,init] CardTable entry size: 512
+[2025-05-18T19:35:43.451+0300][11796][10484][info][gc     ] Using Parallel
+[2025-05-18T19:35:43.471+0300][11796][10484][info][gc,init] Version: 21.0.6+8-LTS-188 (release)
+[2025-05-18T19:35:43.471+0300][11796][10484][info][gc,init] CPUs: 8 total, 8 available
+[2025-05-18T19:35:43.471+0300][11796][10484][info][gc,init] Memory: 16183M
+[2025-05-18T19:35:43.471+0300][11796][10484][info][gc,init] Large Page Support: Disabled
+[2025-05-18T19:35:43.471+0300][11796][10484][info][gc,init] NUMA Support: Disabled
+[2025-05-18T19:35:43.474+0300][11796][10484][info][gc,init] Compressed Oops: Enabled (Zero based)
+[2025-05-18T19:35:43.474+0300][11796][10484][info][gc,init] Alignments: Space 512K, Generation 512K, Heap 2M
+[2025-05-18T19:35:43.474+0300][11796][10484][info][gc,init] Heap Min Capacity: 12G
+[2025-05-18T19:35:43.474+0300][11796][10484][info][gc,init] Heap Initial Capacity: 12G
+[2025-05-18T19:35:43.474+0300][11796][10484][info][gc,init] Heap Max Capacity: 12G
+[2025-05-18T19:35:43.474+0300][11796][10484][info][gc,init] Pre-touch: Disabled
+[2025-05-18T19:35:43.474+0300][11796][10484][info][gc,init] Parallel Workers: 8
+[2025-05-18T19:35:43.482+0300][11796][10484][info][gc,metaspace] CDS archive(s) mapped at: [0x00000196ef000000-0x00000196efc90000-0x00000196efc90000), size 13172736, SharedBaseAddress: 0x00000196ef000000, ArchiveRelocationMode: 1.
+[2025-05-18T19:35:43.482+0300][11796][10484][info][gc,metaspace] Compressed class space mapped at: 0x00000196f0000000-0x0000019730000000, reserved size: 1073741824
+[2025-05-18T19:35:43.482+0300][11796][10484][info][gc,metaspace] Narrow klass base: 0x00000196ef000000, Narrow klass shift: 0, Narrow klass range: 0x100000000
+[2025-05-18T19:35:43.637+0300][11796][10484][info][gc,heap,exit] Heap
+[2025-05-18T19:35:43.638+0300][11796][10484][info][gc,heap,exit]  PSYoungGen      total 3670016K, used 377487K [0x0000000700000000, 0x0000000800000000, 0x0000000800000000)
+[2025-05-18T19:35:43.638+0300][11796][10484][info][gc,heap,exit]   eden space 3145728K, 12% used [0x0000000700000000,0x00000007170a3f78,0x00000007c0000000)
+[2025-05-18T19:35:43.638+0300][11796][10484][info][gc,heap,exit]   from space 524288K, 0% used [0x00000007e0000000,0x00000007e0000000,0x0000000800000000)
+[2025-05-18T19:35:43.638+0300][11796][10484][info][gc,heap,exit]   to   space 524288K, 0% used [0x00000007c0000000,0x00000007c0000000,0x00000007e0000000)
+[2025-05-18T19:35:43.638+0300][11796][10484][info][gc,heap,exit]  ParOldGen       total 8388608K, used 0K [0x0000000500000000, 0x0000000700000000, 0x0000000700000000)
+[2025-05-18T19:35:43.638+0300][11796][10484][info][gc,heap,exit]   object space 8388608K, 0% used [0x0000000500000000,0x0000000500000000,0x0000000700000000)
+[2025-05-18T19:35:43.638+0300][11796][10484][info][gc,heap,exit]  Metaspace       used 2071K, committed 2304K, reserved 1114112K
+[2025-05-18T19:35:43.638+0300][11796][10484][info][gc,heap,exit]   class space    used 197K, committed 320K, reserved 1048576K

@@ -47,7 +47,7 @@ def process_dacapo_logs(dacapo_out_dir, output_csv_file):
     print(f"DaCapo output parsing complete. Results: {output_csv_file}")
 
 if __name__ == '__main__':
-    dacapo_output_directory = "../dacapo_outputs"
-    parsed_dacapo_csv_path = "../results/parsed_dacapo_data.csv"
+    dacapo_output_directory = "dacapo_outputs"
+    parsed_dacapo_csv_path = "results/parsed_dacapo_data.csv"
     os.makedirs(os.path.dirname(parsed_dacapo_csv_path), exist_ok=True)
     process_dacapo_logs(dacapo_output_directory, parsed_dacapo_csv_path)

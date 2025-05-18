@@ -61,8 +61,8 @@ def generate_final_report(gc_data_csv, dacapo_data_csv, final_output_csv):
     print(final_df.head())
 
 if __name__ == '__main__':
-    input_gc_csv = "../results/parsed_gc_data.csv"
-    input_dacapo_csv = "../results/parsed_dacapo_data.csv"
-    final_results_csv = "../results/final_project_results.csv"
+    input_gc_csv = "results/parsed_gc_data.csv"
+    input_dacapo_csv = "results/parsed_dacapo_data.csv"
+    final_results_csv = "results/final_project_results.csv"
     os.makedirs(os.path.dirname(final_results_csv), exist_ok=True)
     generate_final_report(input_gc_csv, input_dacapo_csv, final_results_csv)

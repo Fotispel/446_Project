@@ -1,26 +1,26 @@
-[2025-05-17T20:58:09.977+0300][21228][14916][info][gc,init] CardTable entry size: 512
-[2025-05-17T20:58:09.977+0300][21228][14916][info][gc     ] Using Parallel
-[2025-05-17T20:58:09.996+0300][21228][14916][info][gc,init] Version: 21.0.6+8-LTS-188 (release)
-[2025-05-17T20:58:09.996+0300][21228][14916][info][gc,init] CPUs: 8 total, 8 available
-[2025-05-17T20:58:09.996+0300][21228][14916][info][gc,init] Memory: 16183M
-[2025-05-17T20:58:09.996+0300][21228][14916][info][gc,init] Large Page Support: Disabled
-[2025-05-17T20:58:09.996+0300][21228][14916][info][gc,init] NUMA Support: Disabled
-[2025-05-17T20:58:09.998+0300][21228][14916][info][gc,init] Compressed Oops: Enabled (Zero based)
-[2025-05-17T20:58:09.998+0300][21228][14916][info][gc,init] Alignments: Space 512K, Generation 512K, Heap 2M
-[2025-05-17T20:58:09.998+0300][21228][14916][info][gc,init] Heap Min Capacity: 12G
-[2025-05-17T20:58:09.998+0300][21228][14916][info][gc,init] Heap Initial Capacity: 12G
-[2025-05-17T20:58:09.998+0300][21228][14916][info][gc,init] Heap Max Capacity: 12G
-[2025-05-17T20:58:09.999+0300][21228][14916][info][gc,init] Pre-touch: Disabled
-[2025-05-17T20:58:09.999+0300][21228][14916][info][gc,init] Parallel Workers: 8
-[2025-05-17T20:58:10.006+0300][21228][14916][info][gc,metaspace] CDS archive(s) mapped at: [0x000002a180000000-0x000002a180c90000-0x000002a180c90000), size 13172736, SharedBaseAddress: 0x000002a180000000, ArchiveRelocationMode: 1.
-[2025-05-17T20:58:10.006+0300][21228][14916][info][gc,metaspace] Compressed class space mapped at: 0x000002a181000000-0x000002a1c1000000, reserved size: 1073741824
-[2025-05-17T20:58:10.006+0300][21228][14916][info][gc,metaspace] Narrow klass base: 0x000002a180000000, Narrow klass shift: 0, Narrow klass range: 0x100000000
-[2025-05-17T20:58:10.147+0300][21228][14916][info][gc,heap,exit] Heap
-[2025-05-17T20:58:10.147+0300][21228][14916][info][gc,heap,exit]  PSYoungGen      total 3670016K, used 314573K [0x0000000700000000, 0x0000000800000000, 0x0000000800000000)
-[2025-05-17T20:58:10.147+0300][21228][14916][info][gc,heap,exit]   eden space 3145728K, 10% used [0x0000000700000000,0x0000000713333508,0x00000007c0000000)
-[2025-05-17T20:58:10.147+0300][21228][14916][info][gc,heap,exit]   from space 524288K, 0% used [0x00000007e0000000,0x00000007e0000000,0x0000000800000000)
-[2025-05-17T20:58:10.147+0300][21228][14916][info][gc,heap,exit]   to   space 524288K, 0% used [0x00000007c0000000,0x00000007c0000000,0x00000007e0000000)
-[2025-05-17T20:58:10.147+0300][21228][14916][info][gc,heap,exit]  ParOldGen       total 8388608K, used 0K [0x0000000500000000, 0x0000000700000000, 0x0000000700000000)
-[2025-05-17T20:58:10.147+0300][21228][14916][info][gc,heap,exit]   object space 8388608K, 0% used [0x0000000500000000,0x0000000500000000,0x0000000700000000)
-[2025-05-17T20:58:10.147+0300][21228][14916][info][gc,heap,exit]  Metaspace       used 2345K, committed 2560K, reserved 1114112K
-[2025-05-17T20:58:10.147+0300][21228][14916][info][gc,heap,exit]   class space    used 231K, committed 320K, reserved 1048576K
+[2025-05-18T19:35:44.273+0300][5396][25572][info][gc,init] CardTable entry size: 512
+[2025-05-18T19:35:44.273+0300][5396][25572][info][gc     ] Using Parallel
+[2025-05-18T19:35:44.294+0300][5396][25572][info][gc,init] Version: 21.0.6+8-LTS-188 (release)
+[2025-05-18T19:35:44.294+0300][5396][25572][info][gc,init] CPUs: 8 total, 8 available
+[2025-05-18T19:35:44.294+0300][5396][25572][info][gc,init] Memory: 16183M
+[2025-05-18T19:35:44.294+0300][5396][25572][info][gc,init] Large Page Support: Disabled
+[2025-05-18T19:35:44.294+0300][5396][25572][info][gc,init] NUMA Support: Disabled
+[2025-05-18T19:35:44.297+0300][5396][25572][info][gc,init] Compressed Oops: Enabled (Zero based)
+[2025-05-18T19:35:44.297+0300][5396][25572][info][gc,init] Alignments: Space 512K, Generation 512K, Heap 2M
+[2025-05-18T19:35:44.297+0300][5396][25572][info][gc,init] Heap Min Capacity: 12G
+[2025-05-18T19:35:44.297+0300][5396][25572][info][gc,init] Heap Initial Capacity: 12G
+[2025-05-18T19:35:44.297+0300][5396][25572][info][gc,init] Heap Max Capacity: 12G
+[2025-05-18T19:35:44.297+0300][5396][25572][info][gc,init] Pre-touch: Disabled
+[2025-05-18T19:35:44.297+0300][5396][25572][info][gc,init] Parallel Workers: 8
+[2025-05-18T19:35:44.306+0300][5396][25572][info][gc,metaspace] CDS archive(s) mapped at: [0x0000016e30000000-0x0000016e30c90000-0x0000016e30c90000), size 13172736, SharedBaseAddress: 0x0000016e30000000, ArchiveRelocationMode: 1.
+[2025-05-18T19:35:44.306+0300][5396][25572][info][gc,metaspace] Compressed class space mapped at: 0x0000016e31000000-0x0000016e71000000, reserved size: 1073741824
+[2025-05-18T19:35:44.306+0300][5396][25572][info][gc,metaspace] Narrow klass base: 0x0000016e30000000, Narrow klass shift: 0, Narrow klass range: 0x100000000
+[2025-05-18T19:35:44.482+0300][5396][25572][info][gc,heap,exit] Heap
+[2025-05-18T19:35:44.482+0300][5396][25572][info][gc,heap,exit]  PSYoungGen      total 3670016K, used 377487K [0x0000000700000000, 0x0000000800000000, 0x0000000800000000)
+[2025-05-18T19:35:44.482+0300][5396][25572][info][gc,heap,exit]   eden space 3145728K, 12% used [0x0000000700000000,0x00000007170a3f78,0x00000007c0000000)
+[2025-05-18T19:35:44.482+0300][5396][25572][info][gc,heap,exit]   from space 524288K, 0% used [0x00000007e0000000,0x00000007e0000000,0x0000000800000000)
+[2025-05-18T19:35:44.482+0300][5396][25572][info][gc,heap,exit]   to   space 524288K, 0% used [0x00000007c0000000,0x00000007c0000000,0x00000007e0000000)
+[2025-05-18T19:35:44.482+0300][5396][25572][info][gc,heap,exit]  ParOldGen       total 8388608K, used 0K [0x0000000500000000, 0x0000000700000000, 0x0000000700000000)
+[2025-05-18T19:35:44.482+0300][5396][25572][info][gc,heap,exit]   object space 8388608K, 0% used [0x0000000500000000,0x0000000500000000,0x0000000700000000)
+[2025-05-18T19:35:44.482+0300][5396][25572][info][gc,heap,exit]  Metaspace       used 2489K, committed 2688K, reserved 1114112K
+[2025-05-18T19:35:44.482+0300][5396][25572][info][gc,heap,exit]   class space    used 236K, committed 320K, reserved 1048576K

@@ -1,5 +1,8 @@
 Using scaled threading model. 8 processors detected, 8 threads used to drive the workload, in a possible range of [1,512]
 Tomcat is using port 8080. Configure with -Ddacapo.tomcat.port.
-FATAL ERROR: Failed to find data at C:\Users\pelan\Desktop\446_project\dacapo-23.11-MR2-chopin
-
-Please run DaCapo with --data-set-location <parent-dir-name> to reset the location of the parent directory.
+Version: tomcat 10.1.11 (use -p to print nominal benchmark stats)
+Server created with thread pool size 8
+===== DaCapo 23.11-MR2-chopin tomcat starting warmup 1 =====
+Loading web application
+Starting 80000 requests...
+Completing requests: 5%Completing requests: 10%Completing requests: 15%Completing requests: 20%Completing requests: 25%Completing requests: 30%Completing requests: 35%Completing requests: 40%Completing requests: 45%Completing requests: 50%Completing requests: 55%Completing requests: 60%Completing requests: 65%Completing requests: 70%Completing requests: 75%Completing requests: 80%Completing requests: 85%^C

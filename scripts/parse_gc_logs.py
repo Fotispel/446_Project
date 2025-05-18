@@ -93,8 +93,8 @@ def process_gc_logs(gc_log_dir, output_csv_file):
 
 if __name__ == '__main__':
     # Καλείται από τον κατάλογο scripts, τα logs είναι ένα επίπεδο πάνω
-    gc_log_directory = "../gc_logs"
-    parsed_gc_csv_path = "../results/parsed_gc_data.csv"
+    gc_log_directory = "gc_logs"
+    parsed_gc_csv_path = "results/parsed_gc_data.csv"
     # Βεβαιωθείτε ότι ο κατάλογος results υπάρχει
     os.makedirs(os.path.dirname(parsed_gc_csv_path), exist_ok=True)
     process_gc_logs(gc_log_directory, parsed_gc_csv_path)
