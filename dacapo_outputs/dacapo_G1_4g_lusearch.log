@@ -4,26 +4,26 @@ Version: lucene 9.7.0 (use -p to print nominal benchmark stats)
 Starting 524288 requests...
 Completing query batches: 5%Completing query batches: 10%Completing query batches: 15%Completing query batches: 20%Completing query batches: 25%Completing query batches: 30%Completing query batches: 35%Completing query batches: 40%Completing query batches: 45%Completing query batches: 50%Completing query batches: 55%Completing query batches: 60%Completing query batches: 65%Completing query batches: 70%Completing query batches: 75%Completing query batches: 80%Completing query batches: 85%Completing query batches: 90%Completing query batches: 95%Completing query batches: 100%
 Completed requests
-===== DaCapo 23.11-MR2-chopin lusearch completed warmup 1 in 11567 msec =====
-===== DaCapo processed 524288 requests in 11555 msec, 45373 requests per second =====
-===== DaCapo tail latency, simple: 50% 55 usec, 90% 365 usec, 99% 1006 usec, 99.9% 10863 usec, 99.99% 34863 usec, max 88196 usec, measured over 524288 events =====
-===== DaCapo tail latency, metered 100ms smoothing: 50% 389 usec, 90% 4254 usec, 99% 11874 usec, 99.9% 22776 usec, 99.99% 39380 usec, max 88594 usec, measured over 524288 events =====
-===== DaCapo tail latency, metered full smoothing: 50% 518383 usec, 90% 886857 usec, 99% 1064148 usec, 99.9% 1073274 usec, 99.99% 1074645 usec, max 1104866 usec, measured over 524288 events =====
+===== DaCapo 23.11-MR2-chopin lusearch completed warmup 1 in 10909 msec =====
+===== DaCapo processed 524288 requests in 10901 msec, 48095 requests per second =====
+===== DaCapo tail latency, simple: 50% 56 usec, 90% 377 usec, 99% 664 usec, 99.9% 8854 usec, 99.99% 37549 usec, max 100659 usec, measured over 524288 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 411 usec, 90% 3350 usec, 99% 10898 usec, 99.9% 27283 usec, 99.99% 41455 usec, max 100659 usec, measured over 524288 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 885147 usec, 90% 1507334 usec, 99% 1578927 usec, 99.9% 1587110 usec, 99.99% 1587522 usec, max 1599129 usec, measured over 524288 events =====
 ===== DaCapo 23.11-MR2-chopin lusearch starting warmup 2 =====
 Starting 524288 requests...
 Completing query batches: 5%Completing query batches: 10%Completing query batches: 15%Completing query batches: 20%Completing query batches: 25%Completing query batches: 30%Completing query batches: 35%Completing query batches: 40%Completing query batches: 45%Completing query batches: 50%Completing query batches: 55%Completing query batches: 60%Completing query batches: 65%Completing query batches: 70%Completing query batches: 75%Completing query batches: 80%Completing query batches: 85%Completing query batches: 90%Completing query batches: 95%Completing query batches: 100%
 Completed requests
-===== DaCapo 23.11-MR2-chopin lusearch completed warmup 2 in 9593 msec =====
-===== DaCapo processed 524288 requests in 9589 msec, 54675 requests per second =====
-===== DaCapo tail latency, simple: 50% 51 usec, 90% 360 usec, 99% 737 usec, 99.9% 5651 usec, 99.99% 25566 usec, max 62378 usec, measured over 524288 events =====
-===== DaCapo tail latency, metered 100ms smoothing: 50% 384 usec, 90% 3935 usec, 99% 11122 usec, 99.9% 31196 usec, 99.99% 39188 usec, max 78472 usec, measured over 524288 events =====
-===== DaCapo tail latency, metered full smoothing: 50% 515 usec, 90% 91289 usec, 99% 144775 usec, 99.9% 150947 usec, 99.99% 151902 usec, max 194707 usec, measured over 524288 events =====
+===== DaCapo 23.11-MR2-chopin lusearch completed warmup 2 in 8081 msec =====
+===== DaCapo processed 524288 requests in 8075 msec, 64927 requests per second =====
+===== DaCapo tail latency, simple: 50% 49 usec, 90% 345 usec, 99% 582 usec, 99.9% 3009 usec, 99.99% 15387 usec, max 34552 usec, measured over 524288 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 322 usec, 90% 2776 usec, 99% 8555 usec, 99.9% 33600 usec, 99.99% 40514 usec, max 49152 usec, measured over 524288 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 61 usec, 90% 67188 usec, 99% 95736 usec, 99.9% 96900 usec, 99.99% 97392 usec, max 122273 usec, measured over 524288 events =====
 ===== DaCapo 23.11-MR2-chopin lusearch starting =====
 Starting 524288 requests...
 Completing query batches: 5%Completing query batches: 10%Completing query batches: 15%Completing query batches: 20%Completing query batches: 25%Completing query batches: 30%Completing query batches: 35%Completing query batches: 40%Completing query batches: 45%Completing query batches: 50%Completing query batches: 55%Completing query batches: 60%Completing query batches: 65%Completing query batches: 70%Completing query batches: 75%Completing query batches: 80%Completing query batches: 85%Completing query batches: 90%Completing query batches: 95%Completing query batches: 100%
 Completed requests
-===== DaCapo 23.11-MR2-chopin lusearch PASSED in 9863 msec =====
-===== DaCapo processed 524288 requests in 9859 msec, 53178 requests per second =====
-===== DaCapo tail latency, simple: 50% 53 usec, 90% 376 usec, 99% 777 usec, 99.9% 4290 usec, 99.99% 18713 usec, max 38381 usec, measured over 524288 events =====
-===== DaCapo tail latency, metered 100ms smoothing: 50% 361 usec, 90% 3722 usec, 99% 8640 usec, 99.9% 12228 usec, 99.99% 20891 usec, max 38710 usec, measured over 524288 events =====
-===== DaCapo tail latency, metered full smoothing: 50% 140 usec, 90% 61574 usec, 99% 92591 usec, 99.9% 93822 usec, 99.99% 94821 usec, max 118805 usec, measured over 524288 events =====
+===== DaCapo 23.11-MR2-chopin lusearch PASSED in 8411 msec =====
+===== DaCapo processed 524288 requests in 8407 msec, 62363 requests per second =====
+===== DaCapo tail latency, simple: 50% 50 usec, 90% 354 usec, 99% 648 usec, 99.9% 2262 usec, 99.99% 14830 usec, max 29874 usec, measured over 524288 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 236 usec, 90% 2289 usec, 99% 8559 usec, 99.9% 17817 usec, 99.99% 23561 usec, max 31791 usec, measured over 524288 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 90 usec, 90% 158649 usec, 99% 228697 usec, 99.9% 233012 usec, 99.99% 233513 usec, max 245648 usec, measured over 524288 events =====

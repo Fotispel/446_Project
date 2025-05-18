@@ -1,7 +1,7 @@
 Version: avrora cvs-20131011 (use -p to print nominal benchmark stats)
 ===== DaCapo 23.11-MR2-chopin avrora starting warmup 1 =====
-===== DaCapo 23.11-MR2-chopin avrora completed warmup 1 in 6637 msec =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 1 in 6444 msec =====
 ===== DaCapo 23.11-MR2-chopin avrora starting warmup 2 =====
-===== DaCapo 23.11-MR2-chopin avrora completed warmup 2 in 6255 msec =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 2 in 6098 msec =====
 ===== DaCapo 23.11-MR2-chopin avrora starting =====
-===== DaCapo 23.11-MR2-chopin avrora PASSED in 6361 msec =====
+===== DaCapo 23.11-MR2-chopin avrora PASSED in 6065 msec =====
