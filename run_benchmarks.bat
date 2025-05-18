@@ -3,7 +3,7 @@ SETLOCAL ENABLEDELAYEDEXPANSION
 
 REM --- Ρυθμίσεις ---
 REM Αντικαταστήστε με τη διαδρομή του JDK σας (JDK 17+ συνιστάται για ZGC/Shenandoah)
-SET "JAVA_HOME=C:\Program Files\Java\jdk-21"
+SET "JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot\"
 SET JAVA_CMD=%JAVA_HOME%\bin\java.exe
 
 REM Αντικαταστήστε με το όνομα του DaCapo JAR σας
@@ -17,7 +17,7 @@ MKDIR %DACAPO_OUT_DIR% 2>NUL
 MKDIR %RESULTS_DIR% 2>NUL
 
 REM --- Διαμορφώσεις προς δοκιμή ---
-SET GCS_TO_TEST=G1 Parallel ZGC Shenandoah
+SET GCS_TO_TEST=Shenandoah
 SET HEAP_SIZES_TO_TEST=4g 12g
 REM Επιλέξτε benchmarks από το DaCapo suite (π.χ. avrora, lusearch, h2, tomcat)
 SET BENCHMARKS_TO_TEST=avrora lusearch tomcat
