@@ -17,7 +17,7 @@ def generate_final_report(gc_data_csv, dacapo_data_csv, final_output_csv):
         return
 
 
-    # Έλεγχos για κενά DataFrames
+    # Έλεγχος για κενά DataFrames
     if gc_df.empty:
         print(f"GC data CSV ({gc_data_csv}) is empty. Cannot proceed.")
         return
