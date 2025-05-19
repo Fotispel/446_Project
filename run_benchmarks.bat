@@ -3,7 +3,7 @@ SETLOCAL ENABLEDELAYEDEXPANSION
 
 REM --- Ρυθμίσεις ---
 REM Αντικαταστήστε με τη διαδρομή του JDK σας (JDK 17+ συνιστάται για ZGC/Shenandoah)
-SET "JAVA_HOME=C:\Program Files\Java\jdk-21"
+SET "JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot\"
 SET JAVA_CMD=%JAVA_HOME%\bin\java.exe
 
 REM Αντικαταστήστε με το όνομα του DaCapo JAR σας
