@@ -3,7 +3,7 @@ SETLOCAL ENABLEDELAYEDEXPANSION
 
 REM --- Ρυθμίσεις ---
 REM Αντικαταστήστε με τη διαδρομή του JDK σας (JDK 17+ συνιστάται για ZGC/Shenandoah)
-SET "JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot\"
+SET "JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot"
 SET JAVA_CMD=%JAVA_HOME%\bin\java.exe
 
 REM Αντικαταστήστε με το όνομα του DaCapo JAR σας
@@ -17,7 +17,7 @@ MKDIR %DACAPO_OUT_DIR% 2>NUL
 MKDIR %RESULTS_DIR% 2>NUL
 
 REM --- Διαμορφώσεις προς δοκιμή ---
-SET GCS_TO_TEST=G1 Parallel ZGC Shenandoah
+SET GCS_TO_TEST=G1
 SET HEAP_SIZES_TO_TEST=4g 12g
 REM Επιλέξτε benchmarks από το DaCapo suite (π.χ. avrora, lusearch, h2, tomcat)
 SET BENCHMARKS_TO_TEST=avrora lusearch tomcat
@@ -48,7 +48,7 @@ FOR %%G IN (%GCS_TO_TEST%) DO (
 
             REM Unified JVM Logging (Java 9+). Προσαρμόστε τις επιλογές 'tags' και 'level' ανάλογα με τις ανάγκες.
             REM Ορίζουμε το αρχείο καταγραφής για τον GC
-            SET "GC_LOG_JVM_OPTS=-Xlog:gc*:file=!LOG_FILE_GC_PATH!:time,level,tags,pid,tid:filecount=5,filesize=100m"
+            SET "GC_LOG_JVM_OPTS=-Xlog:gc=debug,gc+heap=debug,gc+phases=debug,safepoint=debug:file=!LOG_FILE_GC_PATH!:time,level,tags,pid,tid"
 
             REM --- Debug: Echo the command (Χρησιμοποιούμε !variable! για delayed expansion) ---
             ECHO Command being executed:
