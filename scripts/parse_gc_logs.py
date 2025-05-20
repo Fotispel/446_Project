@@ -15,8 +15,8 @@ def parse_g1_pauses(content):
 def parse_parallel_pauses(content):
     pauses = []  # ms
     for line in content.splitlines():
-        # Unified Logging Format
-        unified_match = re.search(r"\[info\]\[gc\s*\] GC\(\d+\) Pause (?:PSYoungGen|ParOldGen|Full GC|Full|Young|Mixed|Remark)?(?:.*?)\s+(\d+\.\d+)ms", line)
+        # Unified Logging Format (JDK 9+)
+        unified_match = re.search(r"\[info\s+\]\[gc\s+\].*?Pause(?:.*?)\s+(\d+\.\d+)ms", line)
         if unified_match:
             pauses.append(float(unified_match.group(1)))
             continue
