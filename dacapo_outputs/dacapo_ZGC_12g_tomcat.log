@@ -1,38 +1,1 @@
-Using scaled threading model. 8 processors detected, 8 threads used to drive the workload, in a possible range of [1,512]
-Tomcat is using port 8080. Configure with -Ddacapo.tomcat.port.
-Version: tomcat 10.1.11 (use -p to print nominal benchmark stats)
-Server created with thread pool size 8
-===== DaCapo 23.11-MR2-chopin tomcat starting warmup 1 =====
-Loading web application
-Starting 80000 requests...
-Completing requests: 5%Completing requests: 10%Completing requests: 15%Completing requests: 20%Completing requests: 25%Completing requests: 30%Completing requests: 35%Completing requests: 40%Completing requests: 45%Completing requests: 50%Completing requests: 55%Completing requests: 60%Completing requests: 65%Completing requests: 70%Completing requests: 75%Completing requests: 80%Completing requests: 85%Completing requests: 90%Completing requests: 95%
-Completed requests
-Client threads complete ... unloading web application
-===== DaCapo 23.11-MR2-chopin tomcat completed warmup 1 in 174492 msec =====
-===== DaCapo processed 80000 requests in 174235 msec, 459 requests per second =====
-===== DaCapo tail latency, simple: 50% 15663 usec, 90% 16384 usec, 99% 123505 usec, 99.9% 177807 usec, 99.99% 341153 usec, max 876821 usec, measured over 80000 events =====
-===== DaCapo tail latency, metered 100ms smoothing: 50% 15777 usec, 90% 19824 usec, 99% 123633 usec, 99.9% 177807 usec, 99.99% 341153 usec, max 876821 usec, measured over 80000 events =====
-===== DaCapo tail latency, metered full smoothing: 50% 2373353 usec, 90% 3956233 usec, 99% 4592042 usec, 99.9% 4694074 usec, 99.99% 4716136 usec, max 4740340 usec, measured over 80000 events =====
-===== DaCapo 23.11-MR2-chopin tomcat starting warmup 2 =====
-Loading web application
-Starting 80000 requests...
-Completing requests: 5%Completing requests: 10%Completing requests: 15%Completing requests: 20%Completing requests: 25%Completing requests: 30%Completing requests: 35%Completing requests: 40%Completing requests: 45%Completing requests: 50%Completing requests: 55%Completing requests: 60%Completing requests: 65%Completing requests: 70%Completing requests: 75%Completing requests: 80%Completing requests: 85%Completing requests: 90%Completing requests: 95%
-Completed requests
-Client threads complete ... unloading web application
-===== DaCapo 23.11-MR2-chopin tomcat completed warmup 2 in 171514 msec =====
-===== DaCapo processed 80000 requests in 171172 msec, 467 requests per second =====
-===== DaCapo tail latency, simple: 50% 15665 usec, 90% 16367 usec, 99% 110641 usec, 99.9% 126664 usec, 99.99% 127762 usec, max 128327 usec, measured over 80000 events =====
-===== DaCapo tail latency, metered 100ms smoothing: 50% 15777 usec, 90% 18989 usec, 99% 110870 usec, 99.9% 126992 usec, 99.99% 134692 usec, max 146597 usec, measured over 80000 events =====
-===== DaCapo tail latency, metered full smoothing: 50% 15685 usec, 90% 16441 usec, 99% 110755 usec, 99.9% 126771 usec, 99.99% 133164 usec, max 151432 usec, measured over 80000 events =====
-===== DaCapo 23.11-MR2-chopin tomcat starting =====
-Loading web application
-Starting 80000 requests...
-Completing requests: 5%Completing requests: 10%Completing requests: 15%Completing requests: 20%Completing requests: 25%Completing requests: 30%Completing requests: 35%Completing requests: 40%Completing requests: 45%Completing requests: 50%Completing requests: 55%Completing requests: 60%Completing requests: 65%Completing requests: 70%Completing requests: 75%Completing requests: 80%Completing requests: 85%Completing requests: 90%Completing requests: 95%
-Completed requests
-Client threads complete ... unloading web application
-===== DaCapo 23.11-MR2-chopin tomcat PASSED in 169909 msec =====
-===== DaCapo processed 80000 requests in 169595 msec, 471 requests per second =====
-===== DaCapo tail latency, simple: 50% 15663 usec, 90% 16351 usec, 99% 110583 usec, 99.9% 126697 usec, 99.99% 127565 usec, max 128671 usec, measured over 80000 events =====
-===== DaCapo tail latency, metered 100ms smoothing: 50% 15769 usec, 90% 19234 usec, 99% 110747 usec, 99.9% 127000 usec, 99.99% 134971 usec, max 152240 usec, measured over 80000 events =====
-===== DaCapo tail latency, metered full smoothing: 50% 29638 usec, 90% 233873 usec, 99% 347660 usec, 99.9% 395591 usec, 99.99% 450101 usec, max 470720 usec, measured over 80000 events =====
-Server stopped ... iteration complete
+’¦ ©ç©«ž£˜ ›œ¤ œå¤˜  ©œ Ÿâ©ž ¤˜ œ¤«¦§å©œ  «ž¤ ¡˜Ÿ¦¨ ©£â¤ž › ˜›¨¦£ã ›å©¡¦¬.

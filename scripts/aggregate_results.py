@@ -57,8 +57,8 @@ def generate_final_report(gc_data_csv, dacapo_data_csv, final_output_csv):
 
     final_df.to_csv(final_output_csv, index=False, encoding='utf-8')
     print(f"Aggregated results saved to {final_output_csv}")
-    print("\nSample of Final Aggregated Data:")
-    print(final_df.head())
+    #print("\nSample of Final Aggregated Data:")
+    #print(final_df.head())
 
 if __name__ == '__main__':
     input_gc_csv = "results/parsed_gc_data.csv"
