@@ -2,28 +2,29 @@ import re
 import os
 import csv
 
-# Αυτές οι συναρτήσεις είναι εξαιρετικά απλοποιημένες.
-# Η πραγματική ανάλυση απαιτεί λεπτομερείς regexes για κάθε GC.
 def parse_g1_pauses(content):
-    pauses = [] # ms
-    # Παράδειγμα: [1.234s][info][gc,phase,pause] GC(0) Evacuation Pause 10.123ms
+    pauses = []  # ms
     for line in content.splitlines():
-        match = re.search(r"\[gc,(?:phase,)?pause\s*\] GC\(\d+\) (?:Evacuation Pause|Full GC|Young Pause|Mixed Pause|Remark|Cleanup)\s+(\d+\.\d+)ms", line)
-        if match: pauses.append(float(match.group(1)))
+        unified_match = re.search(r"\[info\s+\]\[gc\s+\].*?Pause(?:.*?)\s+(\d+\.\d+)ms", line)
+        if unified_match:
+            pauses.append(float(unified_match.group(1)))
+            continue
     return pauses
 
+
 def parse_parallel_pauses(content):
-    pauses = [] # ms
-    # Παράδειγμα: [2.309s][info][gc,pauses   ] GC(0) PSYoungGen 2.292ms
+    pauses = []  # ms
     for line in content.splitlines():
-        match = re.search(r"\[gc,pauses\s*\] GC\(\d+\) (?:PSYoungGen|ParOldGen|Full GC)\s+(\d+\.\d+)ms", line)
-        if match: pauses.append(float(match.group(1)))
+        # Unified Logging Format
+        unified_match = re.search(r"\[info\]\[gc\s*\] GC\(\d+\) Pause (?:PSYoungGen|ParOldGen|Full GC|Full|Young|Mixed|Remark)?(?:.*?)\s+(\d+\.\d+)ms", line)
+        if unified_match:
+            pauses.append(float(unified_match.group(1)))
+            continue
     return pauses
+
 
 def parse_zgc_pauses(content):
     pauses = [] # ms
-    # Παράδειγμα: [1.234s][info][gc           ] GC(0) Pauses: Mark 0.123ms, Relocate 0.456ms
-    # Ή μεμονωμένες φάσεις: [gc,phases     ] GC(0) Pause Mark Start 0.018ms
     for line in content.splitlines():
         summary_match = re.search(r"GC\(\d+\) Pauses: Mark (\d+\.\d+)ms, Relocate (\d+\.\d+)ms", line)
         if summary_match:
@@ -36,7 +37,6 @@ def parse_zgc_pauses(content):
 
 def parse_shenandoah_pauses(content):
     pauses = [] # ms
-    # Παράδειγμα: [10.240s][info][gc,phases     ] GC(1) Pause Final Mark 0.899ms
     for line in content.splitlines():
         match = re.search(r"GC\(\d+\) Pause (?:Init Mark|Final Mark|Init Update Refs|Final Update Refs|Degenerated|Full)\s+.*?(\d+\.\d+)ms", line)
         if match: pauses.append(float(match.group(1)))
@@ -92,9 +92,7 @@ def process_gc_logs(gc_log_dir, output_csv_file):
     print(f"GC log parsing complete. Results: {output_csv_file}")
 
 if __name__ == '__main__':
-    # Καλείται από τον κατάλογο scripts, τα logs είναι ένα επίπεδο πάνω
     gc_log_directory = "gc_logs"
     parsed_gc_csv_path = "results/parsed_gc_data.csv"
-    # Βεβαιωθείτε ότι ο κατάλογος results υπάρχει
     os.makedirs(os.path.dirname(parsed_gc_csv_path), exist_ok=True)
     process_gc_logs(gc_log_directory, parsed_gc_csv_path)

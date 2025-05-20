@@ -1,82 +1,219 @@
-[2025-05-20T18:27:23.740+0300][23808][17620][info][gc,init] CardTable entry size: 512
-[2025-05-20T18:27:23.740+0300][23808][17620][info][gc     ] Using G1
-[2025-05-20T18:27:23.767+0300][23808][17620][info][gc,init] Version: 21.0.7+6-LTS (release)
-[2025-05-20T18:27:23.767+0300][23808][17620][info][gc,init] CPUs: 8 total, 8 available
-[2025-05-20T18:27:23.767+0300][23808][17620][info][gc,init] Memory: 16222M
-[2025-05-20T18:27:23.767+0300][23808][17620][info][gc,init] Large Page Support: Disabled
-[2025-05-20T18:27:23.767+0300][23808][17620][info][gc,init] NUMA Support: Disabled
-[2025-05-20T18:27:23.767+0300][23808][17620][info][gc,init] Compressed Oops: Enabled (Zero based)
-[2025-05-20T18:27:23.767+0300][23808][17620][info][gc,init] Heap Region Size: 2M
-[2025-05-20T18:27:23.772+0300][23808][17620][info][gc,init] Heap Min Capacity: 4G
-[2025-05-20T18:27:23.772+0300][23808][17620][info][gc,init] Heap Initial Capacity: 4G
-[2025-05-20T18:27:23.772+0300][23808][17620][info][gc,init] Heap Max Capacity: 4G
-[2025-05-20T18:27:23.772+0300][23808][17620][info][gc,init] Pre-touch: Disabled
-[2025-05-20T18:27:23.772+0300][23808][17620][info][gc,init] Parallel Workers: 8
-[2025-05-20T18:27:23.772+0300][23808][17620][info][gc,init] Concurrent Workers: 2
-[2025-05-20T18:27:23.772+0300][23808][17620][info][gc,init] Concurrent Refinement Workers: 8
-[2025-05-20T18:27:23.772+0300][23808][17620][info][gc,init] Periodic GC: Disabled
-[2025-05-20T18:27:23.783+0300][23808][17620][info][gc,metaspace] CDS archive(s) mapped at: [0x000001b480000000-0x000001b480c80000-0x000001b480c80000), size 13107200, SharedBaseAddress: 0x000001b480000000, ArchiveRelocationMode: 1.
-[2025-05-20T18:27:23.783+0300][23808][17620][info][gc,metaspace] Compressed class space mapped at: 0x000001b481000000-0x000001b4c1000000, reserved size: 1073741824
-[2025-05-20T18:27:23.783+0300][23808][17620][info][gc,metaspace] Narrow klass base: 0x000001b480000000, Narrow klass shift: 0, Narrow klass range: 0x100000000
-[2025-05-20T18:27:24.655+0300][23808][7840 ][info][gc,start    ] GC(0) Pause Full (System.gc())
-[2025-05-20T18:27:24.657+0300][23808][7840 ][info][gc,task     ] GC(0) Using 8 workers of 8 for full compaction
-[2025-05-20T18:27:24.658+0300][23808][7840 ][info][gc,phases,start] GC(0) Phase 1: Mark live objects
-[2025-05-20T18:27:24.661+0300][23808][7840 ][info][gc,phases      ] GC(0) Phase 1: Mark live objects 3.658ms
-[2025-05-20T18:27:24.661+0300][23808][7840 ][info][gc,phases,start] GC(0) Phase 2: Prepare compaction
-[2025-05-20T18:27:24.662+0300][23808][7840 ][info][gc,phases      ] GC(0) Phase 2: Prepare compaction 0.794ms
-[2025-05-20T18:27:24.662+0300][23808][7840 ][info][gc,phases,start] GC(0) Phase 3: Adjust pointers
-[2025-05-20T18:27:24.663+0300][23808][7840 ][info][gc,phases      ] GC(0) Phase 3: Adjust pointers 1.095ms
-[2025-05-20T18:27:24.663+0300][23808][7840 ][info][gc,phases,start] GC(0) Phase 4: Compact heap
-[2025-05-20T18:27:24.665+0300][23808][7840 ][info][gc,phases      ] GC(0) Phase 4: Compact heap 2.363ms
-[2025-05-20T18:27:24.665+0300][23808][7840 ][info][gc,phases,start] GC(0) Phase 5: Reset Metadata
-[2025-05-20T18:27:24.667+0300][23808][7840 ][info][gc,phases      ] GC(0) Phase 5: Reset Metadata 1.363ms
-[2025-05-20T18:27:24.717+0300][23808][7840 ][info][gc,heap        ] GC(0) Eden regions: 27->0(102)
-[2025-05-20T18:27:24.717+0300][23808][7840 ][info][gc,heap        ] GC(0) Survivor regions: 0->0(0)
-[2025-05-20T18:27:24.717+0300][23808][7840 ][info][gc,heap        ] GC(0) Old regions: 0->8
-[2025-05-20T18:27:24.717+0300][23808][7840 ][info][gc,heap        ] GC(0) Humongous regions: 0->0
-[2025-05-20T18:27:24.717+0300][23808][7840 ][info][gc,metaspace   ] GC(0) Metaspace: 2954K(3200K)->2954K(3200K) NonClass: 2682K(2816K)->2682K(2816K) Class: 272K(384K)->272K(384K)
-[2025-05-20T18:27:24.717+0300][23808][7840 ][info][gc             ] GC(0) Pause Full (System.gc()) 53M->2M(4096M) 61.508ms
-[2025-05-20T18:27:24.717+0300][23808][7840 ][info][gc,cpu         ] GC(0) User=0.12s Sys=0.16s Real=0.06s
-[2025-05-20T18:27:54.670+0300][23808][7840 ][info][gc,start       ] GC(1) Pause Full (System.gc())
-[2025-05-20T18:27:54.671+0300][23808][7840 ][info][gc,task        ] GC(1) Using 8 workers of 8 for full compaction
-[2025-05-20T18:27:54.671+0300][23808][7840 ][info][gc,phases,start] GC(1) Phase 1: Mark live objects
-[2025-05-20T18:27:54.674+0300][23808][7840 ][info][gc,phases      ] GC(1) Phase 1: Mark live objects 3.239ms
-[2025-05-20T18:27:54.674+0300][23808][7840 ][info][gc,phases,start] GC(1) Phase 2: Prepare compaction
-[2025-05-20T18:27:54.675+0300][23808][7840 ][info][gc,phases      ] GC(1) Phase 2: Prepare compaction 0.702ms
-[2025-05-20T18:27:54.675+0300][23808][7840 ][info][gc,phases,start] GC(1) Phase 3: Adjust pointers
-[2025-05-20T18:27:54.677+0300][23808][7840 ][info][gc,phases      ] GC(1) Phase 3: Adjust pointers 1.870ms
-[2025-05-20T18:27:54.677+0300][23808][7840 ][info][gc,phases,start] GC(1) Phase 4: Compact heap
-[2025-05-20T18:27:54.678+0300][23808][7840 ][info][gc,phases      ] GC(1) Phase 4: Compact heap 0.819ms
-[2025-05-20T18:27:54.678+0300][23808][7840 ][info][gc,phases,start] GC(1) Phase 5: Reset Metadata
-[2025-05-20T18:27:54.679+0300][23808][7840 ][info][gc,phases      ] GC(1) Phase 5: Reset Metadata 1.329ms
-[2025-05-20T18:27:54.687+0300][23808][7840 ][info][gc,heap        ] GC(1) Eden regions: 47->0(102)
-[2025-05-20T18:27:54.687+0300][23808][7840 ][info][gc,heap        ] GC(1) Survivor regions: 0->0(0)
-[2025-05-20T18:27:54.687+0300][23808][7840 ][info][gc,heap        ] GC(1) Old regions: 8->8
-[2025-05-20T18:27:54.687+0300][23808][7840 ][info][gc,heap        ] GC(1) Humongous regions: 0->0
-[2025-05-20T18:27:54.687+0300][23808][7840 ][info][gc,metaspace   ] GC(1) Metaspace: 5466K(5696K)->5466K(5696K) NonClass: 4870K(4992K)->4870K(4992K) Class: 595K(704K)->595K(704K)
-[2025-05-20T18:27:54.687+0300][23808][7840 ][info][gc             ] GC(1) Pause Full (System.gc()) 95M->2M(4096M) 17.105ms
-[2025-05-20T18:27:54.687+0300][23808][7840 ][info][gc,cpu         ] GC(1) User=0.02s Sys=0.00s Real=0.02s
-[2025-05-20T18:28:24.277+0300][23808][7840 ][info][gc,start       ] GC(2) Pause Full (System.gc())
-[2025-05-20T18:28:24.277+0300][23808][7840 ][info][gc,task        ] GC(2) Using 8 workers of 8 for full compaction
-[2025-05-20T18:28:24.277+0300][23808][7840 ][info][gc,phases,start] GC(2) Phase 1: Mark live objects
-[2025-05-20T18:28:24.281+0300][23808][7840 ][info][gc,phases      ] GC(2) Phase 1: Mark live objects 3.387ms
-[2025-05-20T18:28:24.281+0300][23808][7840 ][info][gc,phases,start] GC(2) Phase 2: Prepare compaction
-[2025-05-20T18:28:24.281+0300][23808][7840 ][info][gc,phases      ] GC(2) Phase 2: Prepare compaction 0.658ms
-[2025-05-20T18:28:24.281+0300][23808][7840 ][info][gc,phases,start] GC(2) Phase 3: Adjust pointers
-[2025-05-20T18:28:24.283+0300][23808][7840 ][info][gc,phases      ] GC(2) Phase 3: Adjust pointers 1.634ms
-[2025-05-20T18:28:24.283+0300][23808][7840 ][info][gc,phases,start] GC(2) Phase 4: Compact heap
-[2025-05-20T18:28:24.284+0300][23808][7840 ][info][gc,phases      ] GC(2) Phase 4: Compact heap 0.649ms
-[2025-05-20T18:28:24.284+0300][23808][7840 ][info][gc,phases,start] GC(2) Phase 5: Reset Metadata
-[2025-05-20T18:28:24.285+0300][23808][7840 ][info][gc,phases      ] GC(2) Phase 5: Reset Metadata 1.161ms
-[2025-05-20T18:28:24.292+0300][23808][7840 ][info][gc,heap        ] GC(2) Eden regions: 44->0(102)
-[2025-05-20T18:28:24.292+0300][23808][7840 ][info][gc,heap        ] GC(2) Survivor regions: 0->0(0)
-[2025-05-20T18:28:24.292+0300][23808][7840 ][info][gc,heap        ] GC(2) Old regions: 8->8
-[2025-05-20T18:28:24.292+0300][23808][7840 ][info][gc,heap        ] GC(2) Humongous regions: 0->0
-[2025-05-20T18:28:24.292+0300][23808][7840 ][info][gc,metaspace   ] GC(2) Metaspace: 5495K(5696K)->5495K(5696K) NonClass: 4899K(4992K)->4899K(4992K) Class: 595K(704K)->595K(704K)
-[2025-05-20T18:28:24.292+0300][23808][7840 ][info][gc             ] GC(2) Pause Full (System.gc()) 89M->2M(4096M) 16.045ms
-[2025-05-20T18:28:24.292+0300][23808][7840 ][info][gc,cpu         ] GC(2) User=0.02s Sys=0.00s Real=0.02s
-[2025-05-20T18:28:53.574+0300][23808][17620][info][gc,heap,exit   ] Heap
-[2025-05-20T18:28:53.574+0300][23808][17620][info][gc,heap,exit   ]  garbage-first heap   total 4194304K, used 92051K [0x0000000700000000, 0x0000000800000000)
-[2025-05-20T18:28:53.575+0300][23808][17620][info][gc,heap,exit   ]   region size 2048K, 44 young (90112K), 0 survivors (0K)
-[2025-05-20T18:28:53.575+0300][23808][17620][info][gc,heap,exit   ]  Metaspace       used 5598K, committed 5824K, reserved 1114112K
-[2025-05-20T18:28:53.575+0300][23808][17620][info][gc,heap,exit   ]   class space    used 604K, committed 704K, reserved 1048576K
+[2025-05-20T20:12:45.650+0300][14888][21028][debug][gc,heap] Minimum heap 4294967296  Initial heap 4294967296  Maximum heap 4294967296
+[2025-05-20T20:12:45.650+0300][14888][21028][info ][gc     ] Using G1
+[2025-05-20T20:12:45.650+0300][14888][21028][debug][gc     ] ConcGCThreads: 2 offset 16
+[2025-05-20T20:12:45.650+0300][14888][21028][debug][gc     ] ParallelGCThreads: 8
+[2025-05-20T20:12:45.650+0300][14888][21028][debug][gc     ] Initialize mark stack with 4096 chunks, maximum 524288
+[2025-05-20T20:12:46.078+0300][14888][2332 ][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (12 threads)
+[2025-05-20T20:12:46.078+0300][14888][2332 ][debug][gc,heap  ] GC(0) Heap before GC invocations=0 (full 0):
+[2025-05-20T20:12:46.078+0300][14888][2332 ][debug][gc,heap  ] GC(0)  garbage-first heap   total 4194304K, used 51200K [0x0000000700000000, 0x0000000800000000)
+[2025-05-20T20:12:46.078+0300][14888][2332 ][debug][gc,heap  ] GC(0)   region size 2048K, 26 young (53248K), 0 survivors (0K)
+[2025-05-20T20:12:46.078+0300][14888][2332 ][debug][gc,heap  ] GC(0)  Metaspace       used 2852K, committed 3072K, reserved 1114112K
+[2025-05-20T20:12:46.078+0300][14888][2332 ][debug][gc,heap  ] GC(0)   class space    used 257K, committed 384K, reserved 1048576K
+[2025-05-20T20:12:46.079+0300][14888][2332 ][debug][gc,phases] GC(0) Phase 1: Reference Processing 0.153ms
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0)   VM Weak                        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 5
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 5
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0)     Total                          Min: 0, Avg:  4.0, Max: 20, Diff: 20, Sum: 20, Workers: 5
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0)   ObjectSynchronizer Weak        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 5
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 5
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0)     Total                          Min: 0, Avg:  0.2, Max: 1, Diff: 1, Sum: 1, Workers: 5
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0)   JVMTI Tag Weak OopStorage      Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 5
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 5
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 5
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0)   StringTable Weak               Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 5
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0)     Dead                           Min: 0, Avg:  1.0, Max: 5, Diff: 5, Sum: 5, Workers: 5
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0)     Total                          Min: 0, Avg: 841.0, Max: 4205, Diff: 4205, Sum: 4205, Workers: 5
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0)   ResolvedMethodTable Weak       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 5
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0)     Dead                           Min: 0, Avg:  4.2, Max: 21, Diff: 21, Sum: 21, Workers: 5
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0)     Total                          Min: 0, Avg: 40.2, Max: 201, Diff: 201, Sum: 201, Workers: 5
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0)   JNI Weak                       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 5
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 5
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 5
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0)   StringDedup Table Weak         Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 5
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 5
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 5
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0)   StringDedup Requests0 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 5
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 5
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 5
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0)   StringDedup Requests1 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 5
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 5
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 5
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0)   Weak JFR Old Object Samples    Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 5
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 5
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 5
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0) Phase 1: Weak Processing 0.526ms
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0) ClassLoaderData 0.004ms
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0) Trigger cleanups 0.002ms
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0) G1 Complete Cleaning 0.296ms
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0) Purge Unlinked NMethods 0.001ms
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0) Unregister NMethods 0.111ms
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0) Free Code Blobs 0.001ms
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0) Purge Class Loader Data 0.034ms
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0) Phase 1: Class Unloading and Cleanup 0.536ms
+[2025-05-20T20:12:46.080+0300][14888][2332 ][debug][gc,phases] GC(0) Report Object Count 0.002ms
+[2025-05-20T20:12:46.081+0300][14888][2332 ][info ][gc,phases] GC(0) Phase 1: Mark live objects 2.157ms
+[2025-05-20T20:12:46.081+0300][14888][2332 ][debug][gc,phases] GC(0) Phase 2: Determine work lists 0.074ms
+[2025-05-20T20:12:46.081+0300][14888][2332 ][debug][gc,phases] GC(0) Phase 2: Prepare parallel compaction 0.508ms
+[2025-05-20T20:12:46.081+0300][14888][2332 ][info ][gc,phases] GC(0) Phase 2: Prepare compaction 0.629ms
+[2025-05-20T20:12:46.082+0300][14888][2332 ][info ][gc,phases] GC(0) Phase 3: Adjust pointers 0.698ms
+[2025-05-20T20:12:46.083+0300][14888][2332 ][info ][gc,phases] GC(0) Phase 4: Compact heap 0.660ms
+[2025-05-20T20:12:46.084+0300][14888][2332 ][info ][gc,phases] GC(0) Phase 5: Reset Metadata 1.111ms
+[2025-05-20T20:12:46.090+0300][14888][2332 ][info ][gc,heap  ] GC(0) Eden regions: 26->0(102)
+[2025-05-20T20:12:46.090+0300][14888][2332 ][info ][gc,heap  ] GC(0) Survivor regions: 0->0(0)
+[2025-05-20T20:12:46.090+0300][14888][2332 ][info ][gc,heap  ] GC(0) Old regions: 0->8
+[2025-05-20T20:12:46.090+0300][14888][2332 ][info ][gc,heap  ] GC(0) Humongous regions: 0->0
+[2025-05-20T20:12:46.090+0300][14888][2332 ][debug][gc,heap  ] GC(0) Heap after GC invocations=1 (full 1):
+[2025-05-20T20:12:46.090+0300][14888][2332 ][debug][gc,heap  ] GC(0)  garbage-first heap   total 4194304K, used 2423K [0x0000000700000000, 0x0000000800000000)
+[2025-05-20T20:12:46.090+0300][14888][2332 ][debug][gc,heap  ] GC(0)   region size 2048K, 0 young (0K), 0 survivors (0K)
+[2025-05-20T20:12:46.090+0300][14888][2332 ][debug][gc,heap  ] GC(0)  Metaspace       used 2852K, committed 3072K, reserved 1114112K
+[2025-05-20T20:12:46.090+0300][14888][2332 ][debug][gc,heap  ] GC(0)   class space    used 257K, committed 384K, reserved 1048576K
+[2025-05-20T20:12:46.090+0300][14888][2332 ][info ][gc       ] GC(0) Pause Full (System.gc()) 51M->2M(4096M) 12.550ms
+[2025-05-20T20:12:46.090+0300][14888][2332 ][info ][safepoint] Safepoint "G1CollectFull", Time since last: 403844300 ns, Reaching safepoint: 154600 ns, Cleanup: 35500 ns, At safepoint: 12577000 ns, Total: 12767100 ns
+[2025-05-20T20:12:46.354+0300][14888][2332 ][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (22 threads)
+[2025-05-20T20:12:46.354+0300][14888][2332 ][info ][safepoint] Safepoint "ICBufferFull", Time since last: 264111900 ns, Reaching safepoint: 64600 ns, Cleanup: 58300 ns, At safepoint: 3300 ns, Total: 126200 ns
+[2025-05-20T20:12:46.354+0300][14888][2332 ][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (22 threads)
+[2025-05-20T20:12:46.354+0300][14888][2332 ][info ][safepoint] Safepoint "ICBufferFull", Time since last: 25900 ns, Reaching safepoint: 23700 ns, Cleanup: 600 ns, At safepoint: 2600 ns, Total: 26900 ns
+[2025-05-20T20:12:46.354+0300][14888][2332 ][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (22 threads)
+[2025-05-20T20:12:46.355+0300][14888][2332 ][info ][safepoint] Safepoint "ICBufferFull", Time since last: 33000 ns, Reaching safepoint: 26400 ns, Cleanup: 900 ns, At safepoint: 7400 ns, Total: 34700 ns
+[2025-05-20T20:12:47.366+0300][14888][2332 ][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (22 threads)
+[2025-05-20T20:12:47.366+0300][14888][2332 ][info ][safepoint] Safepoint "Cleanup", Time since last: 1011643200 ns, Reaching safepoint: 71000 ns, Cleanup: 58400 ns, At safepoint: 7200 ns, Total: 136600 ns
+[2025-05-20T20:12:48.380+0300][14888][2332 ][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (20 threads)
+[2025-05-20T20:12:48.380+0300][14888][2332 ][info ][safepoint] Safepoint "Cleanup", Time since last: 1013864500 ns, Reaching safepoint: 74800 ns, Cleanup: 14000 ns, At safepoint: 1800 ns, Total: 90600 ns
+[2025-05-20T20:12:49.394+0300][14888][2332 ][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (20 threads)
+[2025-05-20T20:12:49.394+0300][14888][2332 ][info ][safepoint] Safepoint "Cleanup", Time since last: 1013986800 ns, Reaching safepoint: 73000 ns, Cleanup: 15000 ns, At safepoint: 7600 ns, Total: 95600 ns
+[2025-05-20T20:12:52.758+0300][14888][2332 ][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (11 threads)
+[2025-05-20T20:12:52.758+0300][14888][2332 ][info ][safepoint] Safepoint "Cleanup", Time since last: 3363483200 ns, Reaching safepoint: 49400 ns, Cleanup: 7400 ns, At safepoint: 2900 ns, Total: 59700 ns
+[2025-05-20T20:12:52.764+0300][14888][2332 ][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (11 threads)
+[2025-05-20T20:12:52.764+0300][14888][2332 ][debug][gc,heap  ] GC(1) Heap before GC invocations=1 (full 1):
+[2025-05-20T20:12:52.764+0300][14888][2332 ][debug][gc,heap  ] GC(1)  garbage-first heap   total 4194304K, used 88439K [0x0000000700000000, 0x0000000800000000)
+[2025-05-20T20:12:52.764+0300][14888][2332 ][debug][gc,heap  ] GC(1)   region size 2048K, 43 young (88064K), 0 survivors (0K)
+[2025-05-20T20:12:52.764+0300][14888][2332 ][debug][gc,heap  ] GC(1)  Metaspace       used 5378K, committed 5632K, reserved 1114112K
+[2025-05-20T20:12:52.764+0300][14888][2332 ][debug][gc,heap  ] GC(1)   class space    used 583K, committed 704K, reserved 1048576K
+[2025-05-20T20:12:52.765+0300][14888][2332 ][debug][gc,phases] GC(1) Phase 1: Reference Processing 0.123ms
+[2025-05-20T20:12:52.765+0300][14888][2332 ][debug][gc,phases] GC(1)   VM Weak                        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 6
+[2025-05-20T20:12:52.765+0300][14888][2332 ][debug][gc,phases] GC(1)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 6
+[2025-05-20T20:12:52.765+0300][14888][2332 ][debug][gc,phases] GC(1)     Total                          Min: 0, Avg:  3.3, Max: 20, Diff: 20, Sum: 20, Workers: 6
+[2025-05-20T20:12:52.765+0300][14888][2332 ][debug][gc,phases] GC(1)   ObjectSynchronizer Weak        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 6
+[2025-05-20T20:12:52.765+0300][14888][2332 ][debug][gc,phases] GC(1)     Dead                           Min: 0, Avg:  0.7, Max: 4, Diff: 4, Sum: 4, Workers: 6
+[2025-05-20T20:12:52.765+0300][14888][2332 ][debug][gc,phases] GC(1)     Total                          Min: 0, Avg:  1.0, Max: 6, Diff: 6, Sum: 6, Workers: 6
+[2025-05-20T20:12:52.765+0300][14888][2332 ][debug][gc,phases] GC(1)   JVMTI Tag Weak OopStorage      Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 6
+[2025-05-20T20:12:52.765+0300][14888][2332 ][debug][gc,phases] GC(1)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 6
+[2025-05-20T20:12:52.765+0300][14888][2332 ][debug][gc,phases] GC(1)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 6
+[2025-05-20T20:12:52.765+0300][14888][2332 ][debug][gc,phases] GC(1)   StringTable Weak               Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.1, Workers: 6
+[2025-05-20T20:12:52.765+0300][14888][2332 ][debug][gc,phases] GC(1)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 6
+[2025-05-20T20:12:52.765+0300][14888][2332 ][debug][gc,phases] GC(1)     Total                          Min: 0, Avg: 957.5, Max: 3200, Diff: 3200, Sum: 5745, Workers: 6
+[2025-05-20T20:12:52.765+0300][14888][2332 ][debug][gc,phases] GC(1)   ResolvedMethodTable Weak       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 6
+[2025-05-20T20:12:52.765+0300][14888][2332 ][debug][gc,phases] GC(1)     Dead                           Min: 0, Avg:  0.2, Max: 1, Diff: 1, Sum: 1, Workers: 6
+[2025-05-20T20:12:52.765+0300][14888][2332 ][debug][gc,phases] GC(1)     Total                          Min: 0, Avg: 34.8, Max: 146, Diff: 146, Sum: 209, Workers: 6
+[2025-05-20T20:12:52.765+0300][14888][2332 ][debug][gc,phases] GC(1)   JNI Weak                       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 6
+[2025-05-20T20:12:52.765+0300][14888][2332 ][debug][gc,phases] GC(1)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 6
+[2025-05-20T20:12:52.765+0300][14888][2332 ][debug][gc,phases] GC(1)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 6
+[2025-05-20T20:12:52.765+0300][14888][2332 ][debug][gc,phases] GC(1)   StringDedup Table Weak         Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 6
+[2025-05-20T20:12:52.765+0300][14888][2332 ][debug][gc,phases] GC(1)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 6
+[2025-05-20T20:12:52.765+0300][14888][2332 ][debug][gc,phases] GC(1)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 6
+[2025-05-20T20:12:52.765+0300][14888][2332 ][debug][gc,phases] GC(1)   StringDedup Requests0 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 6
+[2025-05-20T20:12:52.766+0300][14888][2332 ][debug][gc,phases] GC(1)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 6
+[2025-05-20T20:12:52.766+0300][14888][2332 ][debug][gc,phases] GC(1)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 6
+[2025-05-20T20:12:52.766+0300][14888][2332 ][debug][gc,phases] GC(1)   StringDedup Requests1 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 6
+[2025-05-20T20:12:52.766+0300][14888][2332 ][debug][gc,phases] GC(1)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 6
+[2025-05-20T20:12:52.766+0300][14888][2332 ][debug][gc,phases] GC(1)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 6
+[2025-05-20T20:12:52.766+0300][14888][2332 ][debug][gc,phases] GC(1)   Weak JFR Old Object Samples    Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 6
+[2025-05-20T20:12:52.766+0300][14888][2332 ][debug][gc,phases] GC(1)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 6
+[2025-05-20T20:12:52.766+0300][14888][2332 ][debug][gc,phases] GC(1)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 6
+[2025-05-20T20:12:52.766+0300][14888][2332 ][debug][gc,phases] GC(1) Phase 1: Weak Processing 0.664ms
+[2025-05-20T20:12:52.766+0300][14888][2332 ][debug][gc,phases] GC(1) ClassLoaderData 0.002ms
+[2025-05-20T20:12:52.766+0300][14888][2332 ][debug][gc,phases] GC(1) Trigger cleanups 0.002ms
+[2025-05-20T20:12:52.766+0300][14888][2332 ][debug][gc,phases] GC(1) G1 Complete Cleaning 0.450ms
+[2025-05-20T20:12:52.766+0300][14888][2332 ][debug][gc,phases] GC(1) Purge Unlinked NMethods 0.061ms
+[2025-05-20T20:12:52.766+0300][14888][2332 ][debug][gc,phases] GC(1) Unregister NMethods 0.123ms
+[2025-05-20T20:12:52.766+0300][14888][2332 ][debug][gc,phases] GC(1) Free Code Blobs 0.012ms
+[2025-05-20T20:12:52.766+0300][14888][2332 ][debug][gc,phases] GC(1) Purge Class Loader Data 0.003ms
+[2025-05-20T20:12:52.766+0300][14888][2332 ][debug][gc,phases] GC(1) Phase 1: Class Unloading and Cleanup 0.737ms
+[2025-05-20T20:12:52.766+0300][14888][2332 ][debug][gc,phases] GC(1) Report Object Count 0.002ms
+[2025-05-20T20:12:52.766+0300][14888][2332 ][info ][gc,phases] GC(1) Phase 1: Mark live objects 2.362ms
+[2025-05-20T20:12:52.766+0300][14888][2332 ][debug][gc,phases] GC(1) Phase 2: Determine work lists 0.046ms
+[2025-05-20T20:12:52.767+0300][14888][2332 ][debug][gc,phases] GC(1) Phase 2: Prepare parallel compaction 0.341ms
+[2025-05-20T20:12:52.767+0300][14888][2332 ][info ][gc,phases] GC(1) Phase 2: Prepare compaction 0.420ms
+[2025-05-20T20:12:52.768+0300][14888][2332 ][info ][gc,phases] GC(1) Phase 3: Adjust pointers 1.251ms
+[2025-05-20T20:12:52.769+0300][14888][2332 ][info ][gc,phases] GC(1) Phase 4: Compact heap 0.469ms
+[2025-05-20T20:12:52.769+0300][14888][2332 ][info ][gc,phases] GC(1) Phase 5: Reset Metadata 0.949ms
+[2025-05-20T20:12:52.776+0300][14888][2332 ][info ][gc,heap  ] GC(1) Eden regions: 43->0(102)
+[2025-05-20T20:12:52.776+0300][14888][2332 ][info ][gc,heap  ] GC(1) Survivor regions: 0->0(0)
+[2025-05-20T20:12:52.776+0300][14888][2332 ][info ][gc,heap  ] GC(1) Old regions: 8->8
+[2025-05-20T20:12:52.776+0300][14888][2332 ][info ][gc,heap  ] GC(1) Humongous regions: 0->0
+[2025-05-20T20:12:52.776+0300][14888][2332 ][debug][gc,heap  ] GC(1) Heap after GC invocations=2 (full 2):
+[2025-05-20T20:12:52.776+0300][14888][2332 ][debug][gc,heap  ] GC(1)  garbage-first heap   total 4194304K, used 2758K [0x0000000700000000, 0x0000000800000000)
+[2025-05-20T20:12:52.776+0300][14888][2332 ][debug][gc,heap  ] GC(1)   region size 2048K, 0 young (0K), 0 survivors (0K)
+[2025-05-20T20:12:52.776+0300][14888][2332 ][debug][gc,heap  ] GC(1)  Metaspace       used 5378K, committed 5632K, reserved 1114112K
+[2025-05-20T20:12:52.776+0300][14888][2332 ][debug][gc,heap  ] GC(1)   class space    used 583K, committed 704K, reserved 1048576K
+[2025-05-20T20:12:52.776+0300][14888][2332 ][info ][gc       ] GC(1) Pause Full (System.gc()) 87M->2M(4096M) 12.324ms
+[2025-05-20T20:12:52.776+0300][14888][2332 ][info ][safepoint] Safepoint "G1CollectFull", Time since last: 6386300 ns, Reaching safepoint: 38100 ns, Cleanup: 12000 ns, At safepoint: 12347300 ns, Total: 12397400 ns
+[2025-05-20T20:12:53.783+0300][14888][2332 ][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (20 threads)
+[2025-05-20T20:12:53.783+0300][14888][2332 ][info ][safepoint] Safepoint "Cleanup", Time since last: 1005720900 ns, Reaching safepoint: 98500 ns, Cleanup: 41000 ns, At safepoint: 5400 ns, Total: 144900 ns
+[2025-05-20T20:12:59.096+0300][14888][2332 ][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (11 threads)
+[2025-05-20T20:12:59.096+0300][14888][2332 ][debug][gc,heap  ] GC(2) Heap before GC invocations=2 (full 2):
+[2025-05-20T20:12:59.096+0300][14888][2332 ][debug][gc,heap  ] GC(2)  garbage-first heap   total 4194304K, used 82630K [0x0000000700000000, 0x0000000800000000)
+[2025-05-20T20:12:59.096+0300][14888][2332 ][debug][gc,heap  ] GC(2)   region size 2048K, 40 young (81920K), 0 survivors (0K)
+[2025-05-20T20:12:59.096+0300][14888][2332 ][debug][gc,heap  ] GC(2)  Metaspace       used 5414K, committed 5632K, reserved 1114112K
+[2025-05-20T20:12:59.096+0300][14888][2332 ][debug][gc,heap  ] GC(2)   class space    used 583K, committed 704K, reserved 1048576K
+[2025-05-20T20:12:59.097+0300][14888][2332 ][debug][gc,phases] GC(2) Phase 1: Reference Processing 0.070ms
+[2025-05-20T20:12:59.097+0300][14888][2332 ][debug][gc,phases] GC(2)   VM Weak                        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 6
+[2025-05-20T20:12:59.097+0300][14888][2332 ][debug][gc,phases] GC(2)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 6
+[2025-05-20T20:12:59.097+0300][14888][2332 ][debug][gc,phases] GC(2)     Total                          Min: 0, Avg:  3.3, Max: 20, Diff: 20, Sum: 20, Workers: 6
+[2025-05-20T20:12:59.097+0300][14888][2332 ][debug][gc,phases] GC(2)   ObjectSynchronizer Weak        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 6
+[2025-05-20T20:12:59.097+0300][14888][2332 ][debug][gc,phases] GC(2)     Dead                           Min: 0, Avg:  0.8, Max: 5, Diff: 5, Sum: 5, Workers: 6
+[2025-05-20T20:12:59.097+0300][14888][2332 ][debug][gc,phases] GC(2)     Total                          Min: 0, Avg:  1.8, Max: 11, Diff: 11, Sum: 11, Workers: 6
+[2025-05-20T20:12:59.097+0300][14888][2332 ][debug][gc,phases] GC(2)   JVMTI Tag Weak OopStorage      Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 6
+[2025-05-20T20:12:59.097+0300][14888][2332 ][debug][gc,phases] GC(2)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 6
+[2025-05-20T20:12:59.097+0300][14888][2332 ][debug][gc,phases] GC(2)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 6
+[2025-05-20T20:12:59.097+0300][14888][2332 ][debug][gc,phases] GC(2)   StringTable Weak               Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 6
+[2025-05-20T20:12:59.097+0300][14888][2332 ][debug][gc,phases] GC(2)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 6
+[2025-05-20T20:12:59.097+0300][14888][2332 ][debug][gc,phases] GC(2)     Total                          Min: 832, Avg: 959.7, Max: 1216, Diff: 384, Sum: 5758, Workers: 6
+[2025-05-20T20:12:59.097+0300][14888][2332 ][debug][gc,phases] GC(2)   ResolvedMethodTable Weak       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 6
+[2025-05-20T20:12:59.097+0300][14888][2332 ][debug][gc,phases] GC(2)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 6
+[2025-05-20T20:12:59.097+0300][14888][2332 ][debug][gc,phases] GC(2)     Total                          Min: 0, Avg: 34.8, Max: 64, Diff: 64, Sum: 209, Workers: 6
+[2025-05-20T20:12:59.097+0300][14888][2332 ][debug][gc,phases] GC(2)   JNI Weak                       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 6
+[2025-05-20T20:12:59.097+0300][14888][2332 ][debug][gc,phases] GC(2)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 6
+[2025-05-20T20:12:59.097+0300][14888][2332 ][debug][gc,phases] GC(2)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 6
+[2025-05-20T20:12:59.097+0300][14888][2332 ][debug][gc,phases] GC(2)   StringDedup Table Weak         Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 6
+[2025-05-20T20:12:59.097+0300][14888][2332 ][debug][gc,phases] GC(2)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 6
+[2025-05-20T20:12:59.097+0300][14888][2332 ][debug][gc,phases] GC(2)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 6
+[2025-05-20T20:12:59.097+0300][14888][2332 ][debug][gc,phases] GC(2)   StringDedup Requests0 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 6
+[2025-05-20T20:12:59.097+0300][14888][2332 ][debug][gc,phases] GC(2)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 6
+[2025-05-20T20:12:59.097+0300][14888][2332 ][debug][gc,phases] GC(2)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 6
+[2025-05-20T20:12:59.097+0300][14888][2332 ][debug][gc,phases] GC(2)   StringDedup Requests1 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 6
+[2025-05-20T20:12:59.097+0300][14888][2332 ][debug][gc,phases] GC(2)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 6
+[2025-05-20T20:12:59.097+0300][14888][2332 ][debug][gc,phases] GC(2)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 6
+[2025-05-20T20:12:59.097+0300][14888][2332 ][debug][gc,phases] GC(2)   Weak JFR Old Object Samples    Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 6
+[2025-05-20T20:12:59.097+0300][14888][2332 ][debug][gc,phases] GC(2)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 6
+[2025-05-20T20:12:59.097+0300][14888][2332 ][debug][gc,phases] GC(2)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 6
+[2025-05-20T20:12:59.097+0300][14888][2332 ][debug][gc,phases] GC(2) Phase 1: Weak Processing 0.355ms
+[2025-05-20T20:12:59.097+0300][14888][2332 ][debug][gc,phases] GC(2) ClassLoaderData 0.002ms
+[2025-05-20T20:12:59.097+0300][14888][2332 ][debug][gc,phases] GC(2) Trigger cleanups 0.003ms
+[2025-05-20T20:12:59.098+0300][14888][2332 ][debug][gc,phases] GC(2) G1 Complete Cleaning 0.505ms
+[2025-05-20T20:12:59.098+0300][14888][2332 ][debug][gc,phases] GC(2) Purge Unlinked NMethods 0.181ms
+[2025-05-20T20:12:59.098+0300][14888][2332 ][debug][gc,phases] GC(2) Unregister NMethods 0.116ms
+[2025-05-20T20:12:59.098+0300][14888][2332 ][debug][gc,phases] GC(2) Free Code Blobs 0.069ms
+[2025-05-20T20:12:59.098+0300][14888][2332 ][debug][gc,phases] GC(2) Purge Class Loader Data 0.021ms
+[2025-05-20T20:12:59.098+0300][14888][2332 ][debug][gc,phases] GC(2) Phase 1: Class Unloading and Cleanup 1.001ms
+[2025-05-20T20:12:59.098+0300][14888][2332 ][debug][gc,phases] GC(2) Report Object Count 0.002ms
+[2025-05-20T20:12:59.098+0300][14888][2332 ][info ][gc,phases] GC(2) Phase 1: Mark live objects 2.204ms
+[2025-05-20T20:12:59.098+0300][14888][2332 ][debug][gc,phases] GC(2) Phase 2: Determine work lists 0.045ms
+[2025-05-20T20:12:59.098+0300][14888][2332 ][debug][gc,phases] GC(2) Phase 2: Prepare parallel compaction 0.258ms
+[2025-05-20T20:12:59.098+0300][14888][2332 ][info ][gc,phases] GC(2) Phase 2: Prepare compaction 0.329ms
+[2025-05-20T20:12:59.100+0300][14888][2332 ][info ][gc,phases] GC(2) Phase 3: Adjust pointers 1.060ms
+[2025-05-20T20:12:59.100+0300][14888][2332 ][info ][gc,phases] GC(2) Phase 4: Compact heap 0.404ms
+[2025-05-20T20:12:59.101+0300][14888][2332 ][info ][gc,phases] GC(2) Phase 5: Reset Metadata 0.952ms
+[2025-05-20T20:12:59.107+0300][14888][2332 ][info ][gc,heap  ] GC(2) Eden regions: 40->0(102)
+[2025-05-20T20:12:59.107+0300][14888][2332 ][info ][gc,heap  ] GC(2) Survivor regions: 0->0(0)
+[2025-05-20T20:12:59.107+0300][14888][2332 ][info ][gc,heap  ] GC(2) Old regions: 8->8
+[2025-05-20T20:12:59.107+0300][14888][2332 ][info ][gc,heap  ] GC(2) Humongous regions: 0->0
+[2025-05-20T20:12:59.107+0300][14888][2332 ][debug][gc,heap  ] GC(2) Heap after GC invocations=3 (full 3):
+[2025-05-20T20:12:59.107+0300][14888][2332 ][debug][gc,heap  ] GC(2)  garbage-first heap   total 4194304K, used 2759K [0x0000000700000000, 0x0000000800000000)
+[2025-05-20T20:12:59.107+0300][14888][2332 ][debug][gc,heap  ] GC(2)   region size 2048K, 0 young (0K), 0 survivors (0K)
+[2025-05-20T20:12:59.107+0300][14888][2332 ][debug][gc,heap  ] GC(2)  Metaspace       used 5414K, committed 5632K, reserved 1114112K
+[2025-05-20T20:12:59.107+0300][14888][2332 ][debug][gc,heap  ] GC(2)   class space    used 583K, committed 704K, reserved 1048576K
+[2025-05-20T20:12:59.107+0300][14888][2332 ][info ][gc       ] GC(2) Pause Full (System.gc()) 82M->2M(4096M) 11.248ms
+[2025-05-20T20:12:59.107+0300][14888][2332 ][info ][safepoint] Safepoint "G1CollectFull", Time since last: 5313126500 ns, Reaching safepoint: 33700 ns, Cleanup: 7900 ns, At safepoint: 11266300 ns, Total: 11307900 ns
+[2025-05-20T20:13:00.111+0300][14888][2332 ][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (21 threads)
+[2025-05-20T20:13:00.111+0300][14888][2332 ][info ][safepoint] Safepoint "Cleanup", Time since last: 1004102800 ns, Reaching safepoint: 55200 ns, Cleanup: 21100 ns, At safepoint: 3700 ns, Total: 80000 ns
+[2025-05-20T20:13:00.266+0300][14888][2332 ][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (20 threads)
