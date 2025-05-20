@@ -3,7 +3,8 @@ SETLOCAL ENABLEDELAYEDEXPANSION
 
 REM --- Ρυθμίσεις ---
 REM Αντικαταστήστε με τη διαδρομή του JDK σας (JDK 17+ συνιστάται για ZGC/Shenandoah)
-SET "JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot\"
+REM SET "JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot\"
+SET "JAVA_HOME=C:\Users\lefte\AppData\Local\Programs\Eclipse Adoptium\jdk-21.0.7.6-hotspot\"
 SET JAVA_CMD=%JAVA_HOME%\bin\java.exe
 
 REM Αντικαταστήστε με το όνομα του DaCapo JAR σας
@@ -17,7 +18,8 @@ MKDIR %DACAPO_OUT_DIR% 2>NUL
 MKDIR %RESULTS_DIR% 2>NUL
 
 REM --- Διαμορφώσεις προς δοκιμή ---
-SET GCS_TO_TEST=G1 Parallel ZGC Shenandoah
+SET GCS_TO_TEST=G1 
+REM Parallel ZGC Shenandoah
 SET HEAP_SIZES_TO_TEST=4g 12g
 REM Επιλέξτε benchmarks από το DaCapo suite (π.χ. avrora, lusearch, h2, tomcat)
 SET BENCHMARKS_TO_TEST=avrora lusearch tomcat
@@ -51,8 +53,8 @@ FOR %%G IN (%GCS_TO_TEST%) DO (
             SET "GC_LOG_JVM_OPTS=-Xlog:gc*:file=!LOG_FILE_GC_PATH!:time,level,tags,pid,tid:filecount=5,filesize=100m"
 
             REM --- Debug: Echo the command (Χρησιμοποιούμε !variable! για delayed expansion) ---
-            ECHO Command being executed:
-            !JAVA_CMD! !GC_OPTS! !HEAP_OPTS! !GC_LOG_JVM_OPTS! --data-set-location . -jar !DACAPO_JAR! %%B -n 3 > "!LOG_FILE_DACAPO_PATH!" 2>&1
+            ECHO Command being executed...
+            "!JAVA_CMD!" !GC_OPTS! !HEAP_OPTS! !GC_LOG_JVM_OPTS! --data-set-location . -jar !DACAPO_JAR! %%B -n 3 > "!LOG_FILE_DACAPO_PATH!" 2>&1
             REM --- End Debug ---
 
             REM Εκτελέστε την εντολή Java. Ανακατεύθυνση εξόδου DaCapo στο δικό της αρχείο.
