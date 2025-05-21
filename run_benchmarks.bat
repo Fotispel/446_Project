@@ -6,7 +6,6 @@ REM Αντικαταστήστε με τη διαδρομή του JDK σας (J
 SET "JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot"
 SET JAVA_CMD=%JAVA_HOME%\bin\java.exe
 
-REM Αντικαταστήστε με το όνομα του DaCapo JAR σας
 SET "DACAPO_JAR=.\dacapo-23.11-MR2-chopin.jar"
 
 SET "GC_LOG_DIR=.\gc_logs"
@@ -22,7 +21,6 @@ SET HEAP_SIZES_TO_TEST=4g 12g
 REM Επιλέξτε benchmarks από το DaCapo suite (π.χ. avrora, lusearch, h2, tomcat)
 SET BENCHMARKS_TO_TEST=avrora lusearch tomcat
 
-REM --- Κύκλος εκτέλεσης ---
 FOR %%G IN (%GCS_TO_TEST%) DO (
     FOR %%H IN (%HEAP_SIZES_TO_TEST%) DO (
         FOR %%B IN (%BENCHMARKS_TO_TEST%) DO (
@@ -31,16 +29,8 @@ FOR %%G IN (%GCS_TO_TEST%) DO (
             SET "GC_OPTS="
             IF "%%G"=="G1" ( SET "GC_OPTS=-XX:+UseG1GC" )
             IF "%%G"=="Parallel" ( SET "GC_OPTS=-XX:+UseParallelGC" )
-            IF "%%G"=="ZGC" (
-                REM ZGC υποστηρίζεται σε Windows από JDK 14+. Σε JDK 11-13 ήταν experimental και όχι για Windows.
-                REM Αν χρησιμοποιείτε παλαιότερο JDK που το έχει experimental, προσθέστε: -XX:+UnlockExperimentalVMOptions
-                SET "GC_OPTS=-XX:+UseZGC"
-            )
-            IF "%%G"=="Shenandoah" (
-                REM Shenandoah συνήθως απαιτεί OpenJDK builds (π.χ. Adoptium Temurin, Oracle OpenJDK).
-                REM Αν χρησιμοποιείτε παλαιότερο JDK που το έχει experimental, προσθέστε: -XX:+UnlockExperimentalVMOptions
-                SET "GC_OPTS=-XX:+UseShenandoahGC"
-            )
+            IF "%%G"=="ZGC" ( SET "GC_OPTS=-XX:+UseZGC" )
+            IF "%%G"=="Shenandoah" ( SET "GC_OPTS=-XX:+UseShenandoahGC" )
 
             SET "HEAP_OPTS=-Xms%%H -Xmx%%H"
             SET "LOG_FILE_GC_PATH=!GC_LOG_DIR!\gc_%%G_%%H_%%B.log"
@@ -51,7 +41,7 @@ FOR %%G IN (%GCS_TO_TEST%) DO (
             SET "GC_LOG_JVM_OPTS=-Xlog:gc=debug,gc+heap=debug,gc+phases=debug,safepoint=debug:file=!LOG_FILE_GC_PATH!:time,level,tags,pid,tid"
 
             REM --- Debug: Echo the command (Χρησιμοποιούμε !variable! για delayed expansion) ---
-            ECHO Command being executed:
+            ECHO Command being executed...
             !JAVA_CMD! !GC_OPTS! !HEAP_OPTS! !GC_LOG_JVM_OPTS! --data-set-location . -jar !DACAPO_JAR! %%B -n 3 > "!LOG_FILE_DACAPO_PATH!" 2>&1
             REM --- End Debug ---
 
