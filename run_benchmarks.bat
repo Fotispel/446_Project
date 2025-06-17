@@ -58,6 +58,6 @@ FOR %%G IN (%GCS_TO_TEST%) DO (
 ECHO All benchmarks finished.
 
 ECHO.
-ECHO === Εκτέλεση ολοκληρώθηκε στις: %DATE% %TIME% ===
+ECHO === Finished at: %DATE% %TIME% ===
 
 ENDLOCAL
