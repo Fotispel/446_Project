@@ -17,7 +17,7 @@ MKDIR %RESULTS_DIR% 2>NUL
 
 REM --- Διαμορφώσεις προς δοκιμή ---
 SET GCS_TO_TEST=G1 Parallel Shenandoah ZGC
-SET HEAP_SIZES_TO_TEST=4g 12g
+SET HEAP_SIZES_TO_TEST=2g 12g
 REM Επιλέξτε benchmarks από το DaCapo suite (π.χ. avrora, lusearch, h2, tomcat)
 SET BENCHMARKS_TO_TEST=avrora lusearch tomcat
 
@@ -56,4 +56,8 @@ FOR %%G IN (%GCS_TO_TEST%) DO (
     )
 )
 ECHO All benchmarks finished.
+
+ECHO.
+ECHO === Εκτέλεση ολοκληρώθηκε στις: %DATE% %TIME% ===
+
 ENDLOCAL
