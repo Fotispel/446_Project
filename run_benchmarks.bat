@@ -49,8 +49,8 @@ FOR %%G IN (%GCS_TO_TEST%) DO (
             "!JAVA_CMD!" !GC_OPTS! !HEAP_OPTS! !GC_LOG_JVM_OPTS! -jar !DACAPO_JAR! %%B -n 3 > "!LOG_FILE_DACAPO_PATH!" 2>&1
 
             REM Το "-n 3" εκτελεί το benchmark 3 φορές (η DaCapo κάνει αυτόματα warm-up). Προσαρμόστε ανάλογα.
-
-            ECHO Completed GC: %%G, Heap: %%H, Benchmark: %%B
+            FOR /F "tokens=1-2 delims=," %%a IN ('echo !TIME!') DO SET CURRENT_TIME=%%a
+            ECHO Completed GC: %%G, Heap: %%H, Benchmark: %%B at: %DATE% !CURRENT_TIME!
             ECHO -----------------------------------------------------
         )
     )

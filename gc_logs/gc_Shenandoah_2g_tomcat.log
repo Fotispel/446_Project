@@ -1,0 +1,968 @@
+[2025-06-17T23:39:44.010+0300][9724][18364][info][gc] Min heap equals to max heap, disabling ShenandoahUncommit
+[2025-06-17T23:39:44.023+0300][9724][18364][debug][gc,heap] Minimum heap 2147483648  Initial heap 2147483648  Maximum heap 2147483648
+[2025-06-17T23:39:44.023+0300][9724][18364][info ][gc     ] Heuristics ergonomically sets -XX:+ExplicitGCInvokesConcurrent
+[2025-06-17T23:39:44.023+0300][9724][18364][info ][gc     ] Heuristics ergonomically sets -XX:+ShenandoahImplicitGCInvokesConcurrent
+[2025-06-17T23:39:44.023+0300][9724][18364][info ][gc     ] Using Shenandoah
+[2025-06-17T23:39:45.354+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (12 threads)
+[2025-06-17T23:39:45.354+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1314154300 ns, Reaching safepoint: 57200 ns, Cleanup: 63300 ns, At safepoint: 3400 ns, Total: 123900 ns
+[2025-06-17T23:39:45.745+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (12 threads)
+[2025-06-17T23:39:45.745+0300][9724][14924][info ][safepoint] Safepoint "ICBufferFull", Time since last: 401670900 ns, Reaching safepoint: 62499 ns, Cleanup: 84301 ns, At safepoint: 4400 ns, Total: 151200 ns
+[2025-06-17T23:39:46.186+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (13 threads)
+[2025-06-17T23:39:46.186+0300][9724][14924][info ][safepoint] Safepoint "ICBufferFull", Time since last: 440401500 ns, Reaching safepoint: 74699 ns, Cleanup: 137301 ns, At safepoint: 2000 ns, Total: 214000 ns
+[2025-06-17T23:39:46.885+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (13 threads)
+[2025-06-17T23:39:46.885+0300][9724][14924][info ][safepoint] Safepoint "ICBufferFull", Time since last: 695698200 ns, Reaching safepoint: 72300 ns, Cleanup: 103700 ns, At safepoint: 5300 ns, Total: 181300 ns
+[2025-06-17T23:39:47.408+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (23 threads)
+[2025-06-17T23:39:47.408+0300][9724][14924][info ][safepoint] Safepoint "ICBufferFull", Time since last: 520625400 ns, Reaching safepoint: 45500 ns, Cleanup: 103000 ns, At safepoint: 1700 ns, Total: 150200 ns
+[2025-06-17T23:39:47.424+0300][9724][19084][info ][gc       ] Trigger: Explicit GC request (System.gc())
+[2025-06-17T23:39:47.424+0300][9724][19084][info ][gc       ] GC(0) Concurrent reset 0.237ms
+[2025-06-17T23:39:47.424+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (25 threads)
+[2025-06-17T23:39:47.424+0300][9724][14924][info ][gc       ] GC(0) Pause Init Mark (unload classes) 0.097ms
+[2025-06-17T23:39:47.424+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahInitMark", Time since last: 8382700 ns, Reaching safepoint: 36000 ns, Cleanup: 10800 ns, At safepoint: 125300 ns, Total: 172100 ns
+[2025-06-17T23:39:47.424+0300][9724][19084][info ][gc       ] GC(0) Concurrent marking roots 0.856ms
+[2025-06-17T23:39:47.424+0300][9724][19084][info ][gc       ] GC(0) Concurrent marking (unload classes) 7.824ms
+[2025-06-17T23:39:47.424+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (25 threads)
+[2025-06-17T23:39:47.424+0300][9724][14924][info ][gc       ] GC(0) Pause Final Mark (unload classes) 0.362ms
+[2025-06-17T23:39:47.424+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalMarkStartEvac", Time since last: 8860700 ns, Reaching safepoint: 36800 ns, Cleanup: 4099 ns, At safepoint: 405401 ns, Total: 446300 ns
+[2025-06-17T23:39:47.424+0300][9724][19084][info ][gc       ] GC(0) Concurrent thread roots 0.249ms
+[2025-06-17T23:39:47.424+0300][9724][19084][info ][gc       ] GC(0) Concurrent weak references 0.733ms
+[2025-06-17T23:39:47.424+0300][9724][19084][info ][gc       ] GC(0) Concurrent weak roots 1.920ms
+[2025-06-17T23:39:47.424+0300][9724][19084][info ][gc       ] GC(0) Concurrent cleanup 182M->178M(2048M) 0.024ms
+[2025-06-17T23:39:47.440+0300][9724][19084][debug][gc,phases] GC(0) ClassLoaderData 0.423ms
+[2025-06-17T23:39:47.440+0300][9724][19084][debug][gc,phases] GC(0) Trigger cleanups 0.009ms
+[2025-06-17T23:39:47.440+0300][9724][19084][info ][gc       ] GC(0) Concurrent class unloading 7.407ms
+[2025-06-17T23:39:47.440+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (25 threads)
+[2025-06-17T23:39:47.440+0300][9724][14924][info ][safepoint] Safepoint "CleanClassLoaderDataMetaspaces", Time since last: 13333600 ns, Reaching safepoint: 23000 ns, Cleanup: 147900 ns, At safepoint: 209000 ns, Total: 379900 ns
+[2025-06-17T23:39:47.440+0300][9724][19084][info ][gc       ] GC(0) Concurrent strong roots 0.727ms
+[2025-06-17T23:39:47.452+0300][9724][19084][info ][gc       ] GC(0) Concurrent evacuation 4.781ms
+[2025-06-17T23:39:47.452+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (25 threads)
+[2025-06-17T23:39:47.452+0300][9724][14924][info ][gc       ] GC(0) Pause Init Update Refs 0.008ms
+[2025-06-17T23:39:47.452+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahInitUpdateRefs", Time since last: 5245099 ns, Reaching safepoint: 38101 ns, Cleanup: 5100 ns, At safepoint: 27800 ns, Total: 71001 ns
+[2025-06-17T23:39:47.456+0300][9724][19084][info ][gc       ] GC(0) Concurrent update references 4.832ms
+[2025-06-17T23:39:47.456+0300][9724][19084][info ][gc       ] GC(0) Concurrent update thread roots 0.278ms
+[2025-06-17T23:39:47.456+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (25 threads)
+[2025-06-17T23:39:47.456+0300][9724][14924][info ][gc       ] GC(0) Pause Final Update Refs 0.044ms
+[2025-06-17T23:39:47.456+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalUpdateRefs", Time since last: 5331800 ns, Reaching safepoint: 45500 ns, Cleanup: 3900 ns, At safepoint: 63900 ns, Total: 113300 ns
+[2025-06-17T23:39:47.456+0300][9724][19084][info ][gc       ] GC(0) Concurrent cleanup 186M->10M(2048M) 0.021ms
+[2025-06-17T23:39:48.114+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (34 threads)
+[2025-06-17T23:39:48.114+0300][9724][14924][info ][safepoint] Safepoint "ICBufferFull", Time since last: 655504400 ns, Reaching safepoint: 67600 ns, Cleanup: 99300 ns, At safepoint: 5100 ns, Total: 172000 ns
+[2025-06-17T23:39:48.392+0300][9724][19084][info ][gc       ] Trigger: Metadata GC Threshold
+[2025-06-17T23:39:48.392+0300][9724][19084][info ][gc       ] GC(1) Concurrent reset 0.671ms
+[2025-06-17T23:39:48.392+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (34 threads)
+[2025-06-17T23:39:48.392+0300][9724][14924][info ][gc       ] GC(1) Pause Init Mark (unload classes) 0.018ms
+[2025-06-17T23:39:48.392+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahInitMark", Time since last: 278776900 ns, Reaching safepoint: 35300 ns, Cleanup: 26999 ns, At safepoint: 43000 ns, Total: 105299 ns
+[2025-06-17T23:39:48.397+0300][9724][19084][info ][gc       ] GC(1) Concurrent marking roots 4.599ms
+[2025-06-17T23:39:48.409+0300][9724][19084][info ][gc       ] GC(1) Concurrent marking (unload classes) 11.478ms
+[2025-06-17T23:39:48.409+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (34 threads)
+[2025-06-17T23:39:48.409+0300][9724][14924][info ][gc       ] GC(1) Pause Final Mark (unload classes) 0.225ms
+[2025-06-17T23:39:48.409+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalMarkStartEvac", Time since last: 16287301 ns, Reaching safepoint: 30999 ns, Cleanup: 7901 ns, At safepoint: 265900 ns, Total: 304800 ns
+[2025-06-17T23:39:48.409+0300][9724][19084][info ][gc       ] GC(1) Concurrent thread roots 1.125ms
+[2025-06-17T23:39:48.409+0300][9724][19084][info ][gc       ] GC(1) Concurrent weak references 0.123ms
+[2025-06-17T23:39:48.409+0300][9724][19084][info ][gc       ] GC(1) Concurrent weak roots 1.252ms
+[2025-06-17T23:39:48.409+0300][9724][19084][info ][gc       ] GC(1) Concurrent cleanup 142M->90M(2048M) 0.018ms
+[2025-06-17T23:39:48.409+0300][9724][19084][debug][gc,phases] GC(1) ClassLoaderData 0.021ms
+[2025-06-17T23:39:48.409+0300][9724][19084][debug][gc,phases] GC(1) Trigger cleanups 0.000ms
+[2025-06-17T23:39:48.413+0300][9724][19084][info ][gc       ] GC(1) Concurrent class unloading 5.204ms
+[2025-06-17T23:39:48.413+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (34 threads)
+[2025-06-17T23:39:48.413+0300][9724][14924][info ][safepoint] Safepoint "CleanClassLoaderDataMetaspaces", Time since last: 8059899 ns, Reaching safepoint: 63600 ns, Cleanup: 48401 ns, At safepoint: 106300 ns, Total: 218301 ns
+[2025-06-17T23:39:48.413+0300][9724][19084][info ][gc       ] GC(1) Concurrent strong roots 0.351ms
+[2025-06-17T23:39:48.413+0300][9724][19084][info ][gc       ] GC(1) Concurrent evacuation 2.861ms
+[2025-06-17T23:39:48.413+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (34 threads)
+[2025-06-17T23:39:48.413+0300][9724][14924][info ][gc       ] GC(1) Pause Init Update Refs 0.007ms
+[2025-06-17T23:39:48.413+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahInitUpdateRefs", Time since last: 3178400 ns, Reaching safepoint: 40399 ns, Cleanup: 3800 ns, At safepoint: 50501 ns, Total: 94700 ns
+[2025-06-17T23:39:48.423+0300][9724][19084][info ][gc       ] GC(1) Concurrent update references 5.152ms
+[2025-06-17T23:39:48.423+0300][9724][19084][info ][gc       ] GC(1) Concurrent update thread roots 0.421ms
+[2025-06-17T23:39:48.423+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (34 threads)
+[2025-06-17T23:39:48.423+0300][9724][14924][info ][gc       ] GC(1) Pause Final Update Refs 0.046ms
+[2025-06-17T23:39:48.423+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalUpdateRefs", Time since last: 5759800 ns, Reaching safepoint: 57699 ns, Cleanup: 19100 ns, At safepoint: 81700 ns, Total: 158499 ns
+[2025-06-17T23:39:48.423+0300][9724][19084][info ][gc       ] GC(1) Concurrent cleanup 96M->18M(2048M) 0.023ms
+[2025-06-17T23:39:48.850+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (34 threads)
+[2025-06-17T23:39:48.850+0300][9724][14924][info ][safepoint] Safepoint "ICBufferFull", Time since last: 422851901 ns, Reaching safepoint: 61100 ns, Cleanup: 109000 ns, At safepoint: 7000 ns, Total: 177100 ns
+[2025-06-17T23:39:49.191+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (34 threads)
+[2025-06-17T23:39:49.191+0300][9724][14924][info ][safepoint] Safepoint "ICBufferFull", Time since last: 341404100 ns, Reaching safepoint: 61999 ns, Cleanup: 115001 ns, At safepoint: 1900 ns, Total: 178900 ns
+[2025-06-17T23:39:49.616+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (34 threads)
+[2025-06-17T23:39:49.616+0300][9724][14924][info ][safepoint] Safepoint "ICBufferFull", Time since last: 424466700 ns, Reaching safepoint: 77400 ns, Cleanup: 158999 ns, At safepoint: 2800 ns, Total: 239199 ns
+[2025-06-17T23:39:50.220+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (34 threads)
+[2025-06-17T23:39:50.220+0300][9724][14924][info ][safepoint] Safepoint "ICBufferFull", Time since last: 604218101 ns, Reaching safepoint: 194700 ns, Cleanup: 166200 ns, At safepoint: 17300 ns, Total: 378200 ns
+[2025-06-17T23:39:50.220+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (34 threads)
+[2025-06-17T23:39:50.220+0300][9724][14924][info ][safepoint] Safepoint "ICBufferFull", Time since last: 64599 ns, Reaching safepoint: 73001 ns, Cleanup: 4399 ns, At safepoint: 21201 ns, Total: 98601 ns
+[2025-06-17T23:39:50.223+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (34 threads)
+[2025-06-17T23:39:50.223+0300][9724][14924][info ][safepoint] Safepoint "ICBufferFull", Time since last: 2243300 ns, Reaching safepoint: 97599 ns, Cleanup: 6901 ns, At safepoint: 30500 ns, Total: 135000 ns
+[2025-06-17T23:39:50.732+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (34 threads)
+[2025-06-17T23:39:50.732+0300][9724][14924][info ][safepoint] Safepoint "ICBufferFull", Time since last: 508223000 ns, Reaching safepoint: 111700 ns, Cleanup: 258100 ns, At safepoint: 4400 ns, Total: 374200 ns
+[2025-06-17T23:39:51.327+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (34 threads)
+[2025-06-17T23:39:51.327+0300][9724][14924][info ][safepoint] Safepoint "ICBufferFull", Time since last: 594700399 ns, Reaching safepoint: 64401 ns, Cleanup: 124400 ns, At safepoint: 5400 ns, Total: 194201 ns
+[2025-06-17T23:39:52.117+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (34 threads)
+[2025-06-17T23:39:52.118+0300][9724][14924][info ][safepoint] Safepoint "ICBufferFull", Time since last: 790910000 ns, Reaching safepoint: 84100 ns, Cleanup: 173199 ns, At safepoint: 2701 ns, Total: 260000 ns
+[2025-06-17T23:39:52.867+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (34 threads)
+[2025-06-17T23:39:52.867+0300][9724][14924][info ][safepoint] Safepoint "ICBufferFull", Time since last: 749258800 ns, Reaching safepoint: 133699 ns, Cleanup: 111501 ns, At safepoint: 5400 ns, Total: 250600 ns
+[2025-06-17T23:39:53.514+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (34 threads)
+[2025-06-17T23:39:53.515+0300][9724][14924][info ][safepoint] Safepoint "ICBufferFull", Time since last: 646950600 ns, Reaching safepoint: 92000 ns, Cleanup: 144900 ns, At safepoint: 5900 ns, Total: 242800 ns
+[2025-06-17T23:39:54.163+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (33 threads)
+[2025-06-17T23:39:54.163+0300][9724][14924][info ][safepoint] Safepoint "ICBufferFull", Time since last: 648384200 ns, Reaching safepoint: 86100 ns, Cleanup: 102800 ns, At safepoint: 9600 ns, Total: 198500 ns
+[2025-06-17T23:39:54.163+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (33 threads)
+[2025-06-17T23:39:54.163+0300][9724][14924][info ][safepoint] Safepoint "ICBufferFull", Time since last: 43400 ns, Reaching safepoint: 27100 ns, Cleanup: 2299 ns, At safepoint: 6901 ns, Total: 36300 ns
+[2025-06-17T23:39:54.163+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (33 threads)
+[2025-06-17T23:39:54.163+0300][9724][14924][info ][safepoint] Safepoint "ICBufferFull", Time since last: 29300 ns, Reaching safepoint: 24899 ns, Cleanup: 701 ns, At safepoint: 7300 ns, Total: 32900 ns
+[2025-06-17T23:39:54.163+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (33 threads)
+[2025-06-17T23:39:54.163+0300][9724][19656][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a0132ed88, stub =0x0000018a07586300
+[2025-06-17T23:39:54.163+0300][9724][14924][info ][safepoint] Safepoint "ICBufferFull", Time since last: 98900 ns, Reaching safepoint: 82600 ns, Cleanup: 4499 ns, At safepoint: 17001 ns, Total: 104100 ns
+[2025-06-17T23:39:54.163+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (33 threads)
+[2025-06-17T23:39:54.163+0300][9724][14924][info ][safepoint] Safepoint "ICBufferFull", Time since last: 105000 ns, Reaching safepoint: 37300 ns, Cleanup: 4000 ns, At safepoint: 13300 ns, Total: 54600 ns
+[2025-06-17T23:39:54.164+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (33 threads)
+[2025-06-17T23:39:54.164+0300][9724][14924][info ][safepoint] Safepoint "ICBufferFull", Time since last: 294700 ns, Reaching safepoint: 109199 ns, Cleanup: 7100 ns, At safepoint: 15800 ns, Total: 132099 ns
+[2025-06-17T23:39:54.164+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (33 threads)
+[2025-06-17T23:39:54.164+0300][9724][14924][info ][safepoint] Safepoint "ICBufferFull", Time since last: 65500 ns, Reaching safepoint: 51600 ns, Cleanup: 1801 ns, At safepoint: 13300 ns, Total: 66701 ns
+[2025-06-17T23:39:55.166+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (33 threads)
+[2025-06-17T23:39:55.166+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1002192500 ns, Reaching safepoint: 113600 ns, Cleanup: 128200 ns, At safepoint: 6299 ns, Total: 248099 ns
+[2025-06-17T23:39:56.172+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:39:56.172+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1005533001 ns, Reaching safepoint: 102700 ns, Cleanup: 79200 ns, At safepoint: 42900 ns, Total: 224800 ns
+[2025-06-17T23:39:57.176+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:39:57.176+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1003129500 ns, Reaching safepoint: 111900 ns, Cleanup: 68800 ns, At safepoint: 5900 ns, Total: 186600 ns
+[2025-06-17T23:39:58.185+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:39:58.185+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1009561099 ns, Reaching safepoint: 130900 ns, Cleanup: 229201 ns, At safepoint: 14700 ns, Total: 374801 ns
+[2025-06-17T23:39:59.187+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:39:59.187+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1001444400 ns, Reaching safepoint: 99700 ns, Cleanup: 61800 ns, At safepoint: 6000 ns, Total: 167500 ns
+[2025-06-17T23:40:00.190+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:00.190+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1002194600 ns, Reaching safepoint: 98999 ns, Cleanup: 62100 ns, At safepoint: 7700 ns, Total: 168799 ns
+[2025-06-17T23:40:01.201+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:01.201+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1011494200 ns, Reaching safepoint: 125600 ns, Cleanup: 62501 ns, At safepoint: 8500 ns, Total: 196601 ns
+[2025-06-17T23:40:01.641+0300][9724][19084][info ][gc       ] Trigger: Learning 3 of 5. Free (1433M) is below initial threshold (1433M)
+[2025-06-17T23:40:01.641+0300][9724][19084][info ][gc       ] GC(2) Concurrent reset 0.434ms
+[2025-06-17T23:40:01.642+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:01.642+0300][9724][14924][info ][gc       ] GC(2) Pause Init Mark (unload classes) 0.037ms
+[2025-06-17T23:40:01.642+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahInitMark", Time since last: 440066000 ns, Reaching safepoint: 102700 ns, Cleanup: 22500 ns, At safepoint: 115700 ns, Total: 240900 ns
+[2025-06-17T23:40:01.642+0300][9724][19084][info ][gc       ] GC(2) Concurrent marking roots 0.386ms
+[2025-06-17T23:40:01.646+0300][9724][19084][info ][gc       ] GC(2) Concurrent marking (unload classes) 10.749ms
+[2025-06-17T23:40:01.646+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:01.646+0300][9724][14924][info ][gc       ] GC(2) Pause Final Mark (unload classes) 0.260ms
+[2025-06-17T23:40:01.646+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalMarkStartEvac", Time since last: 11364600 ns, Reaching safepoint: 28700 ns, Cleanup: 3000 ns, At safepoint: 287900 ns, Total: 319600 ns
+[2025-06-17T23:40:01.646+0300][9724][19084][info ][gc       ] GC(2) Concurrent thread roots 0.242ms
+[2025-06-17T23:40:01.646+0300][9724][19084][info ][gc       ] GC(2) Concurrent weak references 0.505ms
+[2025-06-17T23:40:01.646+0300][9724][19084][info ][gc       ] GC(2) Concurrent weak roots 1.950ms
+[2025-06-17T23:40:01.646+0300][9724][19084][info ][gc       ] GC(2) Concurrent cleanup 525M->349M(2048M) 0.020ms
+[2025-06-17T23:40:01.646+0300][9724][19084][debug][gc,phases] GC(2) ClassLoaderData 0.199ms
+[2025-06-17T23:40:01.646+0300][9724][19084][debug][gc,phases] GC(2) Trigger cleanups 0.006ms
+[2025-06-17T23:40:01.674+0300][9724][19084][info ][gc       ] GC(2) Concurrent class unloading 17.759ms
+[2025-06-17T23:40:01.674+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:01.674+0300][9724][14924][info ][safepoint] Safepoint "CleanClassLoaderDataMetaspaces", Time since last: 20761700 ns, Reaching safepoint: 24600 ns, Cleanup: 209699 ns, At safepoint: 37200 ns, Total: 271499 ns
+[2025-06-17T23:40:01.674+0300][9724][19084][info ][gc       ] GC(2) Concurrent strong roots 0.571ms
+[2025-06-17T23:40:01.674+0300][9724][19084][info ][gc       ] GC(2) Concurrent evacuation 2.773ms
+[2025-06-17T23:40:01.674+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:01.674+0300][9724][14924][info ][gc       ] GC(2) Pause Init Update Refs 0.007ms
+[2025-06-17T23:40:01.674+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahInitUpdateRefs", Time since last: 3144401 ns, Reaching safepoint: 27200 ns, Cleanup: 3300 ns, At safepoint: 21399 ns, Total: 51899 ns
+[2025-06-17T23:40:01.674+0300][9724][19084][info ][gc       ] GC(2) Concurrent update references 4.111ms
+[2025-06-17T23:40:01.674+0300][9724][19084][info ][gc       ] GC(2) Concurrent update thread roots 0.240ms
+[2025-06-17T23:40:01.674+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:01.674+0300][9724][14924][info ][gc       ] GC(2) Pause Final Update Refs 0.029ms
+[2025-06-17T23:40:01.674+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalUpdateRefs", Time since last: 4534301 ns, Reaching safepoint: 24500 ns, Cleanup: 3499 ns, At safepoint: 42801 ns, Total: 70800 ns
+[2025-06-17T23:40:01.674+0300][9724][19084][info ][gc       ] GC(2) Concurrent cleanup 362M->38M(2048M) 0.021ms
+[2025-06-17T23:40:03.689+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:03.689+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 2007042300 ns, Reaching safepoint: 90300 ns, Cleanup: 59399 ns, At safepoint: 6301 ns, Total: 156000 ns
+[2025-06-17T23:40:04.699+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:04.699+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1009852700 ns, Reaching safepoint: 92200 ns, Cleanup: 39300 ns, At safepoint: 5600 ns, Total: 137100 ns
+[2025-06-17T23:40:05.710+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:05.710+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1010224300 ns, Reaching safepoint: 119800 ns, Cleanup: 39599 ns, At safepoint: 54000 ns, Total: 213399 ns
+[2025-06-17T23:40:06.718+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:06.718+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1007775101 ns, Reaching safepoint: 130999 ns, Cleanup: 39501 ns, At safepoint: 13999 ns, Total: 184499 ns
+[2025-06-17T23:40:07.727+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:07.727+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1008857301 ns, Reaching safepoint: 95400 ns, Cleanup: 27600 ns, At safepoint: 3699 ns, Total: 126699 ns
+[2025-06-17T23:40:08.740+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:08.740+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1012968600 ns, Reaching safepoint: 102300 ns, Cleanup: 50501 ns, At safepoint: 8300 ns, Total: 161101 ns
+[2025-06-17T23:40:09.741+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:09.741+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1001401800 ns, Reaching safepoint: 98500 ns, Cleanup: 28300 ns, At safepoint: 4499 ns, Total: 131299 ns
+[2025-06-17T23:40:10.756+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:10.756+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1014291301 ns, Reaching safepoint: 109599 ns, Cleanup: 20001 ns, At safepoint: 5300 ns, Total: 134900 ns
+[2025-06-17T23:40:11.758+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:11.758+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1002738199 ns, Reaching safepoint: 122501 ns, Cleanup: 44100 ns, At safepoint: 11700 ns, Total: 178301 ns
+[2025-06-17T23:40:12.759+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:12.759+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1000265100 ns, Reaching safepoint: 116600 ns, Cleanup: 34600 ns, At safepoint: 3400 ns, Total: 154600 ns
+[2025-06-17T23:40:13.766+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:13.766+0300][9724][12216][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a07d38410, stub =0x0000018a07586300
+[2025-06-17T23:40:13.766+0300][9724][16608][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a08213a8a, stub =0x0000018a07585a80
+[2025-06-17T23:40:13.766+0300][9724][11812][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a08213a8a, stub =0x0000018a07585a80
+[2025-06-17T23:40:13.766+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1006940600 ns, Reaching safepoint: 668300 ns, Cleanup: 64000 ns, At safepoint: 35300 ns, Total: 767600 ns
+[2025-06-17T23:40:15.778+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:15.778+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 2010741300 ns, Reaching safepoint: 212200 ns, Cleanup: 62500 ns, At safepoint: 36499 ns, Total: 311199 ns
+[2025-06-17T23:40:16.780+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:16.780+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1001665201 ns, Reaching safepoint: 147400 ns, Cleanup: 92500 ns, At safepoint: 15200 ns, Total: 255100 ns
+[2025-06-17T23:40:17.780+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:17.781+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1000442600 ns, Reaching safepoint: 146000 ns, Cleanup: 81400 ns, At safepoint: 31200 ns, Total: 258600 ns
+[2025-06-17T23:40:18.030+0300][9724][19084][info ][gc       ] Trigger: Learning 4 of 5. Free (1433M) is below initial threshold (1433M)
+[2025-06-17T23:40:18.030+0300][9724][19084][info ][gc       ] GC(3) Concurrent reset 1.766ms
+[2025-06-17T23:40:18.030+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:18.030+0300][9724][14924][info ][gc       ] GC(3) Pause Init Mark (unload classes) 0.045ms
+[2025-06-17T23:40:18.030+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahInitMark", Time since last: 251684800 ns, Reaching safepoint: 83499 ns, Cleanup: 23701 ns, At safepoint: 91700 ns, Total: 198900 ns
+[2025-06-17T23:40:18.030+0300][9724][19084][info ][gc       ] GC(3) Concurrent marking roots 0.652ms
+[2025-06-17T23:40:18.030+0300][9724][19084][info ][gc       ] GC(3) Concurrent marking (unload classes) 9.111ms
+[2025-06-17T23:40:18.030+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:18.030+0300][9724][14924][info ][gc       ] GC(3) Pause Final Mark (unload classes) 0.276ms
+[2025-06-17T23:40:18.030+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalMarkStartEvac", Time since last: 10111699 ns, Reaching safepoint: 27300 ns, Cleanup: 3401 ns, At safepoint: 303600 ns, Total: 334301 ns
+[2025-06-17T23:40:18.030+0300][9724][19084][info ][gc       ] GC(3) Concurrent thread roots 0.238ms
+[2025-06-17T23:40:18.030+0300][9724][19084][info ][gc       ] GC(3) Concurrent weak references 0.170ms
+[2025-06-17T23:40:18.030+0300][9724][19084][info ][gc       ] GC(3) Concurrent weak roots 1.823ms
+[2025-06-17T23:40:18.030+0300][9724][19084][info ][gc       ] GC(3) Concurrent cleanup 513M->105M(2048M) 0.027ms
+[2025-06-17T23:40:18.030+0300][9724][19084][debug][gc,phases] GC(3) ClassLoaderData 0.020ms
+[2025-06-17T23:40:18.030+0300][9724][19084][debug][gc,phases] GC(3) Trigger cleanups 0.000ms
+[2025-06-17T23:40:18.048+0300][9724][19084][info ][gc       ] GC(3) Concurrent class unloading 7.618ms
+[2025-06-17T23:40:18.048+0300][9724][19084][info ][gc       ] GC(3) Concurrent strong roots 0.288ms
+[2025-06-17T23:40:18.048+0300][9724][19084][info ][gc       ] GC(3) Concurrent evacuation 0.971ms
+[2025-06-17T23:40:18.048+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:18.048+0300][9724][14924][info ][gc       ] GC(3) Pause Init Update Refs 0.006ms
+[2025-06-17T23:40:18.048+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahInitUpdateRefs", Time since last: 11508900 ns, Reaching safepoint: 26200 ns, Cleanup: 25500 ns, At safepoint: 20800 ns, Total: 72500 ns
+[2025-06-17T23:40:18.048+0300][9724][19084][info ][gc       ] GC(3) Concurrent update references 3.650ms
+[2025-06-17T23:40:18.048+0300][9724][19084][info ][gc       ] GC(3) Concurrent update thread roots 0.238ms
+[2025-06-17T23:40:18.048+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:18.048+0300][9724][14924][info ][gc       ] GC(3) Pause Final Update Refs 0.028ms
+[2025-06-17T23:40:18.048+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalUpdateRefs", Time since last: 4067500 ns, Reaching safepoint: 24499 ns, Cleanup: 2801 ns, At safepoint: 42700 ns, Total: 70000 ns
+[2025-06-17T23:40:18.048+0300][9724][19084][info ][gc       ] GC(3) Concurrent cleanup 118M->28M(2048M) 0.014ms
+[2025-06-17T23:40:19.063+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:19.063+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1004624699 ns, Reaching safepoint: 203901 ns, Cleanup: 24300 ns, At safepoint: 9000 ns, Total: 237201 ns
+[2025-06-17T23:40:20.077+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:20.077+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1013895500 ns, Reaching safepoint: 127600 ns, Cleanup: 38300 ns, At safepoint: 10900 ns, Total: 176800 ns
+[2025-06-17T23:40:21.087+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:21.087+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1009653099 ns, Reaching safepoint: 153801 ns, Cleanup: 38600 ns, At safepoint: 13000 ns, Total: 205401 ns
+[2025-06-17T23:40:22.098+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:22.098+0300][9724][21600][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a07d38410, stub =0x0000018a07586300
+[2025-06-17T23:40:22.098+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1010380500 ns, Reaching safepoint: 268900 ns, Cleanup: 47200 ns, At safepoint: 5999 ns, Total: 322099 ns
+[2025-06-17T23:40:23.102+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:23.102+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1003058700 ns, Reaching safepoint: 169001 ns, Cleanup: 41600 ns, At safepoint: 31000 ns, Total: 241601 ns
+[2025-06-17T23:40:24.117+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:24.117+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1015779600 ns, Reaching safepoint: 153500 ns, Cleanup: 39300 ns, At safepoint: 34600 ns, Total: 227400 ns
+[2025-06-17T23:40:25.122+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:25.122+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1004596400 ns, Reaching safepoint: 78600 ns, Cleanup: 19300 ns, At safepoint: 4700 ns, Total: 102600 ns
+[2025-06-17T23:40:26.135+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:26.135+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1013031399 ns, Reaching safepoint: 79401 ns, Cleanup: 12600 ns, At safepoint: 2200 ns, Total: 94201 ns
+[2025-06-17T23:40:27.150+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:27.150+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1014703200 ns, Reaching safepoint: 98499 ns, Cleanup: 26201 ns, At safepoint: 8100 ns, Total: 132800 ns
+[2025-06-17T23:40:28.161+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:28.161+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1010832900 ns, Reaching safepoint: 66800 ns, Cleanup: 19600 ns, At safepoint: 1699 ns, Total: 88099 ns
+[2025-06-17T23:40:29.170+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:29.170+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1009338101 ns, Reaching safepoint: 117700 ns, Cleanup: 87800 ns, At safepoint: 8800 ns, Total: 214300 ns
+[2025-06-17T23:40:30.184+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:30.184+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1013517400 ns, Reaching safepoint: 134300 ns, Cleanup: 39899 ns, At safepoint: 10801 ns, Total: 185000 ns
+[2025-06-17T23:40:31.185+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:31.185+0300][9724][11492][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a08083b3c, stub =0x0000018a07586300
+[2025-06-17T23:40:31.185+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1000589900 ns, Reaching safepoint: 148800 ns, Cleanup: 18700 ns, At safepoint: 8800 ns, Total: 176300 ns
+[2025-06-17T23:40:32.197+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:32.197+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1012245800 ns, Reaching safepoint: 161600 ns, Cleanup: 43900 ns, At safepoint: 46499 ns, Total: 251999 ns
+[2025-06-17T23:40:33.209+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:33.210+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1011496401 ns, Reaching safepoint: 219600 ns, Cleanup: 40700 ns, At safepoint: 50900 ns, Total: 311200 ns
+[2025-06-17T23:40:34.854+0300][9724][19084][info ][gc       ] Trigger: Learning 5 of 5. Free (1433M) is below initial threshold (1433M)
+[2025-06-17T23:40:34.854+0300][9724][19084][info ][gc       ] GC(4) Concurrent reset 0.867ms
+[2025-06-17T23:40:34.855+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:34.855+0300][9724][18800][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a07f1663e, stub =0x0000018a07586300
+[2025-06-17T23:40:34.855+0300][9724][5692 ][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a081ecc30, stub =0x0000018a07585a80
+[2025-06-17T23:40:34.855+0300][9724][11424][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a08290943, stub =0x0000018a07585a80
+[2025-06-17T23:40:34.855+0300][9724][14924][info ][gc       ] GC(4) Pause Init Mark (unload classes) 0.045ms
+[2025-06-17T23:40:34.855+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahInitMark", Time since last: 1645656800 ns, Reaching safepoint: 557500 ns, Cleanup: 20900 ns, At safepoint: 173000 ns, Total: 751400 ns
+[2025-06-17T23:40:34.856+0300][9724][19084][info ][gc       ] GC(4) Concurrent marking roots 0.651ms
+[2025-06-17T23:40:34.863+0300][9724][19084][info ][gc       ] GC(4) Concurrent marking (unload classes) 8.512ms
+[2025-06-17T23:40:34.863+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:34.863+0300][9724][14924][info ][gc       ] GC(4) Pause Final Mark (unload classes) 0.285ms
+[2025-06-17T23:40:34.863+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalMarkStartEvac", Time since last: 9464899 ns, Reaching safepoint: 28601 ns, Cleanup: 3399 ns, At safepoint: 313000 ns, Total: 345000 ns
+[2025-06-17T23:40:34.863+0300][9724][19084][info ][gc       ] GC(4) Concurrent thread roots 0.242ms
+[2025-06-17T23:40:34.863+0300][9724][19084][info ][gc       ] GC(4) Concurrent weak references 0.173ms
+[2025-06-17T23:40:34.863+0300][9724][19084][info ][gc       ] GC(4) Concurrent weak roots 1.818ms
+[2025-06-17T23:40:34.863+0300][9724][19084][info ][gc       ] GC(4) Concurrent cleanup 521M->87M(2048M) 0.028ms
+[2025-06-17T23:40:34.863+0300][9724][19084][debug][gc,phases] GC(4) ClassLoaderData 0.021ms
+[2025-06-17T23:40:34.863+0300][9724][19084][debug][gc,phases] GC(4) Trigger cleanups 0.000ms
+[2025-06-17T23:40:34.874+0300][9724][19084][info ][gc       ] GC(4) Concurrent class unloading 10.883ms
+[2025-06-17T23:40:34.874+0300][9724][19084][info ][gc       ] GC(4) Concurrent strong roots 0.159ms
+[2025-06-17T23:40:34.874+0300][9724][19084][info ][gc       ] GC(4) Concurrent evacuation 0.597ms
+[2025-06-17T23:40:34.874+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:34.874+0300][9724][14924][info ][gc       ] GC(4) Pause Init Update Refs 0.006ms
+[2025-06-17T23:40:34.874+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahInitUpdateRefs", Time since last: 14238201 ns, Reaching safepoint: 28300 ns, Cleanup: 11700 ns, At safepoint: 21300 ns, Total: 61300 ns
+[2025-06-17T23:40:34.874+0300][9724][19084][info ][gc       ] GC(4) Concurrent update references 3.649ms
+[2025-06-17T23:40:34.874+0300][9724][19084][info ][gc       ] GC(4) Concurrent update thread roots 0.271ms
+[2025-06-17T23:40:34.874+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:34.874+0300][9724][14924][info ][gc       ] GC(4) Pause Final Update Refs 0.027ms
+[2025-06-17T23:40:34.874+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalUpdateRefs", Time since last: 4101100 ns, Reaching safepoint: 23599 ns, Cleanup: 2501 ns, At safepoint: 41499 ns, Total: 67599 ns
+[2025-06-17T23:40:34.874+0300][9724][19084][info ][gc       ] GC(4) Concurrent cleanup 99M->36M(2048M) 0.012ms
+[2025-06-17T23:40:36.892+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:36.893+0300][9724][13700][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a07e9f053, stub =0x0000018a07586300
+[2025-06-17T23:40:36.893+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 2008156401 ns, Reaching safepoint: 361000 ns, Cleanup: 46500 ns, At safepoint: 43900 ns, Total: 451400 ns
+[2025-06-17T23:40:37.899+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:37.899+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1006113600 ns, Reaching safepoint: 86200 ns, Cleanup: 21300 ns, At safepoint: 2100 ns, Total: 109600 ns
+[2025-06-17T23:40:39.902+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:39.902+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 2003605199 ns, Reaching safepoint: 112401 ns, Cleanup: 30700 ns, At safepoint: 10600 ns, Total: 153701 ns
+[2025-06-17T23:40:40.910+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:40.910+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1007152600 ns, Reaching safepoint: 152099 ns, Cleanup: 50200 ns, At safepoint: 17301 ns, Total: 219600 ns
+[2025-06-17T23:40:42.926+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:42.926+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 2016027800 ns, Reaching safepoint: 119500 ns, Cleanup: 53799 ns, At safepoint: 10601 ns, Total: 183900 ns
+[2025-06-17T23:40:43.942+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:43.942+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1015210500 ns, Reaching safepoint: 159799 ns, Cleanup: 50801 ns, At safepoint: 11500 ns, Total: 222100 ns
+[2025-06-17T23:40:48.117+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:48.117+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 4174900499 ns, Reaching safepoint: 204201 ns, Cleanup: 54100 ns, At safepoint: 52500 ns, Total: 310801 ns
+[2025-06-17T23:40:49.131+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:49.131+0300][9724][19656][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a080c6650, stub =0x0000018a07586300
+[2025-06-17T23:40:49.131+0300][9724][5692 ][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a080c6650, stub =0x0000018a07586300
+[2025-06-17T23:40:49.131+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1014486400 ns, Reaching safepoint: 187599 ns, Cleanup: 28600 ns, At safepoint: 7501 ns, Total: 223700 ns
+[2025-06-17T23:40:55.184+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:55.184+0300][9724][21600][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a0831cd59, stub =0x0000018a07586300
+[2025-06-17T23:40:55.184+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 6052252999 ns, Reaching safepoint: 281900 ns, Cleanup: 38501 ns, At safepoint: 22000 ns, Total: 342401 ns
+[2025-06-17T23:40:56.198+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:56.198+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1013247400 ns, Reaching safepoint: 106200 ns, Cleanup: 21900 ns, At safepoint: 6400 ns, Total: 134500 ns
+[2025-06-17T23:40:58.215+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:40:58.215+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 2017618600 ns, Reaching safepoint: 96900 ns, Cleanup: 21799 ns, At safepoint: 5700 ns, Total: 124399 ns
+[2025-06-17T23:41:00.221+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:41:00.221+0300][9724][18800][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a07e9f053, stub =0x0000018a07586300
+[2025-06-17T23:41:00.221+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 2005700401 ns, Reaching safepoint: 150200 ns, Cleanup: 31400 ns, At safepoint: 32899 ns, Total: 214499 ns
+[2025-06-17T23:41:01.228+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:41:01.228+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1006737401 ns, Reaching safepoint: 150900 ns, Cleanup: 32199 ns, At safepoint: 13701 ns, Total: 196800 ns
+[2025-06-17T23:41:03.238+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:41:03.238+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 2009258100 ns, Reaching safepoint: 175300 ns, Cleanup: 39200 ns, At safepoint: 18800 ns, Total: 233300 ns
+[2025-06-17T23:41:04.243+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:41:04.243+0300][9724][5692 ][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a07efc3ef, stub =0x0000018a07586300
+[2025-06-17T23:41:04.243+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1005335100 ns, Reaching safepoint: 274300 ns, Cleanup: 37499 ns, At safepoint: 13701 ns, Total: 325500 ns
+[2025-06-17T23:41:06.252+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:41:06.252+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 2008732600 ns, Reaching safepoint: 169400 ns, Cleanup: 41200 ns, At safepoint: 20300 ns, Total: 230900 ns
+[2025-06-17T23:41:07.268+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:41:07.268+0300][9724][5692 ][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a07fb806f, stub =0x0000018a07586300
+[2025-06-17T23:41:07.268+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1016009900 ns, Reaching safepoint: 400300 ns, Cleanup: 30700 ns, At safepoint: 14800 ns, Total: 445800 ns
+[2025-06-17T23:41:09.279+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:41:09.279+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 2009865699 ns, Reaching safepoint: 138601 ns, Cleanup: 34000 ns, At safepoint: 4700 ns, Total: 177301 ns
+[2025-06-17T23:41:10.289+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:41:10.289+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1010689500 ns, Reaching safepoint: 109899 ns, Cleanup: 53100 ns, At safepoint: 6401 ns, Total: 169400 ns
+[2025-06-17T23:41:11.303+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:41:11.303+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1013225100 ns, Reaching safepoint: 165900 ns, Cleanup: 34700 ns, At safepoint: 15100 ns, Total: 215700 ns
+[2025-06-17T23:41:16.334+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:41:16.334+0300][9724][5692 ][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a08178be2, stub =0x0000018a07586300
+[2025-06-17T23:41:16.334+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 5031616400 ns, Reaching safepoint: 295100 ns, Cleanup: 35199 ns, At safepoint: 22101 ns, Total: 352400 ns
+[2025-06-17T23:41:18.335+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:41:18.335+0300][9724][21964][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a07f9f043, stub =0x0000018a07585a80
+[2025-06-17T23:41:18.335+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1999371400 ns, Reaching safepoint: 192200 ns, Cleanup: 29600 ns, At safepoint: 23700 ns, Total: 245500 ns
+[2025-06-17T23:41:19.349+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:41:19.349+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1014132699 ns, Reaching safepoint: 163000 ns, Cleanup: 42801 ns, At safepoint: 48100 ns, Total: 253901 ns
+[2025-06-17T23:41:21.359+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:41:21.359+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 2010045700 ns, Reaching safepoint: 159200 ns, Cleanup: 42200 ns, At safepoint: 6199 ns, Total: 207599 ns
+[2025-06-17T23:41:24.368+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:41:24.368+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 3008903601 ns, Reaching safepoint: 164700 ns, Cleanup: 38600 ns, At safepoint: 5300 ns, Total: 208600 ns
+[2025-06-17T23:41:26.393+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:41:26.393+0300][9724][11492][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a07fb7e22, stub =0x0000018a07586300
+[2025-06-17T23:41:26.393+0300][9724][21600][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a07d6adb1, stub =0x0000018a07586300
+[2025-06-17T23:41:26.393+0300][9724][12216][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a08101974, stub =0x0000018a07585a80
+[2025-06-17T23:41:26.393+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 2023828200 ns, Reaching safepoint: 484100 ns, Cleanup: 20700 ns, At safepoint: 20300 ns, Total: 525100 ns
+[2025-06-17T23:41:28.419+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:41:28.419+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 2025718500 ns, Reaching safepoint: 338600 ns, Cleanup: 18100 ns, At safepoint: 8999 ns, Total: 365699 ns
+[2025-06-17T23:41:32.449+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:41:32.449+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 4030242501 ns, Reaching safepoint: 153500 ns, Cleanup: 42000 ns, At safepoint: 17499 ns, Total: 212999 ns
+[2025-06-17T23:41:33.460+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:41:33.460+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1010561801 ns, Reaching safepoint: 107200 ns, Cleanup: 27500 ns, At safepoint: 16499 ns, Total: 151199 ns
+[2025-06-17T23:41:34.342+0300][9724][19084][info ][gc       ] Trigger: Free (204M) is below minimum threshold (204M)
+[2025-06-17T23:41:34.342+0300][9724][19084][info ][gc       ] GC(5) Concurrent reset 0.460ms
+[2025-06-17T23:41:34.342+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:41:34.343+0300][9724][21600][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a07f952ba, stub =0x0000018a07585a80
+[2025-06-17T23:41:34.343+0300][9724][11812][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a0815de53, stub =0x0000018a07586300
+[2025-06-17T23:41:34.343+0300][9724][14924][info ][gc       ] GC(5) Pause Init Mark (unload classes) 0.027ms
+[2025-06-17T23:41:34.343+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahInitMark", Time since last: 882579501 ns, Reaching safepoint: 241800 ns, Cleanup: 9399 ns, At safepoint: 73501 ns, Total: 324700 ns
+[2025-06-17T23:41:34.343+0300][9724][19084][info ][gc       ] GC(5) Concurrent marking roots 0.551ms
+[2025-06-17T23:41:34.343+0300][9724][19084][info ][gc       ] GC(5) Concurrent marking (unload classes) 8.711ms
+[2025-06-17T23:41:34.343+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:41:34.343+0300][9724][14924][info ][gc       ] GC(5) Pause Final Mark (unload classes) 0.321ms
+[2025-06-17T23:41:34.343+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalMarkStartEvac", Time since last: 9516000 ns, Reaching safepoint: 28800 ns, Cleanup: 7799 ns, At safepoint: 351801 ns, Total: 388400 ns
+[2025-06-17T23:41:34.343+0300][9724][19084][info ][gc       ] GC(5) Concurrent weak references 0.185ms
+[2025-06-17T23:41:34.343+0300][9724][19084][info ][gc       ] GC(5) Concurrent weak roots 1.736ms
+[2025-06-17T23:41:34.343+0300][9724][19084][info ][gc       ] GC(5) Concurrent cleanup 1744M->134M(2048M) 0.066ms
+[2025-06-17T23:41:34.343+0300][9724][19084][debug][gc,phases] GC(5) ClassLoaderData 0.019ms
+[2025-06-17T23:41:34.343+0300][9724][19084][debug][gc,phases] GC(5) Trigger cleanups 0.000ms
+[2025-06-17T23:41:34.359+0300][9724][19084][info ][gc       ] GC(5) Concurrent class unloading 15.652ms
+[2025-06-17T23:41:34.359+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:41:34.359+0300][9724][14924][info ][gc       ] GC(5) Pause Final Roots 0.003ms
+[2025-06-17T23:41:34.359+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalRoots", Time since last: 17977399 ns, Reaching safepoint: 31801 ns, Cleanup: 35700 ns, At safepoint: 16900 ns, Total: 84401 ns
+[2025-06-17T23:41:40.401+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:41:40.401+0300][9724][12216][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a080f42c7, stub =0x0000018a07586300
+[2025-06-17T23:41:40.401+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 6029579600 ns, Reaching safepoint: 177499 ns, Cleanup: 15701 ns, At safepoint: 10599 ns, Total: 203799 ns
+[2025-06-17T23:41:41.416+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:41:41.416+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1015388101 ns, Reaching safepoint: 112199 ns, Cleanup: 24701 ns, At safepoint: 9500 ns, Total: 146400 ns
+[2025-06-17T23:41:43.432+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:41:43.432+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 2016060399 ns, Reaching safepoint: 77801 ns, Cleanup: 17299 ns, At safepoint: 9901 ns, Total: 105001 ns
+[2025-06-17T23:41:44.125+0300][9724][11812][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a0831cd59, stub =0x0000018a07586300
+[2025-06-17T23:41:50.168+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:41:50.168+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 6735239800 ns, Reaching safepoint: 158800 ns, Cleanup: 37000 ns, At safepoint: 4400 ns, Total: 200200 ns
+[2025-06-17T23:41:53.190+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:41:53.190+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 3022364999 ns, Reaching safepoint: 86301 ns, Cleanup: 16600 ns, At safepoint: 1600 ns, Total: 104501 ns
+[2025-06-17T23:41:58.234+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:41:58.234+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 5043142700 ns, Reaching safepoint: 174100 ns, Cleanup: 17700 ns, At safepoint: 8600 ns, Total: 200400 ns
+[2025-06-17T23:42:00.245+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:42:00.245+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 2011091000 ns, Reaching safepoint: 92600 ns, Cleanup: 22700 ns, At safepoint: 14700 ns, Total: 130000 ns
+[2025-06-17T23:42:05.293+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:42:05.293+0300][9724][9984 ][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a080f42c7, stub =0x0000018a07586300
+[2025-06-17T23:42:05.293+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 5048593500 ns, Reaching safepoint: 290000 ns, Cleanup: 31000 ns, At safepoint: 19499 ns, Total: 340499 ns
+[2025-06-17T23:42:12.335+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:42:12.336+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 7041378901 ns, Reaching safepoint: 227400 ns, Cleanup: 40200 ns, At safepoint: 27600 ns, Total: 295200 ns
+[2025-06-17T23:42:15.367+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:42:15.367+0300][9724][11492][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a080f42c7, stub =0x0000018a07586300
+[2025-06-17T23:42:15.367+0300][9724][9984 ][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a07fb806f, stub =0x0000018a07586300
+[2025-06-17T23:42:15.367+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 3031410600 ns, Reaching safepoint: 492899 ns, Cleanup: 31301 ns, At safepoint: 19299 ns, Total: 543499 ns
+[2025-06-17T23:42:16.380+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:42:16.380+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1012667201 ns, Reaching safepoint: 155500 ns, Cleanup: 21100 ns, At safepoint: 8699 ns, Total: 185299 ns
+[2025-06-17T23:42:28.502+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:42:28.502+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 12121416201 ns, Reaching safepoint: 148699 ns, Cleanup: 35300 ns, At safepoint: 44601 ns, Total: 228600 ns
+[2025-06-17T23:42:30.154+0300][9724][19084][info ][gc       ] Trigger: Free (204M) is below minimum threshold (204M)
+[2025-06-17T23:42:30.155+0300][9724][19084][info ][gc       ] GC(6) Concurrent reset 1.932ms
+[2025-06-17T23:42:30.155+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:42:30.155+0300][9724][14924][info ][gc       ] GC(6) Pause Init Mark (unload classes) 0.041ms
+[2025-06-17T23:42:30.155+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahInitMark", Time since last: 1654383300 ns, Reaching safepoint: 82600 ns, Cleanup: 19400 ns, At safepoint: 89600 ns, Total: 191600 ns
+[2025-06-17T23:42:30.155+0300][9724][19084][info ][gc       ] GC(6) Concurrent marking roots 0.716ms
+[2025-06-17T23:42:30.155+0300][9724][19084][info ][gc       ] GC(6) Concurrent marking (unload classes) 9.226ms
+[2025-06-17T23:42:30.155+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:42:30.155+0300][9724][14924][info ][gc       ] GC(6) Pause Final Mark (unload classes) 0.344ms
+[2025-06-17T23:42:30.155+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalMarkStartEvac", Time since last: 10276199 ns, Reaching safepoint: 28801 ns, Cleanup: 8499 ns, At safepoint: 374901 ns, Total: 412201 ns
+[2025-06-17T23:42:30.155+0300][9724][19084][info ][gc       ] GC(6) Concurrent thread roots 0.273ms
+[2025-06-17T23:42:30.155+0300][9724][19084][info ][gc       ] GC(6) Concurrent weak references 0.159ms
+[2025-06-17T23:42:30.155+0300][9724][19084][info ][gc       ] GC(6) Concurrent weak roots 1.429ms
+[2025-06-17T23:42:30.155+0300][9724][19084][info ][gc       ] GC(6) Concurrent cleanup 1741M->197M(2048M) 0.063ms
+[2025-06-17T23:42:30.155+0300][9724][19084][debug][gc,phases] GC(6) ClassLoaderData 0.016ms
+[2025-06-17T23:42:30.155+0300][9724][19084][debug][gc,phases] GC(6) Trigger cleanups 0.000ms
+[2025-06-17T23:42:30.172+0300][9724][19084][info ][gc       ] GC(6) Concurrent class unloading 5.570ms
+[2025-06-17T23:42:30.172+0300][9724][19084][info ][gc       ] GC(6) Concurrent strong roots 0.275ms
+[2025-06-17T23:42:30.172+0300][9724][19084][info ][gc       ] GC(6) Concurrent evacuation 0.958ms
+[2025-06-17T23:42:30.172+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:42:30.172+0300][9724][14924][info ][gc       ] GC(6) Pause Init Update Refs 0.006ms
+[2025-06-17T23:42:30.172+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahInitUpdateRefs", Time since last: 9071700 ns, Reaching safepoint: 25800 ns, Cleanup: 5900 ns, At safepoint: 20299 ns, Total: 51999 ns
+[2025-06-17T23:42:30.172+0300][9724][19084][info ][gc       ] GC(6) Concurrent update references 3.608ms
+[2025-06-17T23:42:30.172+0300][9724][19084][info ][gc       ] GC(6) Concurrent update thread roots 0.237ms
+[2025-06-17T23:42:30.172+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:42:30.172+0300][9724][14924][info ][gc       ] GC(6) Pause Final Update Refs 0.031ms
+[2025-06-17T23:42:30.172+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalUpdateRefs", Time since last: 4013501 ns, Reaching safepoint: 24300 ns, Cleanup: 2599 ns, At safepoint: 155601 ns, Total: 182500 ns
+[2025-06-17T23:42:30.172+0300][9724][19084][info ][gc       ] GC(6) Concurrent cleanup 209M->27M(2048M) 0.021ms
+[2025-06-17T23:42:39.242+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:42:39.242+0300][9724][9984 ][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a080c6650, stub =0x0000018a07586300
+[2025-06-17T23:42:39.242+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 9061293000 ns, Reaching safepoint: 193799 ns, Cleanup: 22601 ns, At safepoint: 12000 ns, Total: 228400 ns
+[2025-06-17T23:42:40.249+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:42:40.249+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1007033400 ns, Reaching safepoint: 86300 ns, Cleanup: 33200 ns, At safepoint: 3700 ns, Total: 123200 ns
+[2025-06-17T23:42:43.282+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:42:43.282+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 3032624200 ns, Reaching safepoint: 207700 ns, Cleanup: 42799 ns, At safepoint: 17200 ns, Total: 267699 ns
+[2025-06-17T23:42:44.240+0300][9724][5692 ][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a080813db, stub =0x0000018a07586300
+[2025-06-17T23:42:44.240+0300][9724][21600][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a07d7578f, stub =0x0000018a07586300
+[2025-06-17T23:42:57.368+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (27 threads)
+[2025-06-17T23:42:57.368+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 14086231601 ns, Reaching safepoint: 91600 ns, Cleanup: 25900 ns, At safepoint: 12599 ns, Total: 130099 ns
+[2025-06-17T23:42:57.463+0300][9724][19084][info ][gc       ] Trigger: Explicit GC request (System.gc())
+[2025-06-17T23:42:57.463+0300][9724][19084][info ][gc       ] GC(7) Concurrent reset 0.575ms
+[2025-06-17T23:42:57.463+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (26 threads)
+[2025-06-17T23:42:57.463+0300][9724][14924][info ][gc       ] GC(7) Pause Init Mark (unload classes) 0.016ms
+[2025-06-17T23:42:57.463+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahInitMark", Time since last: 95466401 ns, Reaching safepoint: 30700 ns, Cleanup: 14800 ns, At safepoint: 34099 ns, Total: 79599 ns
+[2025-06-17T23:42:57.463+0300][9724][19084][info ][gc       ] GC(7) Concurrent marking roots 0.241ms
+[2025-06-17T23:42:57.463+0300][9724][19084][info ][gc       ] GC(7) Concurrent marking (unload classes) 5.647ms
+[2025-06-17T23:42:57.463+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (26 threads)
+[2025-06-17T23:42:57.463+0300][9724][14924][info ][gc       ] GC(7) Pause Final Mark (unload classes) 0.238ms
+[2025-06-17T23:42:57.463+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalMarkStartEvac", Time since last: 6037701 ns, Reaching safepoint: 28600 ns, Cleanup: 3699 ns, At safepoint: 264901 ns, Total: 297200 ns
+[2025-06-17T23:42:57.463+0300][9724][19084][info ][gc       ] GC(7) Concurrent weak references 0.203ms
+[2025-06-17T23:42:57.463+0300][9724][19084][info ][gc       ] GC(7) Concurrent weak roots 1.445ms
+[2025-06-17T23:42:57.463+0300][9724][19084][info ][gc       ] GC(7) Concurrent cleanup 802M->73M(2048M) 0.037ms
+[2025-06-17T23:42:57.463+0300][9724][19084][debug][gc,phases] GC(7) ClassLoaderData 0.306ms
+[2025-06-17T23:42:57.463+0300][9724][19084][debug][gc,phases] GC(7) Trigger cleanups 0.007ms
+[2025-06-17T23:42:57.484+0300][9724][19084][info ][gc       ] GC(7) Concurrent class unloading 11.797ms
+[2025-06-17T23:42:57.484+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (26 threads)
+[2025-06-17T23:42:57.484+0300][9724][14924][info ][gc       ] GC(7) Pause Final Roots 0.002ms
+[2025-06-17T23:42:57.484+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalRoots", Time since last: 13829900 ns, Reaching safepoint: 25200 ns, Cleanup: 9099 ns, At safepoint: 16800 ns, Total: 51099 ns
+[2025-06-17T23:42:57.484+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (26 threads)
+[2025-06-17T23:42:57.484+0300][9724][14924][info ][safepoint] Safepoint "CleanClassLoaderDataMetaspaces", Time since last: 140000 ns, Reaching safepoint: 37601 ns, Cleanup: 3100 ns, At safepoint: 25500 ns, Total: 66201 ns
+[2025-06-17T23:42:58.064+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (34 threads)
+[2025-06-17T23:42:58.064+0300][9724][14924][info ][safepoint] Safepoint "ICBufferFull", Time since last: 578864000 ns, Reaching safepoint: 48499 ns, Cleanup: 83801 ns, At safepoint: 10100 ns, Total: 142400 ns
+[2025-06-17T23:42:59.079+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (33 threads)
+[2025-06-17T23:42:59.079+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1015267700 ns, Reaching safepoint: 129599 ns, Cleanup: 133201 ns, At safepoint: 42600 ns, Total: 305400 ns
+[2025-06-17T23:43:00.082+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:43:00.082+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1002789900 ns, Reaching safepoint: 73800 ns, Cleanup: 77300 ns, At safepoint: 4900 ns, Total: 156000 ns
+[2025-06-17T23:43:01.088+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:43:01.088+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1006410900 ns, Reaching safepoint: 128399 ns, Cleanup: 35601 ns, At safepoint: 15099 ns, Total: 179099 ns
+[2025-06-17T23:43:02.096+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:43:02.096+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1007366601 ns, Reaching safepoint: 120600 ns, Cleanup: 37699 ns, At safepoint: 13701 ns, Total: 172000 ns
+[2025-06-17T23:43:03.103+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:43:03.103+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1007042200 ns, Reaching safepoint: 88699 ns, Cleanup: 19500 ns, At safepoint: 5101 ns, Total: 113300 ns
+[2025-06-17T23:43:04.117+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:43:04.117+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1014342200 ns, Reaching safepoint: 160800 ns, Cleanup: 35800 ns, At safepoint: 14799 ns, Total: 211399 ns
+[2025-06-17T23:43:05.118+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:43:05.118+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1000190301 ns, Reaching safepoint: 81400 ns, Cleanup: 18800 ns, At safepoint: 13700 ns, Total: 113900 ns
+[2025-06-17T23:43:06.131+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:43:06.131+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1012832099 ns, Reaching safepoint: 155101 ns, Cleanup: 32800 ns, At safepoint: 13300 ns, Total: 201201 ns
+[2025-06-17T23:43:08.151+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:43:08.151+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 2019415400 ns, Reaching safepoint: 164700 ns, Cleanup: 43400 ns, At safepoint: 5200 ns, Total: 213300 ns
+[2025-06-17T23:43:09.164+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:43:09.164+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1013351000 ns, Reaching safepoint: 147500 ns, Cleanup: 41200 ns, At safepoint: 23599 ns, Total: 212299 ns
+[2025-06-17T23:43:10.175+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:43:10.175+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1011231101 ns, Reaching safepoint: 127399 ns, Cleanup: 34000 ns, At safepoint: 10801 ns, Total: 172200 ns
+[2025-06-17T23:43:11.191+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:43:11.191+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1015272999 ns, Reaching safepoint: 156001 ns, Cleanup: 41600 ns, At safepoint: 12300 ns, Total: 209901 ns
+[2025-06-17T23:43:11.292+0300][9724][19084][info ][gc       ] Trigger: Learning 2 of 5. Free (1433M) is below initial threshold (1433M)
+[2025-06-17T23:43:11.294+0300][9724][19084][info ][gc       ] GC(8) Concurrent reset 1.196ms
+[2025-06-17T23:43:11.294+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:43:11.294+0300][9724][14924][info ][gc       ] GC(8) Pause Init Mark (unload classes) 0.045ms
+[2025-06-17T23:43:11.294+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahInitMark", Time since last: 102490000 ns, Reaching safepoint: 132600 ns, Cleanup: 8499 ns, At safepoint: 165800 ns, Total: 306899 ns
+[2025-06-17T23:43:11.294+0300][9724][19084][info ][gc       ] GC(8) Concurrent marking roots 0.655ms
+[2025-06-17T23:43:11.294+0300][9724][19084][info ][gc       ] GC(8) Concurrent marking (unload classes) 11.988ms
+[2025-06-17T23:43:11.294+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:43:11.294+0300][9724][14924][info ][gc       ] GC(8) Pause Final Mark (unload classes) 0.298ms
+[2025-06-17T23:43:11.294+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalMarkStartEvac", Time since last: 12952900 ns, Reaching safepoint: 27700 ns, Cleanup: 3300 ns, At safepoint: 325101 ns, Total: 356101 ns
+[2025-06-17T23:43:11.294+0300][9724][19084][info ][gc       ] GC(8) Concurrent thread roots 0.276ms
+[2025-06-17T23:43:11.294+0300][9724][19084][info ][gc       ] GC(8) Concurrent weak references 0.229ms
+[2025-06-17T23:43:11.310+0300][9724][19084][info ][gc       ] GC(8) Concurrent weak roots 1.751ms
+[2025-06-17T23:43:11.310+0300][9724][19084][info ][gc       ] GC(8) Concurrent cleanup 519M->188M(2048M) 0.039ms
+[2025-06-17T23:43:11.310+0300][9724][19084][debug][gc,phases] GC(8) ClassLoaderData 0.287ms
+[2025-06-17T23:43:11.310+0300][9724][19084][debug][gc,phases] GC(8) Trigger cleanups 0.006ms
+[2025-06-17T23:43:11.310+0300][9724][19084][info ][gc       ] GC(8) Concurrent class unloading 11.888ms
+[2025-06-17T23:43:11.310+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:43:11.310+0300][9724][14924][info ][safepoint] Safepoint "CleanClassLoaderDataMetaspaces", Time since last: 14520100 ns, Reaching safepoint: 19199 ns, Cleanup: 157101 ns, At safepoint: 26899 ns, Total: 203199 ns
+[2025-06-17T23:43:11.310+0300][9724][19084][info ][gc       ] GC(8) Concurrent strong roots 0.507ms
+[2025-06-17T23:43:11.310+0300][9724][19084][info ][gc       ] GC(8) Concurrent evacuation 2.090ms
+[2025-06-17T23:43:11.310+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:43:11.310+0300][9724][14924][info ][gc       ] GC(8) Pause Init Update Refs 0.006ms
+[2025-06-17T23:43:11.310+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahInitUpdateRefs", Time since last: 2477601 ns, Reaching safepoint: 24300 ns, Cleanup: 3200 ns, At safepoint: 19600 ns, Total: 47100 ns
+[2025-06-17T23:43:11.327+0300][9724][19084][info ][gc       ] GC(8) Concurrent update references 4.279ms
+[2025-06-17T23:43:11.327+0300][9724][19084][info ][gc       ] GC(8) Concurrent update thread roots 0.266ms
+[2025-06-17T23:43:11.327+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:43:11.327+0300][9724][14924][info ][gc       ] GC(8) Pause Final Update Refs 0.029ms
+[2025-06-17T23:43:11.327+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalUpdateRefs", Time since last: 4724600 ns, Reaching safepoint: 24600 ns, Cleanup: 2600 ns, At safepoint: 42500 ns, Total: 69700 ns
+[2025-06-17T23:43:11.327+0300][9724][19084][info ][gc       ] GC(8) Concurrent cleanup 201M->31M(2048M) 0.016ms
+[2025-06-17T23:43:12.342+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:43:12.342+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1012357100 ns, Reaching safepoint: 101800 ns, Cleanup: 19399 ns, At safepoint: 13501 ns, Total: 134700 ns
+[2025-06-17T23:43:14.357+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:43:14.357+0300][9724][21460][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a07e61299, stub =0x0000018a07586300
+[2025-06-17T23:43:14.357+0300][9724][22088][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a080a20d9, stub =0x0000018a07586300
+[2025-06-17T23:43:14.357+0300][9724][7220 ][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a080a20d9, stub =0x0000018a07586300
+[2025-06-17T23:43:14.357+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 2015191400 ns, Reaching safepoint: 433300 ns, Cleanup: 14499 ns, At safepoint: 12101 ns, Total: 459900 ns
+[2025-06-17T23:43:18.380+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:43:18.380+0300][9724][14588][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a0831cafa, stub =0x0000018a07586300
+[2025-06-17T23:43:18.380+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 4022806500 ns, Reaching safepoint: 327100 ns, Cleanup: 47699 ns, At safepoint: 30501 ns, Total: 405300 ns
+[2025-06-17T23:43:22.429+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:43:22.429+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 4048108199 ns, Reaching safepoint: 151400 ns, Cleanup: 36300 ns, At safepoint: 24001 ns, Total: 211701 ns
+[2025-06-17T23:43:24.449+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:43:24.449+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 2019870200 ns, Reaching safepoint: 139400 ns, Cleanup: 28499 ns, At safepoint: 16901 ns, Total: 184800 ns
+[2025-06-17T23:43:28.140+0300][9724][19084][info ][gc       ] Trigger: Learning 3 of 5. Free (1432M) is below initial threshold (1433M)
+[2025-06-17T23:43:28.141+0300][9724][19084][info ][gc       ] GC(9) Concurrent reset 1.007ms
+[2025-06-17T23:43:28.141+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:43:28.142+0300][9724][4164 ][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a0818d9c9, stub =0x0000018a07586300
+[2025-06-17T23:43:28.142+0300][9724][14924][info ][gc       ] GC(9) Pause Init Mark (unload classes) 0.060ms
+[2025-06-17T23:43:28.142+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahInitMark", Time since last: 3692600600 ns, Reaching safepoint: 268000 ns, Cleanup: 20300 ns, At safepoint: 158700 ns, Total: 447000 ns
+[2025-06-17T23:43:28.143+0300][9724][19084][info ][gc       ] GC(9) Concurrent marking roots 0.652ms
+[2025-06-17T23:43:28.143+0300][9724][19084][info ][gc       ] GC(9) Concurrent marking (unload classes) 8.298ms
+[2025-06-17T23:43:28.143+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:43:28.143+0300][9724][14924][info ][gc       ] GC(9) Pause Final Mark (unload classes) 0.284ms
+[2025-06-17T23:43:28.143+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalMarkStartEvac", Time since last: 9235399 ns, Reaching safepoint: 28801 ns, Cleanup: 3300 ns, At safepoint: 311899 ns, Total: 344000 ns
+[2025-06-17T23:43:28.143+0300][9724][19084][info ][gc       ] GC(9) Concurrent thread roots 0.362ms
+[2025-06-17T23:43:28.143+0300][9724][19084][info ][gc       ] GC(9) Concurrent weak references 0.175ms
+[2025-06-17T23:43:28.143+0300][9724][19084][info ][gc       ] GC(9) Concurrent weak roots 1.576ms
+[2025-06-17T23:43:28.143+0300][9724][19084][info ][gc       ] GC(9) Concurrent cleanup 527M->93M(2048M) 0.028ms
+[2025-06-17T23:43:28.143+0300][9724][19084][debug][gc,phases] GC(9) ClassLoaderData 0.017ms
+[2025-06-17T23:43:28.143+0300][9724][19084][debug][gc,phases] GC(9) Trigger cleanups 0.000ms
+[2025-06-17T23:43:28.159+0300][9724][19084][info ][gc       ] GC(9) Concurrent class unloading 5.083ms
+[2025-06-17T23:43:28.160+0300][9724][19084][info ][gc       ] GC(9) Concurrent strong roots 0.295ms
+[2025-06-17T23:43:28.160+0300][9724][19084][info ][gc       ] GC(9) Concurrent evacuation 0.963ms
+[2025-06-17T23:43:28.160+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:43:28.160+0300][9724][14924][info ][gc       ] GC(9) Pause Init Update Refs 0.007ms
+[2025-06-17T23:43:28.160+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahInitUpdateRefs", Time since last: 8899801 ns, Reaching safepoint: 34100 ns, Cleanup: 10399 ns, At safepoint: 25601 ns, Total: 70100 ns
+[2025-06-17T23:43:28.160+0300][9724][19084][info ][gc       ] GC(9) Concurrent update references 3.399ms
+[2025-06-17T23:43:28.160+0300][9724][19084][info ][gc       ] GC(9) Concurrent update thread roots 0.400ms
+[2025-06-17T23:43:28.160+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:43:28.160+0300][9724][14924][info ][gc       ] GC(9) Pause Final Update Refs 0.033ms
+[2025-06-17T23:43:28.160+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalUpdateRefs", Time since last: 4031300 ns, Reaching safepoint: 29600 ns, Cleanup: 3300 ns, At safepoint: 49800 ns, Total: 82700 ns
+[2025-06-17T23:43:28.160+0300][9724][19084][info ][gc       ] GC(9) Concurrent cleanup 111M->45M(2048M) 0.012ms
+[2025-06-17T23:43:40.266+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:43:40.266+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 12101876900 ns, Reaching safepoint: 140800 ns, Cleanup: 48800 ns, At safepoint: 15000 ns, Total: 204600 ns
+[2025-06-17T23:43:42.291+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:43:42.291+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 2024613300 ns, Reaching safepoint: 136600 ns, Cleanup: 13900 ns, At safepoint: 13499 ns, Total: 163999 ns
+[2025-06-17T23:43:44.602+0300][9724][19084][info ][gc       ] Trigger: Learning 4 of 5. Free (1432M) is below initial threshold (1433M)
+[2025-06-17T23:43:44.603+0300][9724][19084][info ][gc       ] GC(10) Concurrent reset 0.554ms
+[2025-06-17T23:43:44.603+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:43:44.603+0300][9724][4556 ][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a07f1663e, stub =0x0000018a07586300
+[2025-06-17T23:43:44.603+0300][9724][19240][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a0819ded2, stub =0x0000018a07585a80
+[2025-06-17T23:43:44.603+0300][9724][21748][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a08290943, stub =0x0000018a07585a80
+[2025-06-17T23:43:44.603+0300][9724][14924][info ][gc       ] GC(10) Pause Init Mark (unload classes) 0.047ms
+[2025-06-17T23:43:44.603+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahInitMark", Time since last: 2311595301 ns, Reaching safepoint: 608100 ns, Cleanup: 24700 ns, At safepoint: 178900 ns, Total: 811700 ns
+[2025-06-17T23:43:44.603+0300][9724][19084][info ][gc       ] GC(10) Concurrent marking roots 0.560ms
+[2025-06-17T23:43:44.603+0300][9724][19084][info ][gc       ] GC(10) Concurrent marking (unload classes) 9.425ms
+[2025-06-17T23:43:44.603+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:43:44.603+0300][9724][14924][info ][gc       ] GC(10) Pause Final Mark (unload classes) 0.278ms
+[2025-06-17T23:43:44.603+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalMarkStartEvac", Time since last: 10251399 ns, Reaching safepoint: 28001 ns, Cleanup: 3200 ns, At safepoint: 305599 ns, Total: 336800 ns
+[2025-06-17T23:43:44.603+0300][9724][19084][info ][gc       ] GC(10) Concurrent thread roots 0.306ms
+[2025-06-17T23:43:44.603+0300][9724][19084][info ][gc       ] GC(10) Concurrent weak references 0.175ms
+[2025-06-17T23:43:44.603+0300][9724][19084][info ][gc       ] GC(10) Concurrent weak roots 1.505ms
+[2025-06-17T23:43:44.603+0300][9724][19084][info ][gc       ] GC(10) Concurrent cleanup 525M->85M(2048M) 0.037ms
+[2025-06-17T23:43:44.603+0300][9724][19084][debug][gc,phases] GC(10) ClassLoaderData 0.017ms
+[2025-06-17T23:43:44.603+0300][9724][19084][debug][gc,phases] GC(10) Trigger cleanups 0.000ms
+[2025-06-17T23:43:44.625+0300][9724][19084][info ][gc       ] GC(10) Concurrent class unloading 9.107ms
+[2025-06-17T23:43:44.625+0300][9724][19084][info ][gc       ] GC(10) Concurrent strong roots 0.284ms
+[2025-06-17T23:43:44.625+0300][9724][19084][info ][gc       ] GC(10) Concurrent evacuation 0.644ms
+[2025-06-17T23:43:44.625+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:43:44.625+0300][9724][14924][info ][gc       ] GC(10) Pause Init Update Refs 0.005ms
+[2025-06-17T23:43:44.625+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahInitUpdateRefs", Time since last: 12390401 ns, Reaching safepoint: 26700 ns, Cleanup: 13200 ns, At safepoint: 19200 ns, Total: 59100 ns
+[2025-06-17T23:43:44.625+0300][9724][19084][info ][gc       ] GC(10) Concurrent update references 3.363ms
+[2025-06-17T23:43:44.625+0300][9724][19084][info ][gc       ] GC(10) Concurrent update thread roots 0.296ms
+[2025-06-17T23:43:44.625+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:43:44.625+0300][9724][14924][info ][gc       ] GC(10) Pause Final Update Refs 0.028ms
+[2025-06-17T23:43:44.625+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalUpdateRefs", Time since last: 3840900 ns, Reaching safepoint: 24400 ns, Cleanup: 2900 ns, At safepoint: 42200 ns, Total: 69500 ns
+[2025-06-17T23:43:44.625+0300][9724][19084][info ][gc       ] GC(10) Concurrent cleanup 101M->44M(2048M) 0.012ms
+[2025-06-17T23:43:47.653+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:43:47.653+0300][9724][21460][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a07d6adb1, stub =0x0000018a07586300
+[2025-06-17T23:43:47.653+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 3022504200 ns, Reaching safepoint: 300900 ns, Cleanup: 35099 ns, At safepoint: 23501 ns, Total: 359500 ns
+[2025-06-17T23:43:48.658+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:43:48.658+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1004230099 ns, Reaching safepoint: 135301 ns, Cleanup: 60200 ns, At safepoint: 14300 ns, Total: 209801 ns
+[2025-06-17T23:43:58.741+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:43:58.741+0300][9724][14360][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a07efb5ee, stub =0x0000018a07586300
+[2025-06-17T23:43:58.741+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 10082619500 ns, Reaching safepoint: 314000 ns, Cleanup: 32000 ns, At safepoint: 22000 ns, Total: 368000 ns
+[2025-06-17T23:44:01.231+0300][9724][19084][info ][gc       ] Trigger: Learning 5 of 5. Free (1432M) is below initial threshold (1433M)
+[2025-06-17T23:44:01.231+0300][9724][19084][info ][gc       ] GC(11) Concurrent reset 0.781ms
+[2025-06-17T23:44:01.231+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:44:01.231+0300][9724][4164 ][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a083acb84, stub =0x0000018a07586300
+[2025-06-17T23:44:01.231+0300][9724][22088][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a07f9a38e, stub =0x0000018a07585a80
+[2025-06-17T23:44:01.231+0300][9724][14924][info ][gc       ] GC(11) Pause Init Mark (unload classes) 0.041ms
+[2025-06-17T23:44:01.231+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahInitMark", Time since last: 2490854000 ns, Reaching safepoint: 446700 ns, Cleanup: 22900 ns, At safepoint: 177099 ns, Total: 646699 ns
+[2025-06-17T23:44:01.234+0300][9724][19084][info ][gc       ] GC(11) Concurrent marking roots 0.591ms
+[2025-06-17T23:44:01.234+0300][9724][19084][info ][gc       ] GC(11) Concurrent marking (unload classes) 13.120ms
+[2025-06-17T23:44:01.234+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:44:01.234+0300][9724][14924][info ][gc       ] GC(11) Pause Final Mark (unload classes) 0.284ms
+[2025-06-17T23:44:01.234+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalMarkStartEvac", Time since last: 14006800 ns, Reaching safepoint: 28301 ns, Cleanup: 3800 ns, At safepoint: 312400 ns, Total: 344501 ns
+[2025-06-17T23:44:01.234+0300][9724][19084][info ][gc       ] GC(11) Concurrent thread roots 0.279ms
+[2025-06-17T23:44:01.234+0300][9724][19084][info ][gc       ] GC(11) Concurrent weak references 0.181ms
+[2025-06-17T23:44:01.234+0300][9724][19084][info ][gc       ] GC(11) Concurrent weak roots 1.335ms
+[2025-06-17T23:44:01.234+0300][9724][19084][info ][gc       ] GC(11) Concurrent cleanup 519M->71M(2048M) 0.028ms
+[2025-06-17T23:44:01.234+0300][9724][19084][debug][gc,phases] GC(11) ClassLoaderData 0.016ms
+[2025-06-17T23:44:01.234+0300][9724][19084][debug][gc,phases] GC(11) Trigger cleanups 0.000ms
+[2025-06-17T23:44:01.251+0300][9724][19084][info ][gc       ] GC(11) Concurrent class unloading 4.127ms
+[2025-06-17T23:44:01.251+0300][9724][19084][info ][gc       ] GC(11) Concurrent strong roots 0.235ms
+[2025-06-17T23:44:01.251+0300][9724][19084][info ][gc       ] GC(11) Concurrent evacuation 0.475ms
+[2025-06-17T23:44:01.251+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:44:01.251+0300][9724][14924][info ][gc       ] GC(11) Pause Init Update Refs 0.006ms
+[2025-06-17T23:44:01.251+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahInitUpdateRefs", Time since last: 7000300 ns, Reaching safepoint: 30100 ns, Cleanup: 6599 ns, At safepoint: 22301 ns, Total: 59000 ns
+[2025-06-17T23:44:01.251+0300][9724][19084][info ][gc       ] GC(11) Concurrent update references 3.248ms
+[2025-06-17T23:44:01.251+0300][9724][19084][info ][gc       ] GC(11) Concurrent update thread roots 0.271ms
+[2025-06-17T23:44:01.251+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:44:01.251+0300][9724][14924][info ][gc       ] GC(11) Pause Final Update Refs 0.027ms
+[2025-06-17T23:44:01.251+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalUpdateRefs", Time since last: 3688499 ns, Reaching safepoint: 24301 ns, Cleanup: 2400 ns, At safepoint: 40800 ns, Total: 67501 ns
+[2025-06-17T23:44:01.251+0300][9724][19084][info ][gc       ] GC(11) Concurrent cleanup 86M->38M(2048M) 0.012ms
+[2025-06-17T23:44:02.264+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:44:02.264+0300][9724][21392][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a07efb40f, stub =0x0000018a07586300
+[2025-06-17T23:44:02.264+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1006000600 ns, Reaching safepoint: 279800 ns, Cleanup: 40200 ns, At safepoint: 23200 ns, Total: 343200 ns
+[2025-06-17T23:44:03.276+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:44:03.276+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1011957400 ns, Reaching safepoint: 67099 ns, Cleanup: 28701 ns, At safepoint: 4000 ns, Total: 99800 ns
+[2025-06-17T23:44:04.291+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:44:04.291+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1014306099 ns, Reaching safepoint: 171100 ns, Cleanup: 60301 ns, At safepoint: 41700 ns, Total: 273101 ns
+[2025-06-17T23:44:05.299+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:44:05.299+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1008356600 ns, Reaching safepoint: 151900 ns, Cleanup: 23600 ns, At safepoint: 3899 ns, Total: 179399 ns
+[2025-06-17T23:44:11.339+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:44:11.339+0300][9724][14588][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a07e61299, stub =0x0000018a07586300
+[2025-06-17T23:44:11.339+0300][9724][21392][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a07e61299, stub =0x0000018a07586300
+[2025-06-17T23:44:11.339+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 6039611601 ns, Reaching safepoint: 435099 ns, Cleanup: 38201 ns, At safepoint: 23499 ns, Total: 496799 ns
+[2025-06-17T23:44:20.415+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:44:20.416+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 9075633900 ns, Reaching safepoint: 172301 ns, Cleanup: 52400 ns, At safepoint: 35500 ns, Total: 260201 ns
+[2025-06-17T23:44:22.443+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:44:22.443+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 2027465600 ns, Reaching safepoint: 135799 ns, Cleanup: 39601 ns, At safepoint: 14000 ns, Total: 189400 ns
+[2025-06-17T23:44:36.569+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:44:36.570+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 14126289399 ns, Reaching safepoint: 159301 ns, Cleanup: 36000 ns, At safepoint: 21400 ns, Total: 216701 ns
+[2025-06-17T23:44:37.577+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:44:37.577+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1008030900 ns, Reaching safepoint: 122499 ns, Cleanup: 31601 ns, At safepoint: 10499 ns, Total: 164599 ns
+[2025-06-17T23:45:01.096+0300][9724][19084][info ][gc       ] Trigger: Free (203M) is below minimum threshold (204M)
+[2025-06-17T23:45:01.097+0300][9724][19084][info ][gc       ] GC(12) Concurrent reset 0.594ms
+[2025-06-17T23:45:01.097+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:45:01.097+0300][9724][14924][info ][gc       ] GC(12) Pause Init Mark (unload classes) 0.022ms
+[2025-06-17T23:45:01.097+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahInitMark", Time since last: 23518766300 ns, Reaching safepoint: 38501 ns, Cleanup: 7500 ns, At safepoint: 54900 ns, Total: 100901 ns
+[2025-06-17T23:45:01.097+0300][9724][19084][info ][gc       ] GC(12) Concurrent marking roots 0.226ms
+[2025-06-17T23:45:01.097+0300][9724][19084][info ][gc       ] GC(12) Concurrent marking (unload classes) 7.677ms
+[2025-06-17T23:45:01.097+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:45:01.097+0300][9724][14924][info ][gc       ] GC(12) Pause Final Mark (unload classes) 0.336ms
+[2025-06-17T23:45:01.097+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalMarkStartEvac", Time since last: 8061400 ns, Reaching safepoint: 29200 ns, Cleanup: 3400 ns, At safepoint: 364400 ns, Total: 397000 ns
+[2025-06-17T23:45:01.097+0300][9724][19084][info ][gc       ] GC(12) Concurrent weak references 0.169ms
+[2025-06-17T23:45:01.097+0300][9724][19084][info ][gc       ] GC(12) Concurrent weak roots 1.438ms
+[2025-06-17T23:45:01.097+0300][9724][19084][info ][gc       ] GC(12) Concurrent cleanup 1747M->113M(2048M) 0.075ms
+[2025-06-17T23:45:01.097+0300][9724][19084][debug][gc,phases] GC(12) ClassLoaderData 0.016ms
+[2025-06-17T23:45:01.097+0300][9724][19084][debug][gc,phases] GC(12) Trigger cleanups 0.000ms
+[2025-06-17T23:45:01.097+0300][9724][19084][info ][gc       ] GC(12) Concurrent class unloading 3.875ms
+[2025-06-17T23:45:01.097+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:45:01.097+0300][9724][14924][info ][gc       ] GC(12) Pause Final Roots 0.002ms
+[2025-06-17T23:45:01.097+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalRoots", Time since last: 5851900 ns, Reaching safepoint: 60200 ns, Cleanup: 5800 ns, At safepoint: 15700 ns, Total: 81700 ns
+[2025-06-17T23:45:03.111+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:45:03.111+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1999409000 ns, Reaching safepoint: 172800 ns, Cleanup: 33200 ns, At safepoint: 23800 ns, Total: 229800 ns
+[2025-06-17T23:45:45.682+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:45:45.682+0300][9724][21748][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a07f9f043, stub =0x0000018a07585a80
+[2025-06-17T23:45:45.682+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 42571308100 ns, Reaching safepoint: 316400 ns, Cleanup: 31500 ns, At safepoint: 43100 ns, Total: 391000 ns
+[2025-06-17T23:45:47.694+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:45:47.694+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 2012184500 ns, Reaching safepoint: 154200 ns, Cleanup: 17800 ns, At safepoint: 13500 ns, Total: 185500 ns
+[2025-06-17T23:45:58.165+0300][9724][19084][info ][gc       ] Trigger: Free (204M) is below minimum threshold (204M)
+[2025-06-17T23:45:58.165+0300][9724][19084][info ][gc       ] GC(13) Concurrent reset 1.433ms
+[2025-06-17T23:45:58.165+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:45:58.165+0300][9724][14924][info ][gc       ] GC(13) Pause Init Mark (unload classes) 0.045ms
+[2025-06-17T23:45:58.165+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahInitMark", Time since last: 10472320999 ns, Reaching safepoint: 93201 ns, Cleanup: 26000 ns, At safepoint: 100300 ns, Total: 219501 ns
+[2025-06-17T23:45:58.165+0300][9724][19084][info ][gc       ] GC(13) Concurrent marking roots 0.821ms
+[2025-06-17T23:45:58.165+0300][9724][19084][info ][gc       ] GC(13) Concurrent marking (unload classes) 9.191ms
+[2025-06-17T23:45:58.165+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:45:58.165+0300][9724][14924][info ][gc       ] GC(13) Pause Final Mark (unload classes) 0.293ms
+[2025-06-17T23:45:58.165+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalMarkStartEvac", Time since last: 10344500 ns, Reaching safepoint: 25199 ns, Cleanup: 3701 ns, At safepoint: 319900 ns, Total: 348800 ns
+[2025-06-17T23:45:58.165+0300][9724][19084][info ][gc       ] GC(13) Concurrent thread roots 0.271ms
+[2025-06-17T23:45:58.165+0300][9724][19084][info ][gc       ] GC(13) Concurrent weak references 0.175ms
+[2025-06-17T23:45:58.165+0300][9724][19084][info ][gc       ] GC(13) Concurrent weak roots 1.648ms
+[2025-06-17T23:45:58.165+0300][9724][19084][info ][gc       ] GC(13) Concurrent cleanup 1740M->171M(2048M) 0.074ms
+[2025-06-17T23:45:58.165+0300][9724][19084][debug][gc,phases] GC(13) ClassLoaderData 0.015ms
+[2025-06-17T23:45:58.165+0300][9724][19084][debug][gc,phases] GC(13) Trigger cleanups 0.000ms
+[2025-06-17T23:45:58.182+0300][9724][19084][info ][gc       ] GC(13) Concurrent class unloading 4.146ms
+[2025-06-17T23:45:58.182+0300][9724][19084][info ][gc       ] GC(13) Concurrent strong roots 0.270ms
+[2025-06-17T23:45:58.182+0300][9724][19084][info ][gc       ] GC(13) Concurrent evacuation 0.702ms
+[2025-06-17T23:45:58.182+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:45:58.182+0300][9724][14924][info ][gc       ] GC(13) Pause Init Update Refs 0.006ms
+[2025-06-17T23:45:58.182+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahInitUpdateRefs", Time since last: 7579299 ns, Reaching safepoint: 25201 ns, Cleanup: 3899 ns, At safepoint: 19901 ns, Total: 49001 ns
+[2025-06-17T23:45:58.182+0300][9724][19084][info ][gc       ] GC(13) Concurrent update references 3.190ms
+[2025-06-17T23:45:58.182+0300][9724][19084][info ][gc       ] GC(13) Concurrent update thread roots 0.230ms
+[2025-06-17T23:45:58.182+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:45:58.182+0300][9724][14924][info ][gc       ] GC(13) Pause Final Update Refs 0.029ms
+[2025-06-17T23:45:58.182+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalUpdateRefs", Time since last: 3585299 ns, Reaching safepoint: 23601 ns, Cleanup: 2400 ns, At safepoint: 43299 ns, Total: 69300 ns
+[2025-06-17T23:45:58.182+0300][9724][19084][info ][gc       ] GC(13) Concurrent cleanup 182M->27M(2048M) 0.016ms
+[2025-06-17T23:46:03.625+0300][9724][19084][info ][gc       ] Trigger: Explicit GC request (System.gc())
+[2025-06-17T23:46:03.625+0300][9724][19084][info ][gc       ] GC(14) Concurrent reset 0.712ms
+[2025-06-17T23:46:03.625+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (25 threads)
+[2025-06-17T23:46:03.625+0300][9724][14924][info ][gc       ] GC(14) Pause Init Mark (unload classes) 0.013ms
+[2025-06-17T23:46:03.625+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahInitMark", Time since last: 5436557801 ns, Reaching safepoint: 29699 ns, Cleanup: 18401 ns, At safepoint: 30100 ns, Total: 78200 ns
+[2025-06-17T23:46:03.625+0300][9724][19084][info ][gc       ] GC(14) Concurrent marking roots 0.249ms
+[2025-06-17T23:46:03.631+0300][9724][19084][info ][gc       ] GC(14) Concurrent marking (unload classes) 5.966ms
+[2025-06-17T23:46:03.631+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (25 threads)
+[2025-06-17T23:46:03.631+0300][9724][14924][info ][gc       ] GC(14) Pause Final Mark (unload classes) 0.219ms
+[2025-06-17T23:46:03.631+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalMarkStartEvac", Time since last: 6405500 ns, Reaching safepoint: 27200 ns, Cleanup: 3800 ns, At safepoint: 259199 ns, Total: 290199 ns
+[2025-06-17T23:46:03.631+0300][9724][19084][info ][gc       ] GC(14) Concurrent thread roots 0.234ms
+[2025-06-17T23:46:03.631+0300][9724][19084][info ][gc       ] GC(14) Concurrent weak references 0.198ms
+[2025-06-17T23:46:03.631+0300][9724][19084][info ][gc       ] GC(14) Concurrent weak roots 1.619ms
+[2025-06-17T23:46:03.631+0300][9724][19084][info ][gc       ] GC(14) Concurrent cleanup 167M->42M(2048M) 0.020ms
+[2025-06-17T23:46:03.631+0300][9724][19084][debug][gc,phases] GC(14) ClassLoaderData 0.292ms
+[2025-06-17T23:46:03.631+0300][9724][19084][debug][gc,phases] GC(14) Trigger cleanups 0.005ms
+[2025-06-17T23:46:03.641+0300][9724][19084][info ][gc       ] GC(14) Concurrent class unloading 17.266ms
+[2025-06-17T23:46:03.641+0300][9724][19084][info ][gc       ] GC(14) Concurrent strong roots 0.287ms
+[2025-06-17T23:46:03.641+0300][9724][19084][info ][gc       ] GC(14) Concurrent evacuation 0.645ms
+[2025-06-17T23:46:03.641+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (25 threads)
+[2025-06-17T23:46:03.641+0300][9724][14924][info ][gc       ] GC(14) Pause Init Update Refs 0.006ms
+[2025-06-17T23:46:03.641+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahInitUpdateRefs", Time since last: 20587801 ns, Reaching safepoint: 31900 ns, Cleanup: 11000 ns, At safepoint: 19899 ns, Total: 62799 ns
+[2025-06-17T23:46:03.657+0300][9724][19084][info ][gc       ] GC(14) Concurrent update references 3.070ms
+[2025-06-17T23:46:03.657+0300][9724][19084][info ][gc       ] GC(14) Concurrent update thread roots 0.220ms
+[2025-06-17T23:46:03.657+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (25 threads)
+[2025-06-17T23:46:03.657+0300][9724][14924][info ][gc       ] GC(14) Pause Final Update Refs 0.026ms
+[2025-06-17T23:46:03.657+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalUpdateRefs", Time since last: 3420201 ns, Reaching safepoint: 24800 ns, Cleanup: 2599 ns, At safepoint: 40501 ns, Total: 67900 ns
+[2025-06-17T23:46:03.657+0300][9724][19084][info ][gc       ] GC(14) Concurrent cleanup 45M->15M(2048M) 0.011ms
+[2025-06-17T23:46:04.670+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (33 threads)
+[2025-06-17T23:46:04.670+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1012833400 ns, Reaching safepoint: 113100 ns, Cleanup: 73200 ns, At safepoint: 6800 ns, Total: 193100 ns
+[2025-06-17T23:46:05.671+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:46:05.671+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1001314500 ns, Reaching safepoint: 104099 ns, Cleanup: 19701 ns, At safepoint: 15400 ns, Total: 139200 ns
+[2025-06-17T23:46:06.680+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:46:06.680+0300][9724][3424 ][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a07f104e0, stub =0x0000018a07586300
+[2025-06-17T23:46:06.680+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1009282000 ns, Reaching safepoint: 297800 ns, Cleanup: 18500 ns, At safepoint: 23000 ns, Total: 339300 ns
+[2025-06-17T23:46:07.686+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:46:07.686+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1005541700 ns, Reaching safepoint: 2453000 ns, Cleanup: 24800 ns, At safepoint: 4700 ns, Total: 2482500 ns
+[2025-06-17T23:46:09.712+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:46:09.712+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 2023618600 ns, Reaching safepoint: 154900 ns, Cleanup: 12100 ns, At safepoint: 7900 ns, Total: 174900 ns
+[2025-06-17T23:46:10.727+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:46:10.727+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1014522300 ns, Reaching safepoint: 190700 ns, Cleanup: 18000 ns, At safepoint: 17800 ns, Total: 226500 ns
+[2025-06-17T23:46:11.742+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:46:11.742+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1014741199 ns, Reaching safepoint: 186101 ns, Cleanup: 38100 ns, At safepoint: 18800 ns, Total: 243001 ns
+[2025-06-17T23:46:13.758+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:46:13.758+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 2015124600 ns, Reaching safepoint: 209000 ns, Cleanup: 37899 ns, At safepoint: 39601 ns, Total: 286500 ns
+[2025-06-17T23:46:16.787+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:46:16.787+0300][9724][19228][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a080c647b, stub =0x0000018a07586300
+[2025-06-17T23:46:16.787+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 3028725599 ns, Reaching safepoint: 197401 ns, Cleanup: 30500 ns, At safepoint: 13400 ns, Total: 241301 ns
+[2025-06-17T23:46:19.209+0300][9724][19084][info ][gc       ] Trigger: Learning 2 of 5. Free (1431M) is below initial threshold (1433M)
+[2025-06-17T23:46:19.209+0300][9724][19084][info ][gc       ] GC(15) Concurrent reset 0.706ms
+[2025-06-17T23:46:19.209+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:46:19.210+0300][9724][21052][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a08290943, stub =0x0000018a07585a80
+[2025-06-17T23:46:19.210+0300][9724][2520 ][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a08290943, stub =0x0000018a07585a80
+[2025-06-17T23:46:19.210+0300][9724][18108][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a08290943, stub =0x0000018a07585a80
+[2025-06-17T23:46:19.210+0300][9724][14924][info ][gc       ] GC(15) Pause Init Mark (unload classes) 0.066ms
+[2025-06-17T23:46:19.210+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahInitMark", Time since last: 2423143500 ns, Reaching safepoint: 490400 ns, Cleanup: 30600 ns, At safepoint: 184599 ns, Total: 705599 ns
+[2025-06-17T23:46:19.210+0300][9724][19084][info ][gc       ] GC(15) Concurrent marking roots 0.631ms
+[2025-06-17T23:46:19.220+0300][9724][19084][info ][gc       ] GC(15) Concurrent marking (unload classes) 9.138ms
+[2025-06-17T23:46:19.220+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:46:19.220+0300][9724][14924][info ][gc       ] GC(15) Pause Final Mark (unload classes) 0.290ms
+[2025-06-17T23:46:19.220+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalMarkStartEvac", Time since last: 10044301 ns, Reaching safepoint: 28200 ns, Cleanup: 3199 ns, At safepoint: 317501 ns, Total: 348900 ns
+[2025-06-17T23:46:19.220+0300][9724][19084][info ][gc       ] GC(15) Concurrent thread roots 0.271ms
+[2025-06-17T23:46:19.220+0300][9724][19084][info ][gc       ] GC(15) Concurrent weak references 0.233ms
+[2025-06-17T23:46:19.220+0300][9724][19084][info ][gc       ] GC(15) Concurrent weak roots 1.661ms
+[2025-06-17T23:46:19.220+0300][9724][19084][info ][gc       ] GC(15) Concurrent cleanup 523M->156M(2048M) 0.027ms
+[2025-06-17T23:46:19.220+0300][9724][19084][debug][gc,phases] GC(15) ClassLoaderData 0.236ms
+[2025-06-17T23:46:19.220+0300][9724][19084][debug][gc,phases] GC(15) Trigger cleanups 0.005ms
+[2025-06-17T23:46:19.227+0300][9724][19084][info ][gc       ] GC(15) Concurrent class unloading 10.459ms
+[2025-06-17T23:46:19.227+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:46:19.227+0300][9724][14924][info ][safepoint] Safepoint "CleanClassLoaderDataMetaspaces", Time since last: 13027499 ns, Reaching safepoint: 26901 ns, Cleanup: 137600 ns, At safepoint: 24200 ns, Total: 188701 ns
+[2025-06-17T23:46:19.227+0300][9724][19084][info ][gc       ] GC(15) Concurrent strong roots 0.393ms
+[2025-06-17T23:46:19.227+0300][9724][19084][info ][gc       ] GC(15) Concurrent evacuation 1.451ms
+[2025-06-17T23:46:19.227+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:46:19.227+0300][9724][14924][info ][gc       ] GC(15) Pause Init Update Refs 0.006ms
+[2025-06-17T23:46:19.227+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahInitUpdateRefs", Time since last: 1627399 ns, Reaching safepoint: 24401 ns, Cleanup: 3000 ns, At safepoint: 20000 ns, Total: 47401 ns
+[2025-06-17T23:46:19.239+0300][9724][19084][info ][gc       ] GC(15) Concurrent update references 3.969ms
+[2025-06-17T23:46:19.239+0300][9724][19084][info ][gc       ] GC(15) Concurrent update thread roots 0.257ms
+[2025-06-17T23:46:19.239+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:46:19.239+0300][9724][14924][info ][gc       ] GC(15) Pause Final Update Refs 0.029ms
+[2025-06-17T23:46:19.239+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalUpdateRefs", Time since last: 4429800 ns, Reaching safepoint: 33200 ns, Cleanup: 2800 ns, At safepoint: 43400 ns, Total: 79400 ns
+[2025-06-17T23:46:19.239+0300][9724][19084][info ][gc       ] GC(15) Concurrent cleanup 172M->38M(2048M) 0.015ms
+[2025-06-17T23:46:35.865+0300][9724][19084][info ][gc       ] Trigger: Learning 3 of 5. Free (1432M) is below initial threshold (1433M)
+[2025-06-17T23:46:35.865+0300][9724][19084][info ][gc       ] GC(16) Concurrent reset 0.981ms
+[2025-06-17T23:46:35.865+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:46:35.865+0300][9724][14924][info ][gc       ] GC(16) Pause Init Mark (unload classes) 0.046ms
+[2025-06-17T23:46:35.865+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahInitMark", Time since last: 16626059999 ns, Reaching safepoint: 84401 ns, Cleanup: 20800 ns, At safepoint: 101000 ns, Total: 206201 ns
+[2025-06-17T23:46:35.865+0300][9724][19084][info ][gc       ] GC(16) Concurrent marking roots 0.601ms
+[2025-06-17T23:46:35.865+0300][9724][19084][info ][gc       ] GC(16) Concurrent marking (unload classes) 8.722ms
+[2025-06-17T23:46:35.865+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:46:35.865+0300][9724][14924][info ][gc       ] GC(16) Pause Final Mark (unload classes) 0.317ms
+[2025-06-17T23:46:35.865+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalMarkStartEvac", Time since last: 9673300 ns, Reaching safepoint: 31899 ns, Cleanup: 3701 ns, At safepoint: 345100 ns, Total: 380700 ns
+[2025-06-17T23:46:35.865+0300][9724][19084][info ][gc       ] GC(16) Concurrent thread roots 0.238ms
+[2025-06-17T23:46:35.865+0300][9724][19084][info ][gc       ] GC(16) Concurrent weak references 0.159ms
+[2025-06-17T23:46:35.865+0300][9724][19084][info ][gc       ] GC(16) Concurrent weak roots 1.285ms
+[2025-06-17T23:46:35.865+0300][9724][19084][info ][gc       ] GC(16) Concurrent cleanup 512M->72M(2048M) 0.028ms
+[2025-06-17T23:46:35.865+0300][9724][19084][debug][gc,phases] GC(16) ClassLoaderData 0.016ms
+[2025-06-17T23:46:35.865+0300][9724][19084][debug][gc,phases] GC(16) Trigger cleanups 0.000ms
+[2025-06-17T23:46:35.882+0300][9724][19084][info ][gc       ] GC(16) Concurrent class unloading 3.919ms
+[2025-06-17T23:46:35.882+0300][9724][19084][info ][gc       ] GC(16) Concurrent strong roots 0.244ms
+[2025-06-17T23:46:35.882+0300][9724][19084][info ][gc       ] GC(16) Concurrent evacuation 0.484ms
+[2025-06-17T23:46:35.882+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:46:35.882+0300][9724][14924][info ][gc       ] GC(16) Pause Init Update Refs 0.005ms
+[2025-06-17T23:46:35.882+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahInitUpdateRefs", Time since last: 6682999 ns, Reaching safepoint: 25001 ns, Cleanup: 2699 ns, At safepoint: 18600 ns, Total: 46300 ns
+[2025-06-17T23:46:35.882+0300][9724][19084][info ][gc       ] GC(16) Concurrent update references 3.165ms
+[2025-06-17T23:46:35.882+0300][9724][19084][info ][gc       ] GC(16) Concurrent update thread roots 0.213ms
+[2025-06-17T23:46:35.882+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:46:35.882+0300][9724][14924][info ][gc       ] GC(16) Pause Final Update Refs 0.028ms
+[2025-06-17T23:46:35.882+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalUpdateRefs", Time since last: 3542001 ns, Reaching safepoint: 24400 ns, Cleanup: 2300 ns, At safepoint: 42299 ns, Total: 68999 ns
+[2025-06-17T23:46:35.882+0300][9724][19084][info ][gc       ] GC(16) Concurrent cleanup 85M->28M(2048M) 0.012ms
+[2025-06-17T23:46:45.864+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:46:45.864+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 9976719501 ns, Reaching safepoint: 379300 ns, Cleanup: 30900 ns, At safepoint: 5500 ns, Total: 415700 ns
+[2025-06-17T23:46:52.848+0300][9724][19084][info ][gc       ] Trigger: Learning 4 of 5. Free (1432M) is below initial threshold (1433M)
+[2025-06-17T23:46:52.848+0300][9724][19084][info ][gc       ] GC(17) Concurrent reset 0.531ms
+[2025-06-17T23:46:52.848+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:46:52.849+0300][9724][9244 ][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a07f9f043, stub =0x0000018a07585a80
+[2025-06-17T23:46:52.849+0300][9724][14924][info ][gc       ] GC(17) Pause Init Mark (unload classes) 0.037ms
+[2025-06-17T23:46:52.849+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahInitMark", Time since last: 6984417900 ns, Reaching safepoint: 225500 ns, Cleanup: 16999 ns, At safepoint: 142900 ns, Total: 385399 ns
+[2025-06-17T23:46:52.850+0300][9724][19084][info ][gc       ] GC(17) Concurrent marking roots 0.537ms
+[2025-06-17T23:46:52.850+0300][9724][19084][info ][gc       ] GC(17) Concurrent marking (unload classes) 8.051ms
+[2025-06-17T23:46:52.850+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:46:52.850+0300][9724][14924][info ][gc       ] GC(17) Pause Final Mark (unload classes) 0.287ms
+[2025-06-17T23:46:52.850+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalMarkStartEvac", Time since last: 8846901 ns, Reaching safepoint: 32000 ns, Cleanup: 3000 ns, At safepoint: 328999 ns, Total: 363999 ns
+[2025-06-17T23:46:52.850+0300][9724][19084][info ][gc       ] GC(17) Concurrent thread roots 0.271ms
+[2025-06-17T23:46:52.850+0300][9724][19084][info ][gc       ] GC(17) Concurrent weak references 0.152ms
+[2025-06-17T23:46:52.850+0300][9724][19084][info ][gc       ] GC(17) Concurrent weak roots 1.274ms
+[2025-06-17T23:46:52.850+0300][9724][19084][info ][gc       ] GC(17) Concurrent cleanup 519M->81M(2048M) 0.029ms
+[2025-06-17T23:46:52.850+0300][9724][19084][debug][gc,phases] GC(17) ClassLoaderData 0.016ms
+[2025-06-17T23:46:52.850+0300][9724][19084][debug][gc,phases] GC(17) Trigger cleanups 0.000ms
+[2025-06-17T23:46:52.850+0300][9724][19084][info ][gc       ] GC(17) Concurrent class unloading 3.136ms
+[2025-06-17T23:46:52.850+0300][9724][19084][info ][gc       ] GC(17) Concurrent strong roots 0.209ms
+[2025-06-17T23:46:52.850+0300][9724][19084][info ][gc       ] GC(17) Concurrent evacuation 0.332ms
+[2025-06-17T23:46:52.850+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:46:52.850+0300][9724][14924][info ][gc       ] GC(17) Pause Init Update Refs 0.005ms
+[2025-06-17T23:46:52.850+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahInitUpdateRefs", Time since last: 5732300 ns, Reaching safepoint: 24101 ns, Cleanup: 2700 ns, At safepoint: 18500 ns, Total: 45301 ns
+[2025-06-17T23:46:52.866+0300][9724][19084][info ][gc       ] GC(17) Concurrent update references 3.941ms
+[2025-06-17T23:46:52.866+0300][9724][19084][info ][gc       ] GC(17) Concurrent update thread roots 0.214ms
+[2025-06-17T23:46:52.866+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:46:52.866+0300][9724][14924][info ][gc       ] GC(17) Pause Final Update Refs 0.028ms
+[2025-06-17T23:46:52.866+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalUpdateRefs", Time since last: 4340700 ns, Reaching safepoint: 25199 ns, Cleanup: 3001 ns, At safepoint: 43100 ns, Total: 71300 ns
+[2025-06-17T23:46:52.866+0300][9724][19084][info ][gc       ] GC(17) Concurrent cleanup 91M->34M(2048M) 0.012ms
+[2025-06-17T23:46:53.881+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:46:53.881+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1012505700 ns, Reaching safepoint: 285200 ns, Cleanup: 63600 ns, At safepoint: 47300 ns, Total: 396100 ns
+[2025-06-17T23:47:09.471+0300][9724][19084][info ][gc       ] Trigger: Learning 5 of 5. Free (1432M) is below initial threshold (1433M)
+[2025-06-17T23:47:09.472+0300][9724][19084][info ][gc       ] GC(18) Concurrent reset 0.537ms
+[2025-06-17T23:47:09.472+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:47:09.472+0300][9724][11332][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a081a7b6a, stub =0x0000018a07585a80
+[2025-06-17T23:47:09.472+0300][9724][14924][info ][gc       ] GC(18) Pause Init Mark (unload classes) 0.083ms
+[2025-06-17T23:47:09.472+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahInitMark", Time since last: 15590259000 ns, Reaching safepoint: 141600 ns, Cleanup: 55200 ns, At safepoint: 111600 ns, Total: 308400 ns
+[2025-06-17T23:47:09.472+0300][9724][19084][info ][gc       ] GC(18) Concurrent marking roots 0.250ms
+[2025-06-17T23:47:09.475+0300][9724][19084][info ][gc       ] GC(18) Concurrent marking (unload classes) 8.634ms
+[2025-06-17T23:47:09.475+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:47:09.475+0300][9724][14924][info ][gc       ] GC(18) Pause Final Mark (unload classes) 0.273ms
+[2025-06-17T23:47:09.475+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalMarkStartEvac", Time since last: 9064400 ns, Reaching safepoint: 27399 ns, Cleanup: 3501 ns, At safepoint: 300800 ns, Total: 331700 ns
+[2025-06-17T23:47:09.475+0300][9724][19084][info ][gc       ] GC(18) Concurrent thread roots 0.316ms
+[2025-06-17T23:47:09.475+0300][9724][19084][info ][gc       ] GC(18) Concurrent weak references 0.172ms
+[2025-06-17T23:47:09.475+0300][9724][19084][info ][gc       ] GC(18) Concurrent weak roots 1.265ms
+[2025-06-17T23:47:09.475+0300][9724][19084][info ][gc       ] GC(18) Concurrent cleanup 525M->81M(2048M) 0.027ms
+[2025-06-17T23:47:09.475+0300][9724][19084][debug][gc,phases] GC(18) ClassLoaderData 0.015ms
+[2025-06-17T23:47:09.475+0300][9724][19084][debug][gc,phases] GC(18) Trigger cleanups 0.000ms
+[2025-06-17T23:47:09.475+0300][9724][19084][info ][gc       ] GC(18) Concurrent class unloading 3.277ms
+[2025-06-17T23:47:09.475+0300][9724][19084][info ][gc       ] GC(18) Concurrent strong roots 0.213ms
+[2025-06-17T23:47:09.475+0300][9724][19084][info ][gc       ] GC(18) Concurrent evacuation 0.269ms
+[2025-06-17T23:47:09.475+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:47:09.475+0300][9724][14924][info ][gc       ] GC(18) Pause Init Update Refs 0.004ms
+[2025-06-17T23:47:09.475+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahInitUpdateRefs", Time since last: 5897000 ns, Reaching safepoint: 24300 ns, Cleanup: 2599 ns, At safepoint: 17101 ns, Total: 44000 ns
+[2025-06-17T23:47:09.489+0300][9724][19084][info ][gc       ] GC(18) Concurrent update references 3.526ms
+[2025-06-17T23:47:09.491+0300][9724][19084][info ][gc       ] GC(18) Concurrent update thread roots 0.306ms
+[2025-06-17T23:47:09.491+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:47:09.491+0300][9724][14924][info ][gc       ] GC(18) Pause Final Update Refs 0.030ms
+[2025-06-17T23:47:09.491+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalUpdateRefs", Time since last: 4031700 ns, Reaching safepoint: 45900 ns, Cleanup: 3199 ns, At safepoint: 58901 ns, Total: 108000 ns
+[2025-06-17T23:47:09.491+0300][9724][19084][info ][gc       ] GC(18) Concurrent cleanup 85M->33M(2048M) 0.014ms
+[2025-06-17T23:47:35.717+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:47:35.717+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 26225657100 ns, Reaching safepoint: 88800 ns, Cleanup: 23500 ns, At safepoint: 18600 ns, Total: 130900 ns
+[2025-06-17T23:47:43.788+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:47:43.788+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 8070728200 ns, Reaching safepoint: 123599 ns, Cleanup: 23301 ns, At safepoint: 15899 ns, Total: 162799 ns
+[2025-06-17T23:47:51.003+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:47:51.003+0300][9724][15880][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a07fb806f, stub =0x0000018a07586300
+[2025-06-17T23:47:51.003+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 7214499401 ns, Reaching safepoint: 240199 ns, Cleanup: 16700 ns, At safepoint: 14701 ns, Total: 271600 ns
+[2025-06-17T23:47:52.003+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:47:52.003+0300][9724][11396][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a0831cafa, stub =0x0000018a07586300
+[2025-06-17T23:47:52.003+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1000647300 ns, Reaching safepoint: 484800 ns, Cleanup: 35600 ns, At safepoint: 43999 ns, Total: 564399 ns
+[2025-06-17T23:48:08.589+0300][9724][19084][info ][gc       ] Trigger: Free (203M) is below minimum threshold (204M)
+[2025-06-17T23:48:08.590+0300][9724][19084][info ][gc       ] GC(19) Concurrent reset 1.849ms
+[2025-06-17T23:48:08.590+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:48:08.590+0300][9724][14924][info ][gc       ] GC(19) Pause Init Mark (unload classes) 0.047ms
+[2025-06-17T23:48:08.590+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahInitMark", Time since last: 16587272601 ns, Reaching safepoint: 69700 ns, Cleanup: 20100 ns, At safepoint: 106399 ns, Total: 196199 ns
+[2025-06-17T23:48:08.590+0300][9724][19084][info ][gc       ] GC(19) Concurrent marking roots 0.561ms
+[2025-06-17T23:48:08.590+0300][9724][19084][info ][gc       ] GC(19) Concurrent marking (unload classes) 8.613ms
+[2025-06-17T23:48:08.590+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:48:08.590+0300][9724][14924][info ][gc       ] GC(19) Pause Final Mark (unload classes) 0.278ms
+[2025-06-17T23:48:08.590+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalMarkStartEvac", Time since last: 9475401 ns, Reaching safepoint: 19200 ns, Cleanup: 4200 ns, At safepoint: 305200 ns, Total: 328600 ns
+[2025-06-17T23:48:08.590+0300][9724][19084][info ][gc       ] GC(19) Concurrent weak references 0.088ms
+[2025-06-17T23:48:08.590+0300][9724][19084][info ][gc       ] GC(19) Concurrent weak roots 1.021ms
+[2025-06-17T23:48:08.590+0300][9724][19084][info ][gc       ] GC(19) Concurrent cleanup 1741M->110M(2048M) 0.065ms
+[2025-06-17T23:48:08.590+0300][9724][19084][debug][gc,phases] GC(19) ClassLoaderData 0.018ms
+[2025-06-17T23:48:08.590+0300][9724][19084][debug][gc,phases] GC(19) Trigger cleanups 0.000ms
+[2025-06-17T23:48:08.590+0300][9724][19084][info ][gc       ] GC(19) Concurrent class unloading 3.423ms
+[2025-06-17T23:48:08.590+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:48:08.590+0300][9724][14924][info ][gc       ] GC(19) Pause Final Roots 0.002ms
+[2025-06-17T23:48:08.590+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalRoots", Time since last: 4745600 ns, Reaching safepoint: 19300 ns, Cleanup: 3499 ns, At safepoint: 14501 ns, Total: 37300 ns
+[2025-06-17T23:48:10.616+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:48:10.616+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 2009679200 ns, Reaching safepoint: 113099 ns, Cleanup: 21900 ns, At safepoint: 19001 ns, Total: 154000 ns
+[2025-06-17T23:48:11.620+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:48:11.621+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1004202200 ns, Reaching safepoint: 180999 ns, Cleanup: 39401 ns, At safepoint: 38100 ns, Total: 258500 ns
+[2025-06-17T23:48:12.622+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:48:12.622+0300][9724][19624][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a07e9f053, stub =0x0000018a07586300
+[2025-06-17T23:48:12.623+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1001907800 ns, Reaching safepoint: 157400 ns, Cleanup: 19800 ns, At safepoint: 25100 ns, Total: 202300 ns
+[2025-06-17T23:48:13.623+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:48:13.624+0300][9724][11332][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a07e68146, stub =0x0000018a07585a80
+[2025-06-17T23:48:13.624+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1000776800 ns, Reaching safepoint: 398900 ns, Cleanup: 54100 ns, At safepoint: 41900 ns, Total: 494900 ns
+[2025-06-17T23:48:15.646+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:48:15.646+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 2022513500 ns, Reaching safepoint: 112499 ns, Cleanup: 24801 ns, At safepoint: 18699 ns, Total: 155999 ns
+[2025-06-17T23:48:18.668+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:48:18.668+0300][9724][11396][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a0831cafa, stub =0x0000018a07586300
+[2025-06-17T23:48:18.668+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 3021532001 ns, Reaching safepoint: 282200 ns, Cleanup: 33900 ns, At safepoint: 18300 ns, Total: 334400 ns
+[2025-06-17T23:48:23.696+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:48:23.696+0300][9724][18612][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a0818d9c9, stub =0x0000018a07586300
+[2025-06-17T23:48:23.696+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 5027902700 ns, Reaching safepoint: 173100 ns, Cleanup: 20599 ns, At safepoint: 12701 ns, Total: 206400 ns
+[2025-06-17T23:48:24.708+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:48:24.708+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1011389299 ns, Reaching safepoint: 169001 ns, Cleanup: 42500 ns, At safepoint: 26899 ns, Total: 238400 ns
+[2025-06-17T23:48:25.722+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:48:25.722+0300][9724][18612][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a07d6adb1, stub =0x0000018a07586300
+[2025-06-17T23:48:25.722+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1014137501 ns, Reaching safepoint: 161300 ns, Cleanup: 35600 ns, At safepoint: 11099 ns, Total: 207999 ns
+[2025-06-17T23:48:26.731+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:48:26.731+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1009317901 ns, Reaching safepoint: 2172300 ns, Cleanup: 34400 ns, At safepoint: 12699 ns, Total: 2219399 ns
+[2025-06-17T23:48:27.745+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:48:27.745+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 1010860001 ns, Reaching safepoint: 149100 ns, Cleanup: 38100 ns, At safepoint: 3900 ns, Total: 191100 ns
+[2025-06-17T23:49:05.295+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:49:05.295+0300][9724][20384][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a07db8f1d, stub =0x0000018a07586300
+[2025-06-17T23:49:05.295+0300][9724][14924][info ][safepoint] Safepoint "Cleanup", Time since last: 37550704499 ns, Reaching safepoint: 327401 ns, Cleanup: 37900 ns, At safepoint: 33900 ns, Total: 399201 ns
+[2025-06-17T23:49:05.446+0300][9724][19084][info ][gc       ] Trigger: Free (203M) is below minimum threshold (204M)
+[2025-06-17T23:49:05.448+0300][9724][19084][info ][gc       ] GC(20) Concurrent reset 1.872ms
+[2025-06-17T23:49:05.448+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:49:05.448+0300][9724][16208][debug][safepoint] ... found polling page loop exception at pc = 0x0000018a08100e3d, stub =0x0000018a07585a80
+[2025-06-17T23:49:05.448+0300][9724][14924][info ][gc       ] GC(20) Pause Init Mark (unload classes) 0.040ms
+[2025-06-17T23:49:05.448+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahInitMark", Time since last: 152101000 ns, Reaching safepoint: 247600 ns, Cleanup: 9900 ns, At safepoint: 146499 ns, Total: 403999 ns
+[2025-06-17T23:49:05.448+0300][9724][19084][info ][gc       ] GC(20) Concurrent marking roots 0.541ms
+[2025-06-17T23:49:05.448+0300][9724][19084][info ][gc       ] GC(20) Concurrent marking (unload classes) 8.786ms
+[2025-06-17T23:49:05.448+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:49:05.448+0300][9724][14924][info ][gc       ] GC(20) Pause Final Mark (unload classes) 0.212ms
+[2025-06-17T23:49:05.448+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalMarkStartEvac", Time since last: 9533101 ns, Reaching safepoint: 19300 ns, Cleanup: 2700 ns, At safepoint: 239300 ns, Total: 261300 ns
+[2025-06-17T23:49:05.448+0300][9724][19084][info ][gc       ] GC(20) Concurrent thread roots 0.174ms
+[2025-06-17T23:49:05.448+0300][9724][19084][info ][gc       ] GC(20) Concurrent weak references 0.283ms
+[2025-06-17T23:49:05.448+0300][9724][19084][info ][gc       ] GC(20) Concurrent weak roots 1.071ms
+[2025-06-17T23:49:05.448+0300][9724][19084][info ][gc       ] GC(20) Concurrent cleanup 1750M->178M(2048M) 0.065ms
+[2025-06-17T23:49:05.448+0300][9724][19084][debug][gc,phases] GC(20) ClassLoaderData 0.016ms
+[2025-06-17T23:49:05.448+0300][9724][19084][debug][gc,phases] GC(20) Trigger cleanups 0.000ms
+[2025-06-17T23:49:05.462+0300][9724][19084][info ][gc       ] GC(20) Concurrent class unloading 3.358ms
+[2025-06-17T23:49:05.462+0300][9724][19084][info ][gc       ] GC(20) Concurrent strong roots 0.134ms
+[2025-06-17T23:49:05.462+0300][9724][19084][info ][gc       ] GC(20) Concurrent evacuation 0.630ms
+[2025-06-17T23:49:05.462+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:49:05.462+0300][9724][14924][info ][gc       ] GC(20) Pause Init Update Refs 0.005ms
+[2025-06-17T23:49:05.462+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahInitUpdateRefs", Time since last: 5998600 ns, Reaching safepoint: 19300 ns, Cleanup: 3600 ns, At safepoint: 16700 ns, Total: 39600 ns
+[2025-06-17T23:49:05.462+0300][9724][19084][info ][gc       ] GC(20) Concurrent update references 3.070ms
+[2025-06-17T23:49:05.462+0300][9724][19084][info ][gc       ] GC(20) Concurrent update thread roots 0.134ms
+[2025-06-17T23:49:05.462+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (32 threads)
+[2025-06-17T23:49:05.462+0300][9724][14924][info ][gc       ] GC(20) Pause Final Update Refs 0.030ms
+[2025-06-17T23:49:05.462+0300][9724][14924][info ][safepoint] Safepoint "ShenandoahFinalUpdateRefs", Time since last: 3273800 ns, Reaching safepoint: 18100 ns, Cleanup: 1599 ns, At safepoint: 42701 ns, Total: 62400 ns
+[2025-06-17T23:49:05.462+0300][9724][19084][info ][gc       ] GC(20) Concurrent cleanup 189M->35M(2048M) 0.012ms
+[2025-06-17T23:49:09.178+0300][9724][18364][info ][gc       ] Cancelling GC: Stopping VM
+[2025-06-17T23:49:09.194+0300][9724][14924][debug][safepoint] Safepoint synchronization initiated using striped semaphore wait barrier. (12 threads)
