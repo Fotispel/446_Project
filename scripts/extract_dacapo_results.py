@@ -3,13 +3,9 @@ import os
 import csv
 
 def parse_dacapo_output(content):
-    # Παράδειγμα: ===== DaCapo 9.12 avrora PASSED in 12345 ms =====
     match = re.search(r"PASSED in (\d+) ms", content)
     if match:
         return int(match.group(1))
-    # Προσπαθήστε να βρείτε χρόνους μεμονωμένων επαναλήψεων αν το "PASSED in" δεν είναι αρκετό
-    # Iteration 1 (123 ms) κλπ. - αυτό απαιτεί πιο σύνθετη λογική.
-    # Για τώρα, βασιζόμαστε στο "PASSED in X ms" που είναι ο συνολικός χρόνος.
     print("Warning: 'PASSED in X ms' not found in DaCapo output.")
     return None
 
@@ -32,7 +28,7 @@ def process_dacapo_logs(dacapo_out_dir, output_csv_file):
         total_time_ms = parse_dacapo_output(content)
         results.append({
             "gc_type": gc_type, "heap_size": heap_size, "benchmark": benchmark,
-            "total_benchmark_time_ms": total_time_ms if total_time_ms is not None else -1 # -1 για ένδειξη προβλήματος
+            "total_benchmark_time_ms": total_time_ms if total_time_ms is not None else -1
         })
 
     if not results:
