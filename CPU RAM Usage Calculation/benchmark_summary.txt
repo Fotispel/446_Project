@@ -1,0 +1,100 @@
+C:\Users\pelan\Desktop\446_Project>.\run_benchmarks.bat
+Running GC: G1, Heap: 2g, Benchmark: avrora
+Command being executed...
+Completed GC: G1, Heap: 2g, Benchmark: avrora at: Τρι 17/06/2025 22:58:19
+-----------------------------------------------------
+Running GC: G1, Heap: 2g, Benchmark: lusearch
+Command being executed...
+Completed GC: G1, Heap: 2g, Benchmark: lusearch at: Τρι 17/06/2025 22:58:47
+-----------------------------------------------------
+Running GC: G1, Heap: 2g, Benchmark: tomcat
+Command being executed...
+Completed GC: G1, Heap: 2g, Benchmark: tomcat at: Τρι 17/06/2025 23:08:11
+-----------------------------------------------------
+Running GC: G1, Heap: 12g, Benchmark: avrora
+Command being executed...
+Completed GC: G1, Heap: 12g, Benchmark: avrora at: Τρι 17/06/2025 23:08:30
+-----------------------------------------------------
+Running GC: G1, Heap: 12g, Benchmark: lusearch
+Command being executed...
+Completed GC: G1, Heap: 12g, Benchmark: lusearch at: Τρι 17/06/2025 23:09:01
+-----------------------------------------------------
+Running GC: G1, Heap: 12g, Benchmark: tomcat
+Command being executed...
+Completed GC: G1, Heap: 12g, Benchmark: tomcat at: Τρι 17/06/2025 23:18:28
+-----------------------------------------------------
+Running GC: Parallel, Heap: 2g, Benchmark: avrora
+Command being executed...
+Completed GC: Parallel, Heap: 2g, Benchmark: avrora at: Τρι 17/06/2025 23:18:54
+-----------------------------------------------------
+Running GC: Parallel, Heap: 2g, Benchmark: lusearch
+Command being executed...
+Completed GC: Parallel, Heap: 2g, Benchmark: lusearch at: Τρι 17/06/2025 23:19:19
+-----------------------------------------------------
+Running GC: Parallel, Heap: 2g, Benchmark: tomcat
+Command being executed...
+Completed GC: Parallel, Heap: 2g, Benchmark: tomcat at: Τρι 17/06/2025 23:28:42
+-----------------------------------------------------
+Running GC: Parallel, Heap: 12g, Benchmark: avrora
+Command being executed...
+Completed GC: Parallel, Heap: 12g, Benchmark: avrora at: Τρι 17/06/2025 23:29:02
+-----------------------------------------------------
+Running GC: Parallel, Heap: 12g, Benchmark: lusearch
+Command being executed...
+Completed GC: Parallel, Heap: 12g, Benchmark: lusearch at: Τρι 17/06/2025 23:29:27
+-----------------------------------------------------
+Running GC: Parallel, Heap: 12g, Benchmark: tomcat
+Command being executed...
+Completed GC: Parallel, Heap: 12g, Benchmark: tomcat at: Τρι 17/06/2025 23:38:50
+-----------------------------------------------------
+Running GC: Shenandoah, Heap: 2g, Benchmark: avrora
+Command being executed...
+Completed GC: Shenandoah, Heap: 2g, Benchmark: avrora at: Τρι 17/06/2025 23:39:12
+-----------------------------------------------------
+Running GC: Shenandoah, Heap: 2g, Benchmark: lusearch
+Command being executed...
+Completed GC: Shenandoah, Heap: 2g, Benchmark: lusearch at: Τρι 17/06/2025 23:39:43
+-----------------------------------------------------
+Running GC: Shenandoah, Heap: 2g, Benchmark: tomcat
+Command being executed...
+Completed GC: Shenandoah, Heap: 2g, Benchmark: tomcat at: Τρι 17/06/2025 23:49:09
+-----------------------------------------------------
+Running GC: Shenandoah, Heap: 12g, Benchmark: avrora
+Command being executed...
+Completed GC: Shenandoah, Heap: 12g, Benchmark: avrora at: Τρι 17/06/2025 23:49:33
+-----------------------------------------------------
+Running GC: Shenandoah, Heap: 12g, Benchmark: lusearch
+Command being executed...
+Completed GC: Shenandoah, Heap: 12g, Benchmark: lusearch at: Τρι 17/06/2025 23:50:09
+-----------------------------------------------------
+Running GC: Shenandoah, Heap: 12g, Benchmark: tomcat
+Command being executed...
+Completed GC: Shenandoah, Heap: 12g, Benchmark: tomcat at: Τρι 17/06/2025 23:59:37
+-----------------------------------------------------
+Running GC: ZGC, Heap: 2g, Benchmark: avrora
+Command being executed...
+Completed GC: ZGC, Heap: 2g, Benchmark: avrora at: Τρι 17/06/2025  0:00:02
+-----------------------------------------------------
+Running GC: ZGC, Heap: 2g, Benchmark: lusearch
+Command being executed...
+Completed GC: ZGC, Heap: 2g, Benchmark: lusearch at: Τρι 17/06/2025  0:00:34
+-----------------------------------------------------
+Running GC: ZGC, Heap: 2g, Benchmark: tomcat
+Command being executed...
+Completed GC: ZGC, Heap: 2g, Benchmark: tomcat at: Τρι 17/06/2025  0:10:00
+-----------------------------------------------------
+Running GC: ZGC, Heap: 12g, Benchmark: avrora
+Command being executed...
+Completed GC: ZGC, Heap: 12g, Benchmark: avrora at: Τρι 17/06/2025  0:10:23
+-----------------------------------------------------
+Running GC: ZGC, Heap: 12g, Benchmark: lusearch
+Command being executed...
+Completed GC: ZGC, Heap: 12g, Benchmark: lusearch at: Τρι 17/06/2025  0:11:00
+-----------------------------------------------------
+Running GC: ZGC, Heap: 12g, Benchmark: tomcat
+Command being executed...
+Completed GC: ZGC, Heap: 12g, Benchmark: tomcat at: Τρι 17/06/2025  0:20:27
+-----------------------------------------------------
+All benchmarks finished.
+
+=== Finished at: Τετ 18/06/2025  0:20:27,28 ===
