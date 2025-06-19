@@ -3,7 +3,7 @@ import os
 import csv
 
 def parse_g1_pauses(content):
-    pauses = []  # ms
+    pauses = []
     for line in content.splitlines():
         unified_match = re.search(r"\[info\s+\]\[gc\s+\].*?Pause(?:.*?)\s+(\d+\.\d+)ms", line)
         if unified_match:
@@ -13,9 +13,8 @@ def parse_g1_pauses(content):
 
 
 def parse_parallel_pauses(content):
-    pauses = []  # ms
+    pauses = []
     for line in content.splitlines():
-        # Unified Logging Format (JDK 9+)
         unified_match = re.search(r"\[info\s+\]\[gc\s+\].*?Pause(?:.*?)\s+(\d+\.\d+)ms", line)
         if unified_match:
             pauses.append(float(unified_match.group(1)))
@@ -24,19 +23,19 @@ def parse_parallel_pauses(content):
 
 
 def parse_zgc_pauses(content):
-    pauses = [] # ms
+    pauses = []
     for line in content.splitlines():
         summary_match = re.search(r"GC\(\d+\) Pauses: Mark (\d+\.\d+)ms, Relocate (\d+\.\d+)ms", line)
         if summary_match:
-            pauses.append(float(summary_match.group(1))) # Mark Pause
-            pauses.append(float(summary_match.group(2))) # Relocate Pause
+            pauses.append(float(summary_match.group(1)))
+            pauses.append(float(summary_match.group(2)))
             continue
         phase_match = re.search(r"\[gc,phases\s*\] GC\(\d+\) Pause (?:Mark Start|Mark End|Relocate Start)\s+(\d+\.\d+)ms", line)
         if phase_match: pauses.append(float(phase_match.group(1)))
     return pauses
 
 def parse_shenandoah_pauses(content):
-    pauses = [] # ms
+    pauses = []
     for line in content.splitlines():
         match = re.search(r"GC\(\d+\) Pause (?:Init Mark|Final Mark|Init Update Refs|Final Update Refs|Degenerated|Full)\s+.*?(\d+\.\d+)ms", line)
         if match: pauses.append(float(match.group(1)))
@@ -71,10 +70,10 @@ def process_gc_logs(gc_log_dir, output_csv_file):
                 "max_pause_ms": max(pauses_ms),
                 "avg_pause_ms": sum(pauses_ms) / len(pauses_ms),
                 "total_gc_pause_time_ms": sum(pauses_ms),
-                "num_stw_pauses": len(pauses_ms) # Απλοϊκή μέτρηση, μπορεί να χρειαστεί βελτίωση
+                "num_stw_pauses": len(pauses_ms)
             })
         else:
-             results.append({ # Προσθήκη γραμμής ακόμα και αν δεν βρέθηκαν παύσεις για πληρότητα
+             results.append({
                 "gc_type": gc_type, "heap_size": heap_size, "benchmark": benchmark,
                 "max_pause_ms": 0, "avg_pause_ms": 0, "total_gc_pause_time_ms": 0, "num_stw_pauses": 0
             })
